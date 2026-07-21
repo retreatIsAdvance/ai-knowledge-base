@@ -36,13 +36,13 @@ print(f"采集完成，共获取 {count} 条数据")
 ├── AGENTS.md                    # 本文件
 ├── .opencode/
 │   ├── agents/                  # Agent 定义
-│   │   ├── collector.agent.md   # 采集 Agent
-│   │   ├── analyzer.agent.md    # 分析 Agent
-│   │   └── organizer.agent.md   # 整理分发 Agent
+│   │   ├── collector.md         # 采集 Agent
+│   │   ├── analyzer.md          # 分析 Agent
+│   │   └── organizer.md         # 整理分发 Agent
 │   └── skills/                  # 可复用技能
-│       ├── github-trending.skill.md
-│       ├── hackernews.skill.md
-│       └── wechat-push.skill.md
+│       ├── github-trending.md
+│       ├── hackernews.md
+│       └── wechat-push.md
 ├── knowledge/
 │   ├── raw/                     # 原始采集数据（保鲜层）
 │   └── articles/                # 结构化分析后的文章 JSON
@@ -102,9 +102,9 @@ draft ──(审校通过)──→ reviewed ──(推送完成)──→ publi
 
 | 角色     | Agent 文件                        | 职责                                                                 |
 | -------- | --------------------------------- | -------------------------------------------------------------------- |
-| 采集     | `.opencode/agents/collector.agent.md` | 定时抓取 GitHub Trending 和 Hacker News，过滤 AI/LLM/Agent 相关条目，存入 `knowledge/raw/` |
-| 分析     | `.opencode/agents/analyzer.agent.md`  | 读取原始数据，调用大模型生成摘要/分析/打分/标签，输出结构化 JSON 到 `knowledge/articles/` |
-| 整理分发 | `.opencode/agents/organizer.agent.md` | 筛选 `reviewed` 条目，通过 openclaw 推送到微信/飞书，更新 status 为 `published` |
+| 采集     | `.opencode/agents/collector.md` | 定时抓取 GitHub Trending 和 Hacker News，过滤 AI/LLM/Agent 相关条目，存入 `knowledge/raw/` |
+| 分析     | `.opencode/agents/analyzer.md`  | 读取原始数据，调用大模型生成摘要/分析/打分/标签，输出结构化 JSON 到 `knowledge/articles/` |
+| 整理分发 | `.opencode/agents/organizer.md` | 筛选 `reviewed` 条目，通过 openclaw 推送到微信/飞书，更新 status 为 `published` |
 
 ### 调用链路
 
@@ -125,3 +125,6 @@ scheduler.py
 5. **禁止在输出 JSON 中保留原始 HTML/CSS 残留。** 采集内容必须先清洗再入库。
 6. **禁止依赖手动操作完成流水线。** 采集→分析→分发 全流程必须可无人值守自动运行。
 7. **禁止修改 `knowledge/articles/` 下已标记为 `published` 的 JSON 文件。** 已发布条目不可篡改，如需修正应新增修订版本。
+8. **禁止编造不存在的项目或数据。** 所有采集条目必须来自真实数据源，不得虚构项目名称、作者、链接或评分。
+9. **禁止执行 `rm -rf` 等危险命令。** 禁止任何可能造成数据不可逆丢失的破坏性操作。
+10. **禁止修改 AGENTS.md 本身（除非明确要求）。** 本文件为项目宪章，仅在用户明确指示时方可变更。
