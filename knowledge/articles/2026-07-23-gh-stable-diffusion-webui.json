@@ -1,0 +1,20 @@
+{
+  "id": "49cb03f0-9b8a-491b-8f65-4323d46df2c9",
+  "title": "AUTOMATIC1111/stable-diffusion-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "author": "AUTOMATIC1111",
+  "summary": "基于Gradio的Stable Diffusion图形化界面",
+  "content": "stable-diffusion-webui 是基于 Gradio 构建的 Stable Diffusion 图形化界面，提供完整的参数调整与图片生成交互体验，拥有丰富的插件生态，可扩展 ControlNet 等高级功能。\n\n## 核心亮点\n\n- GitHub 总 star 164,234\n- 基于 Gradio 构建，提供完整的参数调整与图片生成交互\n- 拥有丰富的插件生态，可扩展 ControlNet 等高级功能\n\n## 评分理由\n\n多模态图像生成领域的优秀工具，但与 LLM/Agent 核心领域关联度中等，属 AI 辅助工具范畴",
+  "highlights": [
+    "GitHub 总 star 164,234",
+    "基于 Gradio 构建，提供完整的参数调整与图片生成交互",
+    "拥有丰富的插件生态，可扩展 ControlNet 等高级功能"
+  ],
+  "score_reason": "多模态图像生成领域的优秀工具，但与 LLM/Agent 核心领域关联度中等，属 AI 辅助工具范畴",
+  "tags": ["multimodal", "open-source", "deployment"],
+  "relevance_score": 0.5,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T15:00:00+08:00",
+  "status": "reviewed"
+}

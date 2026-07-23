@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-knowledge-base/schemas/error.json",
+  "title": "AgentError",
+  "description": "Agent 间错误传递的统一结构，任何 Agent 失败时输出中需包含此字段。",
+  "type": "object",
+  "required": ["node", "message", "timestamp"],
+  "properties": {
+    "node": {
+      "type": "string",
+      "enum": ["collector", "analyzer", "organizer"],
+      "description": "失败的 Agent 节点"
+    },
+    "message": {
+      "type": "string",
+      "description": "人类可读的错误原因"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "错误发生时间，ISO 8601 + 时区"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["github-trending", "hackernews", "both"],
+      "description": "[Collector 专用] 失败的源"
+    },
+    "failed_entries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "description": "[Analyzer 专用] 分析失败的条目 URL 列表"
+    },
+    "failed_articles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "description": "[Organizer 专用] 处理失败的文章 ID 列表"
+    },
+    "push_status": {
+      "type": "string",
+      "enum": ["success", "partial", "failed"],
+      "description": "[Organizer 专用] 推送状态"
+    }
+  },
+  "examples": [
+    {
+      "node": "collector",
+      "message": "GitHub Trending 页面请求超时",
+      "source": "github-trending",
+      "timestamp": "2026-07-23T10:30:05+08:00"
+    },
+    {
+      "node": "analyzer",
+      "message": "LLM 调用连续 2 次失败",
+      "failed_entries": [
+        "https://github.com/example/repo1",
+        "https://github.com/example/repo2"
+      ],
+      "timestamp": "2026-07-23T10:35:10+08:00"
+    },
+    {
+      "node": "organizer",
+      "message": "飞书推送部分失败",
+      "failed_articles": ["550e8400-e29b-41d4-a716-446655440001"],
+      "push_status": "partial",
+      "timestamp": "2026-07-23T10:40:00+08:00"
+    }
+  ]
+}

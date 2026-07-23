@@ -1,0 +1,122 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github-trending",
+    "popularity": 383877,
+    "summary": "openclaw是一个跨平台个人AI助手项目，其核心亮点是支持全操作系统、全平台部署，强调用户数据自主可控。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github-trending",
+    "popularity": 259797,
+    "summary": "superpowers是一个Agent技能框架与软件开发方法论，其核心亮点是将Agent能力系统化为可复用的技能模块，重塑软件工程范式。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github-trending",
+    "popularity": 232381,
+    "summary": "ECC是一个Agent性能优化系统，其核心亮点是为Claude Code、Cursor等主流AI编程工具提供技能、记忆、安全一体化方案。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github-trending",
+    "popularity": 219254,
+    "summary": "hermes-agent是一个会随用户成长的AI Agent，其核心亮点是由NousResearch打造、深度集成Claude Code等主流编码环境与多AI后端。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "source": "github-trending",
+    "popularity": 197592,
+    "summary": "n8n是一个集成原生AI能力的工作流自动化平台，其核心亮点是400+集成与可视化编排结合自定义代码，支持MCP客户端与服务端。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github-trending",
+    "popularity": 176693,
+    "summary": "Ollama是一个本地化运行大语言模型的工具，其核心亮点是一键部署DeepSeek、Qwen、Gemma等主流开源模型，极大降低LLM使用门槛。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "source": "github-trending",
+    "popularity": 164234,
+    "summary": "stable-diffusion-webui是Stable Diffusion的图形化Web界面，其核心亮点是以Gradio构建直观操作界面，让AI图像生成触手可及。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "source": "github-trending",
+    "popularity": 162869,
+    "summary": "Transformers是HuggingFace的模型定义框架，其核心亮点是统一支持文本、视觉、音频及多模态模型的训练与推理，生态最丰富。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "source": "github-trending",
+    "popularity": 157243,
+    "summary": "JavaGuide是一份Java面试指南，其核心亮点是覆盖AI应用开发、分布式、高并发等后端全栈知识体系，紧跟技术前沿。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "source": "github-trending",
+    "popularity": 154806,
+    "summary": "Firecrawl是一个面向AI的网页抓取与搜索API，其核心亮点是将任意网站转化为LLM就绪的Markdown数据，支撑RAG与Agent应用。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "github-trending",
+    "popularity": 146437,
+    "summary": "Open WebUI是一个用户友好的AI交互界面，其核心亮点是支持Ollama与OpenAI API，集成RAG与MCP能力且可自托管部署。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "source": "github-trending",
+    "popularity": 142407,
+    "summary": "LangChain是一个Agent工程平台，其核心亮点是提供构建多Agent协作与RAG流水线的完整框架，支持Python与TypeScript双语言。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "rasbt/LLMs-from-scratch",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "source": "github-trending",
+    "popularity": 99643,
+    "summary": "LLMs-from-scratch是一本从零实现ChatGPT的教学项目，其核心亮点是手把手用PyTorch教你构建类GPT的LLM，涵盖预训练到指令微调全过程。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "Graphify-Labs/graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "source": "github-trending",
+    "popularity": 94260,
+    "summary": "Graphify是一个将代码库转化为知识图谱的工具，其核心亮点是采用本地AST解析实现GraphRAG，每条边可解释，替代向量存储实现精准代码检索。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  },
+  {
+    "title": "TauricResearch/TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "source": "github-trending",
+    "popularity": 94225,
+    "summary": "TradingAgents是一个多Agent金融交易框架，其核心亮点是采用多LLM Agent协作范式进行复杂金融市场分析与交易决策。",
+    "collected_at": "2026-07-23T10:30:00+08:00"
+  }
+]

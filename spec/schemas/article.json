@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-knowledge-base/schemas/article.json",
+  "title": "Article",
+  "description": "Organizer Agent 产出的最终知识条目，入库到 knowledge/articles/。",
+  "type": "object",
+  "required": ["id", "title", "source", "source_url", "author", "summary", "content", "highlights", "score_reason", "tags", "relevance_score", "collected_at", "analyzed_at", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "UUID v4 唯一标识"
+    },
+    "title": {
+      "type": "string",
+      "description": "文章或项目名称"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["github-trending", "hackernews"],
+      "description": "数据来源"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "原始链接"
+    },
+    "author": {
+      "type": "string",
+      "description": "作者或项目组织名，无法获取时填 N/A"
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI 生成的一句话摘要"
+    },
+    "content": {
+      "type": "string",
+      "description": "AI 生成的结构化分析正文（Markdown 格式）"
+    },
+    "highlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "技术亮点列表"
+    },
+    "score_reason": {
+      "type": "string",
+      "description": "相关度评分理由"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "llm", "agent", "rag", "embedding", "vector-db",
+          "prompt-engineering", "fine-tuning", "transformer", "multimodal",
+          "tool-use", "evaluation", "safety", "deployment", "benchmark",
+          "open-source", "closed-source", "framework", "tutorial", "paper", "opinion"
+        ]
+      },
+      "description": "分类标签"
+    },
+    "relevance_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "与 AI/LLM/Agent 领域的相关度评分（0–1）"
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "采集时间，从 Collector 继承"
+    },
+    "analyzed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "分析完成时间，从 Analyzer 继承"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "published", "skipped"],
+      "description": "条目状态"
+    }
+  },
+  "examples": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "title": "AutoGPT: Build & Use AI Agents",
+      "source": "github-trending",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "author": "Significant-Gravitas",
+      "summary": "AutoGPT 是当前最流行的自主 AI Agent 框架之一，支持任务分解、工具调用和长期记忆管理。",
+      "content": "## 项目概述\n\nAutoGPT 是一个开源的自主 AI Agent 框架...\n\n## 核心特性\n\n- 多步骤任务规划\n- 工具调用\n- 长期记忆\n\n## 适用场景\n\n适用于自动化工作流、数据分析、代码生成等场景。",
+      "highlights": [
+        "支持多步骤自主任务规划与执行",
+        "内置插件生态和工具调用框架"
+      ],
+      "score_reason": "AI Agent 领域标杆项目，GitHub 18 万+ star",
+      "tags": ["agent", "llm", "tool-use", "open-source", "framework"],
+      "relevance_score": 0.9,
+      "collected_at": "2026-07-23T10:30:00+08:00",
+      "analyzed_at": "2026-07-23T10:35:00+08:00",
+      "status": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "a760af8b-b7a2-4266-b658-b428117e85b8",
+  "title": "Graphify-Labs/graphify",
+  "source": "github-trending",
+  "source_url": "https://github.com/Graphify-Labs/graphify",
+  "author": "Graphify-Labs",
+  "summary": "AST解析代码库构建可解释知识图谱替代向量检索",
+  "content": "graphify 采用本地 AST 解析生成代码知识图谱，每条关系可追溯解释，以 GraphRAG 替代传统向量检索，实现精准代码级语义搜索，是 GraphRAG 在代码场景的创新落地。\n\n## 核心亮点\n\n- GitHub 总 star 94,260\n- 采用本地 AST 解析生成代码知识图谱，每条关系可追溯解释\n- 以 GraphRAG 替代传统向量检索，实现精准代码级语义搜索\n\n## 评分理由\n\nGraphRAG 在代码场景的创新落地，可解释图谱检索比纯向量检索更精准，有明确差异化价值",
+  "highlights": [
+    "GitHub 总 star 94,260",
+    "采用本地 AST 解析生成代码知识图谱，每条关系可追溯解释",
+    "以 GraphRAG 替代传统向量检索，实现精准代码级语义搜索"
+  ],
+  "score_reason": "GraphRAG 在代码场景的创新落地，可解释图谱检索比纯向量检索更精准，有明确差异化价值",
+  "tags": ["rag", "tool-use", "open-source"],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T15:00:00+08:00",
+  "status": "reviewed"
+}

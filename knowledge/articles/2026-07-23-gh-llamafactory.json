@@ -1,0 +1,20 @@
+{
+  "id": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+  "title": "LlamaFactory",
+  "source": "github-trending",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "author": "hiyouga",
+  "summary": "统一高效的 LLM/VLM 微调框架，支持 100+ 模型的全参数和 LoRA/QLoRA 高效微调，ACL 2024 论文背书，是微调领域的事实标准工具之一。",
+  "content": "LlamaFactory 是统一高效的 LLM/VLM 微调框架，支持 100+ 模型（Llama、Qwen、DeepSeek 等）的全参数微调、LoRA/QLoRA 高效微调及 RLHF 对齐训练。ACL 2024 论文背书，提供 Web UI 和 CLI 双模式，降低大模型微调的技术门槛。\n\n## 核心亮点\n\n- 业界覆盖面最广的微调框架之一，100+ 模型原生支持，从 LLM 到 VLM 全覆盖\n- 集成 LoRA/QLoRA 高效微调方案，显著降低显存需求，支持消费级硬件\n- ACL 顶级会议论文加持，学术与工业界双重验证\n\n## 评分理由\n\nA 级（7分）：微调领域的事实标准工具之一，对 LLM 实践者有极高实用价值，但属于成熟工具而非前沿突破。",
+  "highlights": [
+    "业界覆盖面最广的微调框架之一，100+ 模型原生支持，从 LLM 到 VLM 全覆盖",
+    "集成 LoRA/QLoRA 高效微调方案，显著降低显存需求，支持消费级硬件",
+    "ACL 顶级会议论文加持，学术与工业界双重验证"
+  ],
+  "score_reason": "A 级（7分）：微调领域的事实标准工具之一，对 LLM 实践者有极高实用价值，但属于成熟工具而非前沿突破。",
+  "tags": ["llm", "fine-tuning", "open-source", "framework", "benchmark"],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T10:35:00+08:00",
+  "status": "reviewed"
+}

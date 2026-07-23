@@ -1,0 +1,20 @@
+{
+  "id": "85aca01a-391b-4c89-b2ed-380f264a9d52",
+  "title": "huggingface/transformers",
+  "source": "github-trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "author": "huggingface",
+  "summary": "统一支持多模态模型训练与推理的基础框架",
+  "content": "transformers 是 LLM 领域基础设施级项目，拥有最丰富的预训练模型生态，统一 API 支持文本、视觉、音频及多模态共 200+ 模型架构，提供训练与推理一体化接口，推动了开源模型生态标准化。\n\n## 核心亮点\n\n- GitHub 总 star 162,869，拥有最丰富的预训练模型生态\n- 统一 API 支持文本、视觉、音频及多模态共 200+ 模型架构\n- 训练与推理一体化接口，推动开源模型生态标准化\n\n## 评分理由\n\nLLM 领域基础设施级项目，统一了模型加载/训练/推理范式，是开源大模型生态繁荣的基础",
+  "highlights": [
+    "GitHub 总 star 162,869，拥有最丰富的预训练模型生态",
+    "统一 API 支持文本、视觉、音频及多模态共 200+ 模型架构",
+    "训练与推理一体化接口，推动开源模型生态标准化"
+  ],
+  "score_reason": "LLM 领域基础设施级项目，统一了模型加载/训练/推理范式，是开源大模型生态繁荣的基础",
+  "tags": ["transformer", "llm", "multimodal", "framework", "open-source"],
+  "relevance_score": 0.9,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T15:00:00+08:00",
+  "status": "reviewed"
+}

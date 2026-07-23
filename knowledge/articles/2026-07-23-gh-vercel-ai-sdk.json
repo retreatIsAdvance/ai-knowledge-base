@@ -1,0 +1,20 @@
+{
+  "id": "c9d0e1f2-a3b4-5678-cdef-789012345678",
+  "title": "Vercel AI SDK",
+  "source": "github-trending",
+  "source_url": "https://github.com/vercel/ai",
+  "author": "vercel",
+  "summary": "面向 TypeScript 生态的 AI 开发工具包，由 Next.js 团队维护，提供 LLM Provider 抽象、流式生成和 Agent 构建能力，是前端开发者的首选 AI SDK。",
+  "content": "Vercel AI SDK 是面向 TypeScript 生态的 AI 开发工具包，由 Next.js 核心团队维护。提供从 LLM Provider 抽象、流式生成、工具调用到 Agent 构建的完整类型安全 API，是前端/全栈开发者构建 AI 应用的首选 SDK。\n\n## 核心亮点\n\n- TypeScript 原生 AI SDK，Provider 层统一抽象支持 OpenAI/Anthropic/Google 等主流模型\n- Agent 构建能力内置，支持工具调用和多步推理，降低前端 AI 应用开发门槛\n- Vercel + Next.js 生态原生集成，与 Serverless 和 Edge Runtime 深度适配\n\n## 评分理由\n\nA 级（7分）：前端/全栈 AI 开发的事实标准工具，Agent 构建能力增强，对开发者有直接实用价值。",
+  "highlights": [
+    "TypeScript 原生 AI SDK，Provider 层统一抽象支持 OpenAI/Anthropic/Google 等主流模型",
+    "Agent 构建能力内置，支持工具调用和多步推理，降低前端 AI 应用开发门槛",
+    "Vercel + Next.js 生态原生集成，与 Serverless 和 Edge Runtime 深度适配"
+  ],
+  "score_reason": "A 级（7分）：前端/全栈 AI 开发的事实标准工具，Agent 构建能力增强，对开发者有直接实用价值。",
+  "tags": ["agent", "llm", "framework", "deployment", "open-source"],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T10:35:00+08:00",
+  "status": "reviewed"
+}

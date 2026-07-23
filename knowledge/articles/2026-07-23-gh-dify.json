@@ -1,0 +1,20 @@
+{
+  "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+  "title": "Dify",
+  "source": "github-trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "summary": "面向生产环境的一站式 LLM 应用平台，将 Agentic 工作流编排、RAG 知识库构建和模型管理深度整合，实现从原型到部署的无缝衔接。",
+  "content": "Dify 是面向生产环境的一站式 LLM 应用平台，将 Agentic 工作流编排、RAG 知识库构建、模型管理和可视化低代码/Pro-code 开发深度整合于同一协作空间，实现从原型验证到生产部署的无缝衔接，降低企业构建 AI 应用的门槛。\n\n## 核心亮点\n\n- Agentic 工作流 + RAG 管道一体化，提供从数据处理到推理增强的完整链路\n- 支持云端、VPC、私有化多模式部署，满足企业安全合规需求\n- 可视化编排与代码级定制共存，兼顾低门槛和高灵活性\n\n## 评分理由\n\nS 级（9分）：当前最成熟的 LLM 应用构建平台之一，150K stars 体现市场验证，直接影响企业 AI 落地方式。",
+  "highlights": [
+    "Agentic 工作流 + RAG 管道一体化，提供从数据处理到推理增强的完整链路",
+    "支持云端、VPC、私有化多模式部署，满足企业安全合规需求",
+    "可视化编排与代码级定制共存，兼顾低门槛和高灵活性"
+  ],
+  "score_reason": "S 级（9分）：当前最成熟的 LLM 应用构建平台之一，150K stars 体现市场验证，直接影响企业 AI 落地方式。",
+  "tags": ["agent", "llm", "rag", "framework", "deployment"],
+  "relevance_score": 0.9,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T10:35:00+08:00",
+  "status": "reviewed"
+}

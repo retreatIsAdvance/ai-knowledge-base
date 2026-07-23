@@ -1,0 +1,20 @@
+{
+  "id": "837d3e6a-906e-439a-9609-9b7c141d80ec",
+  "title": "TauricResearch/TradingAgents",
+  "source": "github-trending",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "author": "TauricResearch",
+  "summary": "多LLM Agent协作的金融交易分析框架",
+  "content": "TradingAgents 将多 Agent 协作范式应用于复杂金融市场分析，模拟多角色（分析师、交易员等）协同决策流程，是 Agent 在金融垂直领域的代表性应用案例。\n\n## 核心亮点\n\n- GitHub 总 star 94,225\n- 将多 Agent 协作范式应用于复杂金融市场分析\n- 模拟多角色（分析师、交易员等）协同决策流程\n\n## 评分理由\n\nAgent 在金融垂直领域的应用案例，有参考价值但局限于单一领域，非通用框架",
+  "highlights": [
+    "GitHub 总 star 94,225",
+    "将多 Agent 协作范式应用于复杂金融市场分析",
+    "模拟多角色（分析师、交易员等）协同决策流程"
+  ],
+  "score_reason": "Agent 在金融垂直领域的应用案例，有参考价值但局限于单一领域，非通用框架",
+  "tags": ["agent", "framework", "open-source"],
+  "relevance_score": 0.6,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T15:00:00+08:00",
+  "status": "reviewed"
+}

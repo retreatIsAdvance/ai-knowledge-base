@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-knowledge-base/schemas/analyzed-entry.json",
+  "title": "AnalyzedEntry",
+  "description": "Analyzer Agent 产出的分析后条目，在 RawEntry 基础上增加 LLM 分析结果，供 Organizer Agent 消费。",
+  "type": "object",
+  "required": ["title", "url", "source", "popularity", "summary", "highlights", "relevance_score", "score_reason", "tags", "analyzed_at"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "继承自 RawEntry，不做修改"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "继承自 RawEntry"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["github-trending", "hackernews"],
+      "description": "继承自 RawEntry"
+    },
+    "popularity": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "继承自 RawEntry"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 80,
+      "maxLength": 200,
+      "description": "中文摘要，80–200 字，Analyzer 重写版本"
+    },
+    "highlights": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "description": "2–3 条技术亮点或应用场景"
+    },
+    "relevance_score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "与 AI/LLM/Agent 领域的相关度评分"
+    },
+    "score_reason": {
+      "type": "string",
+      "description": "评分理由说明"
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "enum": [
+          "llm", "agent", "rag", "embedding", "vector-db",
+          "prompt-engineering", "fine-tuning", "transformer", "multimodal",
+          "tool-use", "evaluation", "safety", "deployment", "benchmark",
+          "open-source", "closed-source", "framework", "tutorial", "paper", "opinion"
+        ]
+      },
+      "description": "分类标签，从预定义标签集中选取，≤5 个"
+    },
+    "analyzed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "分析完成时间，ISO 8601 + 时区"
+    }
+  },
+  "examples": [
+    {
+      "title": "AutoGPT: Build & Use AI Agents",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "github-trending",
+      "popularity": 185647,
+      "summary": "AutoGPT 是当前最流行的自主 AI Agent 框架之一，支持基于 GPT 的任务分解、工具调用和长期记忆管理，在开发者社区有极高关注度。",
+      "highlights": [
+        "支持多步骤自主任务规划与执行",
+        "内置插件生态和工具调用框架",
+        "活跃的社区贡献，持续迭代"
+      ],
+      "relevance_score": 9,
+      "score_reason": "AI Agent 领域标杆项目，GitHub 18 万+ star，对行业有方向性影响",
+      "tags": ["agent", "llm", "tool-use", "open-source", "framework"],
+      "analyzed_at": "2026-07-23T10:35:00+08:00"
+    }
+  ]
+}

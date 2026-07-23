@@ -1,0 +1,20 @@
+{
+  "id": "a7b8c9d0-e1f2-3456-abcd-567890123456",
+  "title": "WorldMonitor",
+  "source": "github-trending",
+  "source_url": "https://github.com/koala73/worldmonitor",
+  "author": "koala73",
+  "summary": "AI 驱动的实时全球情报看板，集成新闻聚合、地缘政治监测和基础设施追踪，基于 Agent 和 MCP 协议实现多源情报融合。",
+  "content": "WorldMonitor 是 AI 驱动的实时全球情报仪表板，集成新闻聚合、地缘政治监测和基础设施追踪于统一态势感知界面。基于 Agent 和 MCP 协议实现多源数据融合与智能分析，定位为开源版 Palantir。\n\n## 核心亮点\n\n- AI Agent + MCP 协议驱动的多源情报融合，自动化态势感知\n- 覆盖新闻、地缘政治、基础设施多维监控，场景完整度高\n- 定位开创性开源情报（OSINT）赛道，填补开源领域空白\n\n## 评分理由\n\nB 级（5分）：AI 技术在情报领域的有趣应用，MCP 协议集成有技术亮点，但核心领域非 AI/LLM 专精，更偏向情报分析。",
+  "highlights": [
+    "AI Agent + MCP 协议驱动的多源情报融合，自动化态势感知",
+    "覆盖新闻、地缘政治、基础设施多维监控，场景完整度高",
+    "定位开创性开源情报（OSINT）赛道，填补开源领域空白"
+  ],
+  "score_reason": "B 级（5分）：AI 技术在情报领域的有趣应用，MCP 协议集成有技术亮点，但核心领域非 AI/LLM 专精，更偏向情报分析。",
+  "tags": ["agent", "llm", "open-source", "deployment"],
+  "relevance_score": 0.5,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T10:35:00+08:00",
+  "status": "reviewed"
+}

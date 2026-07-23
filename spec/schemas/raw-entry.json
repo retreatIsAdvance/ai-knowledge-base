@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-knowledge-base/schemas/raw-entry.json",
+  "title": "RawEntry",
+  "description": "Collector Agent 产出的原始采集条目，供 Analyzer Agent 消费。",
+  "type": "object",
+  "required": ["title", "url", "source", "popularity", "summary", "collected_at"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "项目或文章标题，保留原始语言（英文不翻译）"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "可直接访问的原始链接"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["github-trending", "hackernews"],
+      "description": "数据来源"
+    },
+    "popularity": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "热度指标：GitHub 用 star 数，Hacker News 用 upvotes 数"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 80,
+      "description": "中文一句话摘要，≤80 字"
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "采集时间，ISO 8601 + 时区"
+    }
+  },
+  "examples": [
+    {
+      "title": "AutoGPT: Build & Use AI Agents",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "github-trending",
+      "popularity": 185647,
+      "summary": "自主AI代理构建框架，支持任务自动化执行与工具调用",
+      "collected_at": "2026-07-23T10:30:00+08:00"
+    }
+  ]
+}

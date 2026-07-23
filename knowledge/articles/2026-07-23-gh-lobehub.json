@@ -1,0 +1,20 @@
+{
+  "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+  "title": "LobeHub",
+  "source": "github-trending",
+  "source_url": "https://github.com/lobehub/lobehub",
+  "author": "lobehub",
+  "summary": "首席 Agent 运维官（CAO）平台，通过 Agent 招募、任务调度和成果报告机制实现多 Agent 7×24 协作自动化，开创 Agent 组织管理新方向。",
+  "content": "LobeHub 定位为\"首席 Agent 运维官\"（CAO），将多个 AI Agent 组织为 7×24 运作的团队，通过 Agent 招募（Hiring）、任务调度（Scheduling）和成果报告（Reporting）机制实现多 Agent 协作自动化，开创了 Agent 组织管理的新方向。\n\n## 核心亮点\n\n- 首创 CAO 概念，将 Agent 管理提升到组织级运维高度\n- 多 Agent 协作调度框架，支持任务分发、依赖管理和结果聚合\n- 80K+ stars 快速积累，反映社区对 Agent 编排的强烈需求\n\n## 评分理由\n\nA 级（8分）：在多 Agent 协作领域提出独特范式，概念创新性强，对构建 Agent 团队有直接实用价值。",
+  "highlights": [
+    "首创 CAO 概念，将 Agent 管理提升到组织级运维高度",
+    "多 Agent 协作调度框架，支持任务分发、依赖管理和结果聚合",
+    "80K+ stars 快速积累，反映社区对 Agent 编排的强烈需求"
+  ],
+  "score_reason": "A 级（8分）：在多 Agent 协作领域提出独特范式，概念创新性强，对构建 Agent 团队有直接实用价值。",
+  "tags": ["agent", "llm", "framework", "open-source"],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T10:35:00+08:00",
+  "status": "reviewed"
+}

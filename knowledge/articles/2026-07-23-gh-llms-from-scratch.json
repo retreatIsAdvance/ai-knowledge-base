@@ -1,0 +1,20 @@
+{
+  "id": "23525923-5be5-4e83-bde6-b092d8a15aa2",
+  "title": "rasbt/LLMs-from-scratch",
+  "source": "github-trending",
+  "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+  "author": "rasbt",
+  "summary": "从零用PyTorch实现类GPT大模型的教学项目",
+  "content": "LLMs-from-scratch 是高质量 LLM 教学项目，完整覆盖预训练、有监督微调、RLHF 对齐全流程，配套可运行的 PyTorch 代码，理论与实践紧密结合，是进入 LLM 领域的高质量入口。\n\n## 核心亮点\n\n- GitHub 总 star 99,643\n- 完整覆盖预训练、有监督微调、RLHF 对齐全流程\n- 配套可运行的 PyTorch 代码，理论与实践紧密结合\n\n## 评分理由\n\n优质 LLM 教学资源，从零实现降低学习门槛，是进入 LLM 领域的高质量入口",
+  "highlights": [
+    "GitHub 总 star 99,643",
+    "完整覆盖预训练、有监督微调、RLHF 对齐全流程",
+    "配套可运行的 PyTorch 代码，理论与实践紧密结合"
+  ],
+  "score_reason": "优质 LLM 教学资源，从零实现降低学习门槛，是进入 LLM 领域的高质量入口",
+  "tags": ["llm", "tutorial", "fine-tuning"],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-23T10:30:00+08:00",
+  "analyzed_at": "2026-07-23T15:00:00+08:00",
+  "status": "reviewed"
+}

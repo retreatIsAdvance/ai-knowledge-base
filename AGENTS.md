@@ -11,7 +11,7 @@ AI 知识库助手是一个自动化的技术情报聚合与分发系统。系�
 | 运行环境   | Python 3.12                                    |
 | 编排框架   | opencode + 国产大模型                          |
 | 工作流引擎 | LangGraph                                      |
-| 多渠道 SDK | openclaw（微信/飞书消息通道）                   |
+| 多渠道 SDK | openclaw（企微/飞书消息通道）                   |
 
 ## 编码规范
 
@@ -40,9 +40,9 @@ print(f"采集完成，共获取 {count} 条数据")
 │   │   ├── analyzer.md          # 分析 Agent
 │   │   └── organizer.md         # 整理分发 Agent
 │   └── skills/                  # 可复用技能
-│       ├── github-trending.md
-│       ├── hackernews.md
-│       └── wechat-push.md
+│       ├── github-trending.skill.md
+│       ├── hackernews.skill.md
+│       └── wechat-push.skill.md
 ├── knowledge/
 │   ├── raw/                     # 原始采集数据（保鲜层）
 │   └── articles/                # 结构化分析后的文章 JSON
@@ -125,6 +125,3 @@ scheduler.py
 5. **禁止在输出 JSON 中保留原始 HTML/CSS 残留。** 采集内容必须先清洗再入库。
 6. **禁止依赖手动操作完成流水线。** 采集→分析→分发 全流程必须可无人值守自动运行。
 7. **禁止修改 `knowledge/articles/` 下已标记为 `published` 的 JSON 文件。** 已发布条目不可篡改，如需修正应新增修订版本。
-8. **禁止编造不存在的项目或数据。** 所有采集条目必须来自真实数据源，不得虚构项目名称、作者、链接或评分。
-9. **禁止执行 `rm -rf` 等危险命令。** 禁止任何可能造成数据不可逆丢失的破坏性操作。
-10. **禁止修改 AGENTS.md 本身（除非明确要求）。** 本文件为项目宪章，仅在用户明确指示时方可变更。
