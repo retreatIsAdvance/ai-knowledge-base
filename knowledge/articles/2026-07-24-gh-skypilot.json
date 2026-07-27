@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260724-014",
+  "title": "skypilot",
+  "source": "github-trending",
+  "source_url": "https://github.com/skypilot-org/skypilot",
+  "author": "skypilot-org",
+  "summary": "AI 计算平台，将碎片化的 GPU/TPU/CPU 算力统一为 AI 超级计算机。支持 Kubernetes、Slurm、AWS、GCP、Azure 等 20+ 云平台和硬件提供商。提供 SkyPilot Sandboxes 安全执行 LLM 生成代码、Research-Driven Agents（Agent 读 arxiv 论文后编写代码）、GPU Compass 价格对比仪表盘等创新功能。已被 Shopify、H Company、Multiverse 等企业用于生产环境，Multiverse 使用后 GPU 利用率翻倍。通过 Agent Skill 可被 Claude Code、Codex 等直接调用。",
+  "content": "AI 计算平台，将碎片化的 GPU/TPU/CPU 算力统一为 AI 超级计算机。支持 Kubernetes、Slurm、AWS、GCP、Azure 等 20+ 云平台和硬件提供商。提供 SkyPilot Sandboxes 安全执行 LLM 生成代码、Research-Driven Agents（Agent 读 arxiv 论文后编写代码）、GPU Compass 价格对比仪表盘等创新功能。已被 Shopify、H Company、Multiverse 等企业用于生产环境，Multiverse 使用后 GPU 利用率翻倍。通过 Agent Skill 可被 Claude Code、Codex 等直接调用。\n\n## 核心亮点\n\n- 20+ 云平台/K8s/Slurm 统一管理，智能调度与成本优化\n- Research-Driven Agents：Agent 阅读论文后自动编写代码（如 llama.cpp 内核融合优化）\n- 已被 Shopify/Multiverse/H Company 等企业验证，GPU 利用率翻倍\n\n## 评分理由\n\nAI 基础设施层关键平台，直接支撑 LLM 训练/推理/Agent 工作流，Research-Driven Agent 是其创新亮点",
+  "highlights": [
+    "20+ 云平台/K8s/Slurm 统一管理，智能调度与成本优化",
+    "Research-Driven Agents：Agent 阅读论文后自动编写代码（如 llama.cpp 内核融合优化）",
+    "已被 Shopify/Multiverse/H Company 等企业验证，GPU 利用率翻倍"
+  ],
+  "score_reason": "AI 基础设施层关键平台，直接支撑 LLM 训练/推理/Agent 工作流，Research-Driven Agent 是其创新亮点",
+  "tags": [
+    "agent",
+    "llm",
+    "deployment",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 7,
+  "collected_at": "2026-07-24T10:30:00+08:00",
+  "analyzed_at": "2026-07-24T15:00:00+08:00",
+  "status": "reviewed"
+}

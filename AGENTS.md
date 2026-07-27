@@ -58,7 +58,7 @@ print(f"采集完成，共获取 {count} 条数据")
 
 ```json
 {
-  "id": "uuid-v4",
+  "id": "github-trending-20260317-001",
   "title": "文章或项目名称",
   "source": "github-trending | hackernews",
   "source_url": "https://原始链接",
@@ -77,7 +77,7 @@ print(f"采集完成，共获取 {count} 条数据")
 
 | 字段            | 类型     | 说明                                       |
 | --------------- | -------- | ------------------------------------------ |
-| `id`            | string   | UUID v4 唯一标识                           |
+| `id`            | string   | {source}-{YYYYMMDD}-{NNN} 格式唯一标识      |
 | `title`         | string   | 文章/项目标题                               |
 | `source`        | string   | 数据来源枚举值                              |
 | `source_url`    | string   | 原始链接                                   |

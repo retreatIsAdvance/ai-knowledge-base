@@ -88,7 +88,7 @@ open-source, closed-source, framework, tutorial, paper, opinion
 
 ```json
 {
-  "id": "string（UUID v4）",
+  "id": "string（{source}-{YYYYMMDD}-{NNN}）",
   "title": "string",
   "source": "github-trending | hackernews",
   "source_url": "string",

@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260724-008",
+  "title": "Palmier Pro – Open-source macOS video editor built for AI",
+  "source": "hackernews",
+  "source_url": "https://github.com/palmier-io/palmier-pro",
+  "author": "palmier-io",
+  "summary": "面向 AI 工作流的开源 macOS 视频编辑器，对标的竞品是 Adobe Premiere Pro。使用 Swift 原生构建，内置生成式 AI（Seedance/Kling/Nano Banana Pro），可在时间线编辑器内直接生成视频和图片。通过 MCP 服务器连接 Claude/Codex/Cursor 等 Agent，支持 HTML 内嵌式 Agent 聊天面板。编辑核心功能开源（GPLv3），AI 生成功能需订阅。已通过 Y Combinator S24 孵化。",
+  "content": "面向 AI 工作流的开源 macOS 视频编辑器，对标的竞品是 Adobe Premiere Pro。使用 Swift 原生构建，内置生成式 AI（Seedance/Kling/Nano Banana Pro），可在时间线编辑器内直接生成视频和图片。通过 MCP 服务器连接 Claude/Codex/Cursor 等 Agent，支持 HTML 内嵌式 Agent 聊天面板。编辑核心功能开源（GPLv3），AI 生成功能需订阅。已通过 Y Combinator S24 孵化。\n\n## 核心亮点\n\n- MCP 服务器集成使编码 Agent 可直接操作视频编辑时间线\n- 内置 SOTA 生成式 AI 模型（Seedance/Kling/Nano Banana Pro）\n- Swift 原生构建的 macOS 专业级视频编辑器，可替代 Premiere Pro\n\n## 评分理由\n\nAI Agent 在视频编辑领域的应用案例，通过 MCP 实现 Agent 驱动的创作工具，但 AI 核心技术贡献有限",
+  "highlights": [
+    "MCP 服务器集成使编码 Agent 可直接操作视频编辑时间线",
+    "内置 SOTA 生成式 AI 模型（Seedance/Kling/Nano Banana Pro）",
+    "Swift 原生构建的 macOS 专业级视频编辑器，可替代 Premiere Pro"
+  ],
+  "score_reason": "AI Agent 在视频编辑领域的应用案例，通过 MCP 实现 Agent 驱动的创作工具，但 AI 核心技术贡献有限",
+  "tags": [
+    "agent",
+    "tool-use",
+    "multimodal",
+    "open-source"
+  ],
+  "relevance_score": 6,
+  "collected_at": "2026-07-24T10:30:00+08:00",
+  "analyzed_at": "2026-07-24T15:00:00+08:00",
+  "status": "reviewed"
+}

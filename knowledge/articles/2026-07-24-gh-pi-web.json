@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260724-006",
+  "title": "pi-web",
+  "source": "github-trending",
+  "source_url": "https://github.com/agegr/pi-web",
+  "author": "agegr",
+  "summary": "pi 编码 Agent 的本地 Web UI，为命令行 pi agent 提供浏览器端工作区。支持会话浏览、实时聊天、模型配置、技能管理和项目文件预览。核心功能包括：按项目浏览历史会话、从中间消息分叉对话路径、通过侧边栏切换 Git worktree、左侧浏览文件右侧预览源码/文档/图片/音频/PDF。支持模型管理、登录/API Key 配置、模型测试等 Web UI 操作。基于 Next.js 构建，读取 ~/.pi/agent/sessions 本地会话文件。",
+  "content": "pi 编码 Agent 的本地 Web UI，为命令行 pi agent 提供浏览器端工作区。支持会话浏览、实时聊天、模型配置、技能管理和项目文件预览。核心功能包括：按项目浏览历史会话、从中间消息分叉对话路径、通过侧边栏切换 Git worktree、左侧浏览文件右侧预览源码/文档/图片/音频/PDF。支持模型管理、登录/API Key 配置、模型测试等 Web UI 操作。基于 Next.js 构建，读取 ~/.pi/agent/sessions 本地会话文件。\n\n## 核心亮点\n\n- 为命令行编码 Agent 提供可视化 Web 工作区，提升交互体验\n- 支持会话分叉和 Git worktree 切换，适合多分支并行开发\n- 集文件浏览、预览、模型配置、技能管理于一体\n\n## 评分理由\n\n编码 Agent 的用户界面工具，不涉及核心 AI 技术，为 Agent 使用体验提供辅助价值，相关性一般",
+  "highlights": [
+    "为命令行编码 Agent 提供可视化 Web 工作区，提升交互体验",
+    "支持会话分叉和 Git worktree 切换，适合多分支并行开发",
+    "集文件浏览、预览、模型配置、技能管理于一体"
+  ],
+  "score_reason": "编码 Agent 的用户界面工具，不涉及核心 AI 技术，为 Agent 使用体验提供辅助价值，相关性一般",
+  "tags": [
+    "agent",
+    "tool-use",
+    "deployment"
+  ],
+  "relevance_score": 5,
+  "collected_at": "2026-07-24T10:30:00+08:00",
+  "analyzed_at": "2026-07-24T15:00:00+08:00",
+  "status": "reviewed"
+}

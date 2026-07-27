@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260724-009",
+  "title": "AstrBot",
+  "source": "github-trending",
+  "source_url": "https://github.com/AstrBotDevs/AstrBot",
+  "author": "AstrBotDevs",
+  "summary": "开源全功能 Agent 聊天机器人平台，集成 18+ 即时通讯平台（QQ/企业微信/飞书/钉钉/Telegram/Discord/Slack/LINE 等）和 20+ LLM 服务（OpenAI/Anthropic/Gemini/DeepSeek/Ollama 等）。支持 Agent、MCP、Skills、知识库、人设设置、自动上下文压缩等多功能，可与 Dify/Coze/阿里云百炼等 Agent 平台集成。提供 1000+ 社区插件和 Agent 沙箱安全执行环境，提供一站式部署方案（uv/Docker/桌面应用/AUR/云部署）。",
+  "content": "开源全功能 Agent 聊天机器人平台，集成 18+ 即时通讯平台（QQ/企业微信/飞书/钉钉/Telegram/Discord/Slack/LINE 等）和 20+ LLM 服务（OpenAI/Anthropic/Gemini/DeepSeek/Ollama 等）。支持 Agent、MCP、Skills、知识库、人设设置、自动上下文压缩等多功能，可与 Dify/Coze/阿里云百炼等 Agent 平台集成。提供 1000+ 社区插件和 Agent 沙箱安全执行环境，提供一站式部署方案（uv/Docker/桌面应用/AUR/云部署）。\n\n## 核心亮点\n\n- 集成 18+ IM 平台和 20+ LLM 服务，一站式 Agent 接入\n- 1000+ 社区插件生态，支持 Agent 沙箱安全执行\n- 支持 MCP、Skills、知识库、Agent 平台集成（Dify/Coze/百炼）\n\n## 评分理由\n\nAll-in-one Agent 平台，整合 LLM/Agent/MCP/知识库等核心 AI 能力，并且是多平台分发层的关键基础设施",
+  "highlights": [
+    "集成 18+ IM 平台和 20+ LLM 服务，一站式 Agent 接入",
+    "1000+ 社区插件生态，支持 Agent 沙箱安全执行",
+    "支持 MCP、Skills、知识库、Agent 平台集成（Dify/Coze/百炼）"
+  ],
+  "score_reason": "All-in-one Agent 平台，整合 LLM/Agent/MCP/知识库等核心 AI 能力，并且是多平台分发层的关键基础设施",
+  "tags": [
+    "agent",
+    "llm",
+    "framework",
+    "deployment",
+    "open-source"
+  ],
+  "relevance_score": 8,
+  "collected_at": "2026-07-24T10:30:00+08:00",
+  "analyzed_at": "2026-07-24T15:00:00+08:00",
+  "status": "reviewed"
+}

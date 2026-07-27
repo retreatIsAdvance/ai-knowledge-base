@@ -72,7 +72,7 @@
 
 ```json
 {
-  "id": "uuid-v4",
+  "id": "github-trending-20260317-001",
   "title": "项目或文章名称",
   "source": "github-trending | hackernews",
   "source_url": "https://原始链接",

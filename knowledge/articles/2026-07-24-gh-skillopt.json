@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260724-005",
+  "title": "SkillOpt",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/SkillOpt",
+  "author": "microsoft",
+  "summary": "微软推出的文本空间优化器，将 Agent 技能文档视为可训练状态，像训练神经网络一样训练自然语言技能——通过 epochs、batch、学习率和验证门控。核心流程：优化器模型基于打分后的执行轨迹生成有界的 add/delete/replace 编辑，候选编辑仅在严格提升 held-out 验证分数时才被接受。产出物为紧凑的 best_skill.md（300-2000 tokens），部署时零额外推理开销。在 6 个 benchmark、7 个目标模型、3 种执行框架上表现最优或并列最优，GPT-5.5 无技能基线平均提升 +23.5 分。配套 SkillOpt-Sleep 夜间离线自进化引擎。",
+  "content": "微软推出的文本空间优化器，将 Agent 技能文档视为可训练状态，像训练神经网络一样训练自然语言技能——通过 epochs、batch、学习率和验证门控。核心流程：优化器模型基于打分后的执行轨迹生成有界的 add/delete/replace 编辑，候选编辑仅在严格提升 held-out 验证分数时才被接受。产出物为紧凑的 best_skill.md（300-2000 tokens），部署时零额外推理开销。在 6 个 benchmark、7 个目标模型、3 种执行框架上表现最优或并列最优，GPT-5.5 无技能基线平均提升 +23.5 分。配套 SkillOpt-Sleep 夜间离线自进化引擎。\n\n## 核心亮点\n\n- 将技能优化建模为类似神经网络训练的过程，引入文本学习率、验证门控\n- 部署零额外推理开销，产物为 300-2000 tokens 的紧凑 best_skill.md\n- 在 52 个评估单元上全面最优，GPT-5.5 平均提升 +23.5 分\n\n## 评分理由\n\n直接服务于 LLM Agent 能力提升，是 Agent 技能优化的突破性方法，已通过 PyPI 发布并被多个项目集成",
+  "highlights": [
+    "将技能优化建模为类似神经网络训练的过程，引入文本学习率、验证门控",
+    "部署零额外推理开销，产物为 300-2000 tokens 的紧凑 best_skill.md",
+    "在 52 个评估单元上全面最优，GPT-5.5 平均提升 +23.5 分"
+  ],
+  "score_reason": "直接服务于 LLM Agent 能力提升，是 Agent 技能优化的突破性方法，已通过 PyPI 发布并被多个项目集成",
+  "tags": [
+    "agent",
+    "prompt",
+    "fine-tuning",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 9,
+  "collected_at": "2026-07-24T10:30:00+08:00",
+  "analyzed_at": "2026-07-24T15:00:00+08:00",
+  "status": "reviewed"
+}

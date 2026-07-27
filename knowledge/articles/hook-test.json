@@ -1,0 +1,14 @@
+{
+  "id": "hackernews-20260727-001",
+  "title": "Why Software Factories Fail — And the Case for Harness Engineering",
+  "source": "hackernews",
+  "source_url": "https://news.ycombinator.com/item?id=harness-engineering",
+  "author": "Rami James",
+  "summary": "Harness engineering 主张将测试基础设施视为一等公民，通过可复用的测试线束（test harness）降低复杂系统的验证成本，避免软件工厂模式中机械化流水线带来的脆弱性。",
+  "content": "## 背景\n\n软件工厂模式将开发流程拆分为标准化工序，追求可预测的输出。然而随着系统复杂度增长，机械化的流水线反而成为瓶颈——变更的涟漪效应使得回归测试不可控，而传统的 CI/CD 管道缺乏对测试环境本身的抽象。\n\n## Harness Engineering 核心思想\n\nHarness engineering 将测试基础设施提升为一等工程构件，核心理念包括：\n\n1. **测试线束即产品**：测试 harness 不应是项目附属物，而是经过设计、文档化、版本管理的独立模块\n2. **环境可组合性**：通过 hook 机制，将测试环境（mock、fixture、断言策略）按需组装，而非硬编码在测试用例中\n3. **合约优先**：测试 harness 与被测系统之间通过明确接口契约通信，降低耦合\n\n## 关键模式\n\n- **Hook Injection**: 在系统关键节点暴露 hook，允许外部注入观察者或模拟器\n- **Fixture as Code**: 测试数据通过声明式 DSL 描述，支持参数化和组合\n- **Harness-as-a-Service**: 将测试 harness 封装为独立服务，多团队共享\n\n## 与 AI Agent 开发的关联\n\n在 LLM Agent 场景中，harness engineering 尤为关键：\n- Agent 的行为具有非确定性，传统断言不足以验证\n- 需要可复用的评估 harness 来测试工具调用链、多轮对话一致性、安全护栏\n- 测试线束本身可被 Agent 动态调用，形成自我验证闭环",
+  "tags": ["testing", "agent", "engineering", "ci-cd", "infrastructure"],
+  "relevance_score": 0.82,
+  "collected_at": "2026-07-27T09:30:00+08:00",
+  "analyzed_at": "2026-07-27T10:00:00+08:00",
+  "status": "draft"
+}
