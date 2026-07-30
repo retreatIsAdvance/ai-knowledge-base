@@ -882,19 +882,165 @@ def save_articles(
 
 # ── 主流程 ──────────────────────────────────────────────────────────────
 
+def _today_raw_files() -> list[Path]:
+    """返回今日所有 raw 文件路径。"""
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+    return sorted(RAW_DIR.glob(f"*-{today}.json"))
+
+
+def _load_raw_items() -> list[dict[str, Any]]:
+    """从今日 raw 文件加载已采集条目。"""
+    items: list[dict[str, Any]] = []
+    for path in _today_raw_files():
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(data, list):
+                items.extend(data)
+            elif isinstance(data, dict):
+                items.extend(data.get("items", []))
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning("读取 raw 文件失败 %s: %s", path, e)
+    return items
+
+
+def _preprocessed_path() -> Path:
+    """Step 2 预处理输出文件路径。"""
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+    return RAW_DIR / f"preprocessed-{today}.json"
+
+
+def _analyzed_path() -> Path:
+    """Step 3 分析输出文件路径。"""
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+    return RAW_DIR / f"analyzed-{today}.json"
+
+
+def step_collect(sources: list[str], limit: int) -> int:
+    """Step 1: 采集原始数据，存入 knowledge/raw/。
+
+    Args:
+        sources: 数据源列表。
+        limit: 单源采集上限。
+
+    Returns:
+        采集条目总数。
+    """
+    all_raw: list[dict[str, Any]] = []
+    with httpx.Client() as http_client:
+        if "github" in sources:
+            items = collect_github(limit, http_client)
+            if items:
+                _save_raw(items, "github")
+            all_raw.extend(items)
+        if "rss" in sources:
+            items = collect_rss(http_client, limit)
+            all_raw.extend(items)
+    logger.info("Step 1 (采集) 完成: %d 条", len(all_raw))
+    return len(all_raw)
+
+
+def step_preprocess() -> int:
+    """Step 2: 免费预处理 — 从 raw 文件加载、去重、关键词过滤、生成模板摘要。
+
+    Returns:
+        预处理后的条目数。
+    """
+    raw_items = _load_raw_items()
+    if not raw_items:
+        logger.warning("Step 2: 未找到今日 raw 数据，请先执行 Step 1")
+        return 0
+
+    items = deduplicate(raw_items)
+    for item in items:
+        if not item.get("summary"):
+            item["summary"] = _generate_cn_summary(
+                item.get("title", ""), item.get("description", item.get("summary", "")),
+            )
+
+    items.sort(key=lambda x: x.get("popularity", 0), reverse=True)
+    _preprocessed_path().write_text(
+        json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8",
+    )
+    logger.info("Step 2 (预处理) 完成: 去重 %d → %d 条", len(raw_items), len(items))
+    return len(items)
+
+
+def step_analyze(dry_run: bool) -> int:
+    """Step 3: LLM 分析 — 从预处理文件加载，逐条调用 LLM 生成分析结果。
+
+    Args:
+        dry_run: True 时跳过 LLM 调用，使用默认值。
+
+    Returns:
+        分析后的条目数。
+    """
+    preprocessed_path = _preprocessed_path()
+    if not preprocessed_path.exists():
+        logger.warning("Step 3: 未找到预处理文件，请先执行 Step 2")
+        return 0
+
+    items = json.loads(preprocessed_path.read_text(encoding="utf-8"))
+
+    provider = None
+    try:
+        provider = OpenAICompatibleProvider()
+    except ValueError as e:
+        logger.warning("无法创建 LLM Provider: %s，将跳过 LLM 调用", e)
+
+    if provider is not None:
+        try:
+            analyzed = analyze_items(provider, items, dry_run)
+        finally:
+            provider.close()
+    else:
+        analyzed = items
+
+    _analyzed_path().write_text(
+        json.dumps(analyzed, ensure_ascii=False, indent=2), encoding="utf-8",
+    )
+    logger.info("Step 3 (分析) 完成: %d 条", len(analyzed))
+    return len(analyzed)
+
+
+def step_organize_save(dry_run: bool) -> int:
+    """Step 4: 整理并保存 — 从分析文件加载，归一化评分、schema 校验、写入 articles/。
+
+    Args:
+        dry_run: True 时跳过写入。
+
+    Returns:
+        最终保存的文章数。
+    """
+    analyzed_path = _analyzed_path()
+    if not analyzed_path.exists():
+        logger.warning("Step 4: 未找到分析文件，请先执行 Step 3")
+        return 0
+
+    items = json.loads(analyzed_path.read_text(encoding="utf-8"))
+    articles, skipped = organize(items)
+    saved = save_articles(articles, dry_run)
+
+    logger.info(
+        "Step 4 (整理保存) 完成: 保留 %d 篇, 跳过 %d 条", len(articles), len(skipped),
+    )
+    return len(saved)
+
+
 def run_pipeline(
     sources: list[str],
     limit: int,
     dry_run: bool,
     verbose: bool,
+    steps: set[int] | None = None,
 ) -> None:
-    """执行四步流水线：Collect → Analyze → Organize → Save。
+    """执行流水线，可按 step 分步执行。
 
     Args:
-        sources: 数据源列表，支持 "github" 和 "rss"。
-        limit: GitHub 采集条目上限。
-        dry_run: 干跑模式，跳过 LLM 和文件写入。
+        sources: 数据源列表。
+        limit: 采集上限。
+        dry_run: 干跑模式。
         verbose: 详细日志。
+        steps: 指定执行的步骤集合，为 None 时执行全部 4 步。
     """
     level = logging.DEBUG if verbose else logging.INFO
     logging.basicConfig(
@@ -903,61 +1049,37 @@ def run_pipeline(
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
-    logger.info("流水线启动: sources=%s limit=%d dry_run=%s", sources, limit, dry_run)
+    if steps is None:
+        steps = {1, 2, 3, 4}
 
-    all_raw: list[dict[str, Any]] = []
+    logger.info(
+        "流水线启动: sources=%s limit=%d dry_run=%s steps=%s",
+        sources, limit, dry_run, sorted(steps),
+    )
 
-    with httpx.Client() as http_client:
-        # ── Step 1: 采集 ──
-        if "github" in sources:
-            items = collect_github(limit, http_client)
-            if items:
-                _save_raw(items, "github")
-            all_raw.extend(items)
+    total_collected = 0
+    total_analyzed = 0
+    total_saved = 0
 
-        if "rss" in sources:
-            items = collect_rss(http_client, limit)
-            all_raw.extend(items)
+    if 1 in steps:
+        total_collected = step_collect(sources, limit)
+        if total_collected == 0:
+            logger.warning("未采集到任何内容，后续步骤将跳过")
 
-    if not all_raw:
-        logger.warning("未采集到任何内容，流水线终止")
-        return
+    if 2 in steps:
+        step_preprocess()
 
-    logger.info("Step 1 完成: 共采集 %d 条原始内容", len(all_raw))
+    if 3 in steps:
+        total_analyzed = step_analyze(dry_run)
 
-    # ── Step 2: 分析 ──
-    provider = None
-    try:
-        provider = OpenAICompatibleProvider()
-    except ValueError as e:
-        logger.warning("无法创建 LLM Provider: %s，跳过分析步骤", e)
+    if 4 in steps:
+        total_saved = step_organize_save(dry_run)
 
-    if provider is not None:
-        try:
-            analyzed = analyze_items(provider, all_raw, dry_run)
-        finally:
-            provider.close()
-    else:
-        analyzed = all_raw
-
-    logger.info("Step 2 完成: 分析 %d 条", len(analyzed))
-
-    # ── Step 3: 整理 ──
-    articles, skipped = organize(analyzed)
-    logger.info("Step 3 完成: 保留 %d 条, 跳过 %d 条", len(articles), len(skipped))
-
-    # ── Step 4: 保存 ──
-    saved = save_articles(articles, dry_run)
-    logger.info("Step 4 完成: 保存 %d 篇文章", len(saved))
-
-    # ── 汇总 ──
     logger.info("=" * 60)
     logger.info("流水线执行完成")
-    logger.info("  采集总数: %d", len(all_raw))
-    logger.info("  分析条目: %d", len(analyzed))
-    logger.info("  保留文章: %d", len(articles))
-    logger.info("  跳过条目: %d", len(skipped))
-    logger.info("  保存文件: %d", len(saved))
+    logger.info("  采集总数: %d", total_collected)
+    logger.info("  分析条目: %d", total_analyzed)
+    logger.info("  保存文件: %d", total_saved)
     if dry_run:
         logger.info("  [DRY-RUN] 未实际调用 LLM / 写入文件")
     logger.info("=" * 60)
@@ -973,7 +1095,7 @@ def main(argv: list[str] | None = None) -> None:
     """
     parser = argparse.ArgumentParser(
         prog="pipeline",
-        description="AI 知识库自动化流水线: Collect → Analyze → Organize → Save",
+        description="AI 知识库自动化流水线: Collect → Preprocess → Analyze → Organize+Save",
     )
     parser.add_argument(
         "--sources",
@@ -984,12 +1106,19 @@ def main(argv: list[str] | None = None) -> None:
         "--limit",
         type=int,
         default=10,
-        help="GitHub 采集条目数，默认: 10（前 10 排名）",
+        help="单源采集条目数，默认: 10",
+    )
+    parser.add_argument(
+        "--step",
+        type=int,
+        action="append",
+        choices=[1, 2, 3, 4],
+        help="指定执行步骤（可多次使用），默认执行全部。1=采集 2=预处理 3=分析 4=整理保存",
     )
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="干跑模式，不调用 LLM 也不写入文件",
+        help="干跑模式，不调用 LLM 也不写入文章文件",
     )
     parser.add_argument(
         "--verbose",
@@ -1008,11 +1137,14 @@ def main(argv: list[str] | None = None) -> None:
     if args.limit < 1:
         parser.error("--limit 必须为正整数")
 
+    steps = set(args.step) if args.step else None
+
     run_pipeline(
         sources=sources,
         limit=args.limit,
         dry_run=args.dry_run,
         verbose=args.verbose,
+        steps=steps,
     )
 
 
