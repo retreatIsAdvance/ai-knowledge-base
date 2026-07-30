@@ -23,7 +23,7 @@ from typing import Any
 
 import httpx
 import yaml
-from model_client import OpenAICompatibleProvider, chat_with_retry
+from model_client import OpenAICompatibleProvider, chat_with_retry, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -1082,6 +1082,9 @@ def run_pipeline(
     logger.info("  保存文件: %d", total_saved)
     if dry_run:
         logger.info("  [DRY-RUN] 未实际调用 LLM / 写入文件")
+    if 3 in steps and tracker.total_calls > 0:
+        for line in tracker.report().splitlines():
+            logger.info("  %s", line)
     logger.info("=" * 60)
 
 

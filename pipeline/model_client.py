@@ -62,6 +62,22 @@ PRICING: dict[str, dict[str, tuple[float, float]]] = {
     },
 }
 
+# RMB 每百万 token ── 输入 / 输出 (国产模型人民币计价)
+CNY_PRICING: dict[str, dict[str, tuple[float, float]]] = {
+    "deepseek": {
+        "deepseek-chat": (1.0, 2.0),
+        "deepseek-reasoner": (4.0, 8.0),
+    },
+    "qwen": {
+        "qwen-turbo": (0.8, 2.0),
+        "qwen-plus": (4.0, 12.0),
+        "qwen-max": (20.0, 60.0),
+    },
+    "openai": {
+        "gpt-4o-mini": (150.0, 600.0),
+    },
+}
+
 DEFAULT_TIMEOUT = 60.0
 MAX_RETRIES = 3
 RETRY_BACKOFF = 2.0
@@ -92,6 +108,154 @@ class LLMResponse:
     model: str = ""
     usage: Usage = field(default_factory=Usage)
     finish_reason: str = "stop"
+
+
+# ── 成本追踪 ──────────────────────────────────────────────────────────────
+
+
+@dataclass
+class CallRecord:
+    """单次 LLM 调用记录。"""
+
+    provider: str
+    model: str
+    prompt_tokens: int
+    completion_tokens: int
+    total_tokens: int
+
+
+class CostTracker:
+    """LLM 调用成本追踪器，统计 token 消耗并估算人民币成本。
+
+    用法:
+        tracker = CostTracker()
+        tracker.record(usage, provider="deepseek", model="deepseek-chat")
+        logger.info("成本: ¥%.4f", tracker.estimated_cost())
+        tracker.report()
+    """
+
+    def __init__(self) -> None:
+        self._records: list[CallRecord] = []
+
+    @property
+    def total_calls(self) -> int:
+        """累计 API 调用次数。"""
+        return len(self._records)
+
+    @property
+    def total_tokens(self) -> int:
+        """累计 token 消耗。"""
+        return sum(r.total_tokens for r in self._records)
+
+    def record(
+        self, usage: Usage, *, provider: str, model: str,
+    ) -> None:
+        """记录一次 LLM 调用。
+
+        Args:
+            usage: Usage 实例，包含各维度 token 数。
+            provider: 提供商名称（deepseek / qwen / openai）。
+            model: 实际使用的模型名称。
+        """
+        self._records.append(CallRecord(
+            provider=provider,
+            model=model,
+            prompt_tokens=usage.prompt_tokens,
+            completion_tokens=usage.completion_tokens,
+            total_tokens=usage.total_tokens,
+        ))
+
+    def estimated_cost(self, provider: str | None = None) -> float:
+        """估算累计成本（人民币元）。
+
+        Args:
+            provider: 过滤指定提供商，为 None 时统计全部。
+
+        Returns:
+            估算的人民币成本，精确到 4 位小数。
+        """
+        records = [r for r in self._records if provider is None or r.provider == provider]
+        total = 0.0
+        for r in records:
+            price = self._match_price(r.provider, r.model)
+            if price:
+                input_price, output_price = price
+                total += (r.prompt_tokens / 1_000_000) * input_price
+                total += (r.completion_tokens / 1_000_000) * output_price
+        return round(total, 4)
+
+    def report(self, provider: str | None = None) -> str:
+        """生成成本报告文本。
+
+        Args:
+            provider: 过滤指定提供商，为 None 时统计全部。
+
+        Returns:
+            格式化的多行成本报告字符串。
+        """
+        records = [r for r in self._records if provider is None or r.provider == provider]
+        if not records:
+            return "CostTracker: 无调用记录"
+
+        total_prompt = sum(r.prompt_tokens for r in records)
+        total_completion = sum(r.completion_tokens for r in records)
+        cost = self.estimated_cost(provider)
+
+        label = "all" if provider is None else provider
+        lines = [
+            f"成本报告 (provider={label})",
+            f"  调用次数: {len(records)}",
+            f"  Prompt tokens: {total_prompt:,}",
+            f"  Completion tokens: {total_completion:,}",
+            f"  Total tokens: {total_prompt + total_completion:,}",
+            f"  估算成本: ¥{cost:.4f}",
+        ]
+
+        if provider is None:
+            for p in sorted({r.provider for r in self._records}):
+                p_cost = self.estimated_cost(p)
+                p_count = len([r for r in self._records if r.provider == p])
+                p_tokens = sum(r.total_tokens for r in self._records if r.provider == p)
+                lines.append(
+                    f"  ─ {p}: {p_count} 次, {p_tokens:,} tokens, ¥{p_cost:.4f}",
+                )
+
+        return "\n".join(lines)
+
+    def reset(self) -> None:
+        """清空所有调用记录。"""
+        self._records.clear()
+
+    # ── private ────────────────────────────────────────────────────────
+
+    @staticmethod
+    def _match_price(provider: str, model: str) -> tuple[float, float] | None:
+        """匹配人民币价格表。
+
+        Args:
+            provider: 提供商名称。
+            model: 模型名称。
+
+        Returns:
+            (输入价格, 输出价格) 元/百万 token，匹配失败返回 None。
+        """
+        provider_pricing = CNY_PRICING.get(provider)
+        if not provider_pricing:
+            return None
+
+        price = provider_pricing.get(model)
+        if price:
+            return price
+
+        for key, val in provider_pricing.items():
+            if model.startswith(key):
+                return val
+
+        return None
+
+
+# 全局 tracker 实例，Pipeline 结束时调用 tracker.report() 即可
+tracker = CostTracker()
 
 
 # ── 抽象基类 ──────────────────────────────────────────────────────────────
@@ -217,14 +381,18 @@ class OpenAICompatibleProvider(LLMProvider):
         choice = data["choices"][0]
         usage_raw = data.get("usage", {})
 
+        usage = Usage(
+            prompt_tokens=usage_raw.get("prompt_tokens", 0),
+            completion_tokens=usage_raw.get("completion_tokens", 0),
+            total_tokens=usage_raw.get("total_tokens", 0),
+        )
+
+        tracker.record(usage, provider=self._provider, model=model_name)
+
         return LLMResponse(
             content=choice["message"]["content"],
             model=data.get("model", model_name),
-            usage=Usage(
-                prompt_tokens=usage_raw.get("prompt_tokens", 0),
-                completion_tokens=usage_raw.get("completion_tokens", 0),
-                total_tokens=usage_raw.get("total_tokens", 0),
-            ),
+            usage=usage,
             finish_reason=choice.get("finish_reason", "stop"),
         )
 
