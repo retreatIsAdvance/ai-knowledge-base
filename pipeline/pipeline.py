@@ -17,7 +17,6 @@ import json
 import logging
 import os
 import re
-import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -772,6 +771,58 @@ def _generate_filename(item: dict[str, Any], existing_names: set[str]) -> str:
     return filename
 
 
+def _extract_date(iso_string: str) -> str:
+    """从 ISO 8601 时间字符串提取 YYYYMMDD 日期。
+
+    Args:
+        iso_string: ISO 8601 格式时间字符串，如 "2026-07-29T16:00:00+08:00"。
+
+    Returns:
+        YYYYMMDD 格式字符串，解析失败时返回今天的日期。
+    """
+    try:
+        dt = datetime.fromisoformat(iso_string)
+        return dt.strftime("%Y%m%d")
+    except (ValueError, TypeError):
+        return datetime.now(TZ).strftime("%Y%m%d")
+
+
+def _next_article_id(source: str, date_str: str, existing_ids: set[str]) -> str:
+    """生成下一个文章 ID，格式 {source}-{YYYYMMDD}-{NNN}。
+
+    Args:
+        source: 来源，如 github-trending / hackernews。
+        date_str: 日期 YYYYMMDD。
+        existing_ids: 本次保存已使用的 ID 集合（防冲突）。
+
+    Returns:
+        唯一 ID 字符串。
+    """
+    prefix = f"{source}-{date_str}-"
+    # 扫描 knowledge/articles/ 下已有 ID + 本次 session 中已分配 ID
+    all_ids = existing_ids.copy()
+    for p in ARTICLES_DIR.glob(f"*-{date_str}-*.json"):
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+            article_id = data.get("id", "")
+            if article_id:
+                all_ids.add(article_id)
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    max_seq = 0
+    for aid in all_ids:
+        if aid.startswith(prefix):
+            try:
+                seq = int(aid[len(prefix):])
+                max_seq = max(max_seq, seq)
+            except ValueError:
+                pass
+
+    next_seq = max_seq + 1
+    return f"{prefix}{next_seq:03d}"
+
+
 def save_articles(
     articles: list[dict[str, Any]], dry_run: bool,
 ) -> list[Path]:
@@ -787,15 +838,22 @@ def save_articles(
     ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
     existing_names = {p.name for p in ARTICLES_DIR.glob("*.json")}
     paths: list[Path] = []
+    used_ids: set[str] = set()
 
     for item in articles:
         filename = _generate_filename(item, existing_names)
         filepath = ARTICLES_DIR / filename
 
+        source = item.get("source", "hackernews")
+        collected = item.get("collected_at", "")
+        date_str = _extract_date(collected) if collected else datetime.now(TZ).strftime("%Y%m%d")
+        article_id = _next_article_id(source, date_str, used_ids)
+        used_ids.add(article_id)
+
         article = {
-            "id": str(uuid.uuid4()),
+            "id": article_id,
             "title": item.get("title", ""),
-            "source": item.get("source", ""),
+            "source": source,
             "source_url": item.get("source_url", item.get("url", "")),
             "author": _derive_author(item.get("title", ""), item),
             "summary": item.get("summary", ""),
