@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260730-008",
+  "title": "How does Pangram work?",
+  "source": "hackernews",
+  "source_url": "https://pangram.substack.com/p/how-does-pangram-work",
+  "author": "N/A",
+  "summary": "Pangram 是一个基于 AI 的写作助手，通过实时分析用户输入和上下文，提供建议和优化，提升写作效率和质量。",
+  "content": "### 项目概述\nPangram 是一个基于 AI 的写作助手，旨在通过实时分析用户输入和上下文，提供智能建议和优化，从而提升写作效率和质量。\n\n### 核心特性\n- **实时分析**：持续监测用户输入，理解上下文，提供即时反馈。\n- **个性化建议**：根据写作风格和场景，调整建议内容。\n- **多场景支持**：适用于邮件、文章、报告等多种写作任务。\n\n### 适用场景\n- 日常写作：帮助用户快速撰写清晰、专业的文本。\n- 内容创作：优化文章结构和语言表达。\n- 商业沟通：提升邮件和报告的准确性和影响力。",
+  "highlights": [
+    "实时分析用户输入和上下文，提供个性化写作建议",
+    "基于 AI 技术优化写作效率和质量",
+    "适用于多种写作场景，如邮件、文章等"
+  ],
+  "score_reason": "该工具是 AI 写作助手，与 AI 应用相关，但非 LLM/Agent 核心领域，评分中等。",
+  "tags": [
+    "llm",
+    "tool-use",
+    "deployment"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-07-30T11:03:39.973662+08:00",
+  "analyzed_at": "2026-07-30T18:18:48.338981+08:00",
+  "status": "reviewed"
+}

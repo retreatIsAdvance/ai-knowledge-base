@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260730-010",
+  "title": "firecrawl/firecrawl",
+  "source": "github-trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "summary": "Firecrawl 是一个开源 API，专为 AI 应用设计，用于搜索、抓取和与网页交互，提供结构化数据提取。",
+  "content": "## 项目概述\n\nFirecrawl 是一个开源 API 服务，专注于为 AI 应用提供网页搜索、抓取和交互能力。它能够将网页内容转换为结构化的 Markdown 或 JSON 格式，便于 AI 模型进一步处理。\n\n## 核心特性\n\n- **智能抓取**：自动处理 JavaScript 渲染，支持单页应用和动态内容。\n- **结构化输出**：将网页内容转换为干净的 Markdown 或 JSON，去除广告和导航干扰。\n- **搜索集成**：内置搜索功能，可基于关键词查找相关网页并提取内容。\n- **API 友好**：提供 RESTful API，易于集成到现有 AI 工作流中。\n- **可扩展性**：支持自定义爬取规则和回调，适应复杂场景。\n\n## 适用场景\n\n- **RAG 系统**：作为数据源，为检索增强生成提供实时网页内容。\n- **AI Agent**：赋予 Agent 浏览网页、提取信息的能力。\n- **数据采集**：批量抓取网站数据用于训练或分析。\n- **内容监控**：定期抓取特定页面，监控变化。\n\n## 技术亮点\n\n- 使用 Playwright 进行浏览器自动化，确保高兼容性。\n- 支持并发请求和速率限制，避免被目标网站封禁。\n- 提供 Docker 部署，简化自托管流程。",
+  "highlights": [
+    "开源 API，支持搜索、抓取和网页交互",
+    "专为 AI 应用优化，提供结构化数据输出",
+    "支持 JavaScript 渲染，可处理动态内容"
+  ],
+  "score_reason": "高度相关的 AI 工具，直接服务于 AI 应用的数据获取和预处理，提升 RAG 等系统效率。",
+  "tags": [
+    "open-source",
+    "rag",
+    "tool-use",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T11:03:32.609130+08:00",
+  "analyzed_at": "2026-07-30T18:17:26.519027+08:00",
+  "status": "reviewed"
+}

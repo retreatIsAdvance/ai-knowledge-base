@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260730-005",
+  "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+  "source": "hackernews",
+  "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+  "author": "Two years of vector search at Notion: 10x scale, 1",
+  "summary": "Notion 分享其向量搜索功能两年演进：通过优化索引和查询，实现10倍规模扩展，同时将成本降低至原来的1/10。",
+  "content": "## 项目概述\nNotion 分享其向量搜索功能两年来的演进经验，重点介绍了如何通过优化索引和查询策略，实现10倍规模扩展，同时将成本降低至原来的1/10。\n\n## 核心特性\n- **规模扩展**：从初期到当前，向量搜索能力提升10倍，支持更大数据量。\n- **成本优化**：通过索引压缩、查询剪枝等技术，将成本降至1/10。\n- **性能提升**：优化查询延迟和吞吐量，保持高可用性。\n\n## 适用场景\n- 需要大规模向量搜索的生产环境，如文档搜索、推荐系统。\n- 关注成本效益的RAG应用部署。\n- 学习向量数据库优化策略的开发者。",
+  "highlights": [
+    "实现10倍规模扩展，成本降至1/10",
+    "优化索引和查询策略，提升搜索效率",
+    "实际生产环境中的向量搜索实践经验"
+  ],
+  "score_reason": "高度相关的AI技术内容，聚焦向量搜索在生产中的优化实践，对RAG和部署有参考价值。",
+  "tags": [
+    "vector-db",
+    "rag",
+    "deployment",
+    "open-source"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-30T11:03:39.973662+08:00",
+  "analyzed_at": "2026-07-30T18:18:36.272381+08:00",
+  "status": "reviewed"
+}

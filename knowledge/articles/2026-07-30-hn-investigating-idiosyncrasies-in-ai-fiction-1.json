@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260730-019",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "hackernews",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "N/A",
+  "summary": "该论文系统性地研究了AI生成小说中的独特风格特征，揭示了模型在叙事中的常见模式与偏差。",
+  "content": "## 项目概述\n该论文《Investigating idiosyncrasies in AI fiction》发表于arXiv，旨在系统性地研究AI生成小说中的独特风格特征。通过对比人类与AI创作的文本，论文揭示了大型语言模型在叙事中常见的模式、重复性偏差及语言风格特点。\n\n## 核心特性\n- **风格分析**：量化AI小说的词汇选择、句式结构和叙事节奏。\n- **偏差识别**：发现AI倾向于使用特定词汇和情节模板。\n- **评估方法**：提出一套评估AI写作独特性的指标体系。\n\n## 适用场景\n- 学术研究：AI文本生成质量评估。\n- 创作辅助：帮助作者理解AI写作的局限性。\n- 内容审核：识别AI生成内容的潜在模式。",
+  "highlights": [
+    "首次系统分析AI小说的语言风格特征",
+    "识别出AI生成文本的常见模式与偏差",
+    "为AI写作评估提供量化方法"
+  ],
+  "score_reason": "直接相关AI文本生成研究，提供风格分析新视角，但非LLM核心突破，评分7。",
+  "tags": [
+    "llm",
+    "evaluation",
+    "paper"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-30T18:16:46.459328+08:00",
+  "analyzed_at": "2026-07-30T18:19:33.427485+08:00",
+  "status": "reviewed"
+}

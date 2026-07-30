@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260730-015",
+  "title": "A Prolog library for interfacing with LLMs",
+  "source": "hackernews",
+  "source_url": "https://github.com/vagos/llmpl",
+  "author": "N/A",
+  "summary": "一个用于与大型语言模型交互的Prolog库，支持多种后端和流式响应。",
+  "content": "## 项目概述\n\n**llmpl** 是一个基于Prolog的库，旨在简化与大型语言模型（LLM）的交互。它允许Prolog程序通过统一的接口调用多种LLM后端，包括OpenAI、Anthropic、Google等，并支持流式响应和函数调用。\n\n## 核心特性\n\n- **多后端支持**：通过抽象层，轻松切换不同LLM提供商。\n- **流式响应**：支持实时获取模型输出，适合对话和流式处理场景。\n- **函数调用**：允许LLM调用Prolog定义的函数，实现逻辑推理与语言模型的结合。\n- **Prolog原生集成**：利用Prolog的规则引擎，可构建基于逻辑的AI应用。\n\n## 适用场景\n\n- 需要逻辑推理与自然语言处理结合的应用，如专家系统、知识图谱查询。\n- 希望利用Prolog的声明式编程简化LLM调用流程的开发者。\n- 探索符号AI与连接主义AI融合的研究项目。\n\n## 总结\n\nllmpl 为Prolog社区提供了一个与LLM交互的实用工具，尤其适合逻辑编程爱好者。虽然受众有限，但在特定领域（如规则推理与语言模型结合）具有独特价值。",
+  "highlights": [
+    "支持OpenAI、Anthropic、Google等多种LLM后端",
+    "提供流式响应和函数调用功能",
+    "基于Prolog的逻辑编程范式，适合规则推理与LLM结合"
+  ],
+  "score_reason": "该项目将LLM与Prolog逻辑编程结合，具有创新性，但受众较窄，实用性有待验证。",
+  "tags": [
+    "llm",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-30T18:16:46.459328+08:00",
+  "analyzed_at": "2026-07-30T18:19:16.483132+08:00",
+  "status": "reviewed"
+}

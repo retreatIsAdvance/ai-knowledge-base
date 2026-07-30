@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260730-009",
+  "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+  "source": "hackernews",
+  "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+  "author": "N/A",
+  "summary": "一篇2021年论文，提出基于概率的新型计算机Scrabble引擎，性能达到冠军级别，通过概率模型优化单词选择和棋盘布局。",
+  "content": "## 项目概述\n\n该论文提出了一种基于概率的新型计算机Scrabble引擎，通过概率模型优化单词选择和棋盘布局，在2021年达到冠军级别性能。与传统依赖搜索算法的引擎不同，它利用概率分布评估潜在移动，提高决策效率。\n\n## 核心特性\n\n- **概率驱动决策**：使用概率模型评估单词得分和棋盘位置，减少搜索空间。\n- **冠军级性能**：在标准测试中击败人类专家和现有引擎。\n- **可扩展性**：方法可推广到其他有限状态空间游戏。\n\n## 适用场景\n\n- 游戏AI开发，尤其是文字游戏。\n- 概率模型在有限状态空间决策中的应用研究。\n- 作为AI算法教学案例。",
+  "highlights": [
+    "基于概率模型而非传统搜索算法",
+    "引擎性能达到冠军级别，击败人类专家",
+    "提供新的游戏AI设计思路，适用于有限状态空间问题"
+  ],
+  "score_reason": "该引擎虽涉及AI和概率模型，但专注于特定游戏（Scrabble），与LLM/Agent等主流AI领域关联较弱。",
+  "tags": [
+    "framework",
+    "paper"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-07-30T11:03:39.973662+08:00",
+  "analyzed_at": "2026-07-30T18:18:51.938984+08:00",
+  "status": "reviewed"
+}

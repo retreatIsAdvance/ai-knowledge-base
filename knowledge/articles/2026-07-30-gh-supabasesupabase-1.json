@@ -1,0 +1,23 @@
+{
+  "id": "github-trending-20260730-020",
+  "title": "supabase/supabase",
+  "source": "github-trending",
+  "source_url": "https://github.com/supabase/supabase",
+  "author": "supabase",
+  "summary": "Supabase 是一个开源的后端即服务平台，提供 PostgreSQL 数据库、身份验证、实时订阅和存储等功能，旨在替代 Firebase。",
+  "content": "## 项目概述\nSupabase 是一个开源的后端即服务平台，基于 PostgreSQL 构建，旨在为开发者提供类似 Firebase 的功能，但完全开源且可自托管。它集成了数据库、身份验证、实时订阅和文件存储等核心功能。\n\n## 核心特性\n- **PostgreSQL 数据库**：提供关系型数据库，支持 SQL 查询和扩展。\n- **身份验证**：内置用户注册、登录、OAuth 集成等功能。\n- **实时订阅**：通过 WebSocket 实现数据库变更的实时推送。\n- **存储**：支持文件上传和管理，可配置存储桶。\n- **API 生成**：自动生成 RESTful API 和 GraphQL 接口。\n\n## 适用场景\n- 快速构建 Web 或移动应用的后端。\n- 需要实时数据同步的应用（如聊天、协作工具）。\n- 作为 AI 应用的数据存储层，结合 LLM 实现智能功能。",
+  "highlights": [
+    "开源替代 Firebase，基于 PostgreSQL",
+    "内置身份验证、实时订阅和存储功能",
+    "提供 RESTful API 和 GraphQL 接口"
+  ],
+  "score_reason": "Supabase 是一个后端开发平台，与 AI/LLM 直接相关性较低，但可作为 AI 应用的数据存储和用户管理后端，有一定关联。",
+  "tags": [
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-07-30T18:16:41.724430+08:00",
+  "analyzed_at": "2026-07-30T18:18:13.610435+08:00",
+  "status": "reviewed"
+}

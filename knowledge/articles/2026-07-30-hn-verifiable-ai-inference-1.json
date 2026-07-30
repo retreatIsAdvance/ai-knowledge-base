@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260730-011",
+  "title": "Verifiable AI inference",
+  "source": "hackernews",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+  "author": "N/A",
+  "summary": "探讨可验证AI推理技术，确保模型输出可追溯、可信赖，解决AI黑箱问题。",
+  "content": "## 项目概述\n该文章探讨了可验证AI推理（Verifiable AI Inference）的概念，旨在解决AI模型输出不可追溯、难以验证的问题。通过引入密码学证明和区块链记录，确保推理结果的真实性和完整性。\n\n## 核心特性\n- **可追溯性**：每个推理步骤可记录并验证\n- **防篡改**：利用区块链或密码学签名保证结果不可伪造\n- **透明性**：用户可检查推理过程，增强信任\n\n## 适用场景\n- 金融风控：验证模型决策依据\n- 医疗诊断：确保诊断结果可审计\n- 法律合规：满足监管对AI决策透明度的要求\n\n## 技术分析\n文章提出结合零知识证明（ZKP）或可信执行环境（TEE）实现验证，但未深入具体实现细节。整体偏向概念性讨论，适合作为技术方向参考。",
+  "highlights": [
+    "提出可验证推理框架，增强AI输出透明度",
+    "结合密码学与区块链技术实现结果验证",
+    "适用于金融、医疗等高风险领域"
+  ],
+  "score_reason": "直接关注AI推理的可验证性，技术深度高，与AI安全与可信度紧密相关。",
+  "tags": [
+    "evaluation",
+    "safety",
+    "deployment",
+    "opinion"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-30T18:16:46.459328+08:00",
+  "analyzed_at": "2026-07-30T18:19:00.317223+08:00",
+  "status": "reviewed"
+}

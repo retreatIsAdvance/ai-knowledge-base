@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260730-006",
+  "title": "Significant-Gravitas/AutoGPT",
+  "source": "github-trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "author": "Significant-Gravitas",
+  "summary": "AutoGPT 是一个开源项目，通过自主 AI 代理让用户轻松实现复杂任务的自动化执行，推动 AI 民主化。",
+  "content": "## 项目概述\nAutoGPT 是一个基于 LLM 的自主 AI 代理框架，旨在让 AI 能够独立完成复杂任务。用户只需设定目标，AutoGPT 便会自动分解任务、调用工具并迭代执行，直至达成目标。\n\n## 核心特性\n- **自主任务分解**：利用 LLM 的推理能力，将大目标拆解为可执行的小步骤。\n- **工具调用**：支持文件操作、网络搜索、代码执行等多种工具。\n- **插件系统**：可扩展功能，如集成数据库、API 等。\n- **多模型支持**：兼容 OpenAI、Anthropic、本地模型等。\n\n## 适用场景\n- 自动化工作流：如数据收集、报告生成、内容创作。\n- 研究与实验：探索 AI 自主决策的边界。\n- 教育与学习：理解 Agent 架构和 LLM 应用。\n\n## 技术亮点\n- 基于 Python 实现，易于二次开发。\n- 活跃的社区贡献，持续优化稳定性和性能。\n- 提供 CLI 和 Web 界面，降低使用门槛。",
+  "highlights": [
+    "自主 AI 代理，可自动分解并执行复杂任务",
+    "开源社区驱动，持续迭代更新",
+    "支持多种 LLM 后端和插件扩展"
+  ],
+  "score_reason": "该项目是 AI Agent 领域的标志性开源项目，直接推动自主代理技术发展，与 AI 核心方向高度相关。",
+  "tags": [
+    "agent",
+    "open-source",
+    "llm",
+    "framework"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-07-30T11:03:32.609130+08:00",
+  "analyzed_at": "2026-07-30T18:17:11.000168+08:00",
+  "status": "reviewed"
+}

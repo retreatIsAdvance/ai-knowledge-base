@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260730-001",
+  "title": "openclaw/openclaw",
+  "source": "github-trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "author": "openclaw",
+  "summary": "OpenClaw 是一个跨平台、开源的个人AI助手，旨在提供统一的智能交互体验，支持任何操作系统和平台。",
+  "content": "## 项目概述\n\nOpenClaw 是一个跨平台、开源的个人AI助手项目，旨在打破操作系统和平台的限制，为用户提供统一的智能交互体验。项目托管在 GitHub 上，热度较高（384508），表明社区关注度不错。\n\n## 核心特性\n\n- **跨平台兼容**：支持 Windows、macOS、Linux 等主流操作系统，甚至可能涵盖移动端和嵌入式平台。\n- **开源**：代码完全开放，允许开发者自由定制、扩展和贡献。\n- **统一交互**：提供一致的AI助手体验，可能集成语音、文本等多种交互方式。\n\n## 适用场景\n\n- 个人日常助手：日程管理、信息查询、任务提醒等。\n- 开发者测试与集成：作为AI助手框架进行二次开发。\n- 多设备协同：在不同设备上使用同一AI助手。\n\n## 技术分析\n\n项目描述较为简洁，未详细说明底层AI模型（如是否基于LLM）、架构设计或具体功能。从名称和描述推测，可能是一个轻量级AI助手框架，但缺乏技术细节（如是否支持RAG、Agent等）。建议进一步查看仓库代码和文档以评估其技术深度。",
+  "highlights": [
+    "跨平台支持，兼容所有主流操作系统",
+    "开源项目，社区驱动开发",
+    "统一的智能交互体验"
+  ],
+  "score_reason": "该项目直接涉及个人AI助手，属于AI应用层，但未明确提及LLM/Agent等核心技术细节，因此评分7。",
+  "tags": [
+    "open-source",
+    "framework",
+    "deployment"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-30T10:52:51.074550+08:00",
+  "analyzed_at": "2026-07-30T18:16:52.781515+08:00",
+  "status": "reviewed"
+}

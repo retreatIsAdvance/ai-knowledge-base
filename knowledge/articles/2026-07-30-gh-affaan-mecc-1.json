@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260730-003",
+  "title": "affaan-m/ECC",
+  "source": "github-trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "author": "affaan-m",
+  "summary": "ECC 是一个开源系统，通过 Skills 和指令机制优化 AI 代理的性能与灵活性，提升执行效率。",
+  "content": "## 项目概述\n\nECC 是一个开源的 Agent 性能优化系统，旨在通过引入 Skills 和指令机制，提升 AI 代理的执行效率与灵活性。该项目专注于解决 Agent 在实际应用中的性能瓶颈，提供了一种可扩展的优化框架。\n\n## 核心特性\n\n- **Skills 机制**：允许 Agent 动态加载和执行特定技能，增强任务处理能力。\n- **指令优化**：通过改进指令处理流程，减少响应延迟，提高执行效率。\n- **开源可定制**：基于开源许可，开发者可根据需求扩展和修改系统。\n\n## 适用场景\n\n- 需要高性能 AI 代理的自动化任务系统\n- 多技能集成的复杂工作流管理\n- 对 Agent 响应速度和灵活性有严格要求的应用\n\n## 总结\n\nECC 为 AI Agent 性能优化提供了实用的解决方案，特别适合需要高效执行和灵活扩展的开发场景。",
+  "highlights": [
+    "基于 Skills 和指令机制优化 Agent 性能",
+    "开源项目，支持灵活定制",
+    "提升 AI 代理的执行效率与适应性"
+  ],
+  "score_reason": "直接针对 AI Agent 性能优化，提供 Skills 和指令机制，高度相关且具有实用价值。",
+  "tags": [
+    "agent",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T10:52:51.074550+08:00",
+  "analyzed_at": "2026-07-30T18:16:59.238147+08:00",
+  "status": "reviewed"
+}
