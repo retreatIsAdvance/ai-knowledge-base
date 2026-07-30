@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260730-005",
+  "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+  "source": "hackernews",
+  "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+  "author": "Two years of vector search at Notion: 10x scale, 1",
+  "summary": "Notion 分享了其向量搜索功能两年来的演进历程，通过优化实现了10倍规模扩展和10倍成本降低。",
+  "content": "## 项目概述\n\nNotion 分享了其向量搜索功能两年来的演进历程。文章详细描述了从最初实现到当前大规模部署过程中遇到的技术挑战和解决方案，最终实现了搜索规模扩大10倍，同时成本降低至原来的1/10。\n\n## 核心特性\n\n- **规模扩展**：向量搜索能力从初期支持扩展到10倍规模，满足用户日益增长的需求。\n- **成本优化**：通过架构调整和算法优化，将运营成本降至原来的1/10，显著提升效率。\n- **技术细节**：文章深入探讨了索引策略、查询优化、硬件选型等方面的具体实践。\n\n## 适用场景\n\n- 需要在大规模文档或数据中实现语义搜索的应用。\n- 关注向量数据库成本效益的团队。\n- 对RAG系统生产化部署感兴趣的技术人员。\n\n## 技术分析\n\nNotion 的向量搜索基于开源向量数据库（如 Pinecone 或类似方案），通过分片、缓存、量化等技术手段，在保持高召回率的同时大幅降低延迟和成本。文章还讨论了如何平衡精度与性能，以及未来可能的改进方向。",
+  "highlights": [
+    "向量搜索规模扩大10倍",
+    "成本降低至原来的1/10",
+    "详细的技术优化与架构演进"
+  ],
+  "score_reason": "高度相关的AI技术内容，涉及向量搜索在大规模生产环境中的优化实践，对RAG和向量数据库领域有重要参考价值。",
+  "tags": [
+    "vector-db",
+    "rag",
+    "deployment"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T10:09:54.269962+08:00",
+  "analyzed_at": "2026-07-30T10:12:14.705163+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260730-010",
+  "title": "firecrawl/firecrawl",
+  "source": "github-trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "summary": "Firecrawl 是一个开源 API，用于搜索、抓取和与网页交互，支持 AI 驱动的数据提取。",
+  "content": "## 项目概述\nFirecrawl 是一个开源 API，旨在简化网页数据的搜索、抓取和交互过程。它专为 AI 应用设计，能够将网页内容转化为结构化的、可供 LLM 和 Agent 使用的数据。\n\n## 核心特性\n- **统一 API**：提供单一接口进行网页搜索、内容抓取和交互，降低集成复杂度。\n- **AI 驱动提取**：利用 AI 技术从网页中提取结构化数据，如表格、列表和关键信息。\n- **开源**：代码完全开源，允许自托管和定制，适合隐私敏感或需要深度集成的场景。\n- **易于集成**：提供 RESTful API 和 SDK，支持多种编程语言，可快速嵌入到现有工作流中。\n\n## 适用场景\n- **RAG 系统**：作为数据源，为检索增强生成提供实时网页内容。\n- **Agent 工具**：作为 Agent 的网页交互工具，用于信息收集和任务执行。\n- **数据采集**：自动化抓取和结构化网页数据，用于训练或分析。\n- **内容监控**：定期抓取网页变化，触发 AI 驱动的响应。\n\n## 技术架构\nFirecrawl 基于现代 Web 技术构建，支持 JavaScript 渲染、反爬虫绕过和并发请求管理。其核心引擎能够解析复杂网页，并输出 Markdown、JSON 等格式，方便下游 AI 模型消费。",
+  "highlights": [
+    "提供统一的 API 进行网页搜索、抓取和交互",
+    "支持 AI 驱动的结构化数据提取",
+    "开源且易于集成到 AI 工作流中"
+  ],
+  "score_reason": "该项目为 AI 应用提供关键的数据获取能力，与 LLM 和 Agent 的上下文构建高度相关。",
+  "tags": [
+    "llm",
+    "agent",
+    "rag",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:10:50.224479+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260730-004",
+  "title": "Not just development, distribution of software may change as well",
+  "source": "hackernews",
+  "source_url": "https://antirez.com/news/170",
+  "author": "N/A",
+  "summary": "文章探讨了AI可能改变软件分发模式，从传统安装转向按需执行和结果交付。",
+  "content": "## 项目概述\n该文章由antirez撰写，探讨了人工智能可能对软件分发模式带来的变革。作者认为，AI不仅会改变软件开发方式，还可能彻底改变软件的分发方式，从传统的安装包分发转向按需执行和结果交付。\n\n## 核心特性\n- **按需执行**：用户不再需要安装软件，而是通过AI直接获取所需功能的结果。\n- **结果交付**：软件的价值从代码本身转向其产生的输出。\n- **分发模式变革**：可能减少对传统安装和更新的依赖。\n\n## 适用场景\n- 软件行业从业者关注未来趋势\n- AI技术对软件工程影响的讨论\n- 软件分发和部署策略的重新思考",
+  "highlights": [
+    "提出AI将改变软件分发方式",
+    "强调从安装到按需执行的转变",
+    "讨论结果交付而非代码交付的可能性"
+  ],
+  "score_reason": "文章涉及AI对软件分发的影响，与AI技术相关但非直接技术内容，评分6。",
+  "tags": [
+    "opinion",
+    "deployment"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-07-30T10:09:54.269962+08:00",
+  "analyzed_at": "2026-07-30T10:12:04.992546+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260730-004",
+  "title": "NousResearch/hermes-agent",
+  "source": "github-trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "summary": "Hermes-Agent 是一个开源智能体框架，核心亮点是“与你一同成长”，提供实用且可扩展的 Agent 构建能力。",
+  "content": "## 项目概述\n\nHermes-Agent 是由 NousResearch 开发的一个开源智能体（Agent）框架，其核心理念是“The agent that grows with you”（与你一同成长的智能体）。该项目旨在提供一个实用、可扩展的 Agent 构建基础，帮助开发者快速搭建能够持续进化的智能体应用。\n\n## 核心特性\n\n- **开源友好**：基于开源许可发布，社区可自由使用、修改和贡献。\n- **成长性设计**：框架支持智能体根据用户交互和数据积累不断优化自身行为。\n- **实用导向**：强调“较高实用价值”，意味着项目注重实际应用场景的落地。\n- **可扩展架构**：便于集成不同 LLM 后端、工具和记忆模块。\n\n## 适用场景\n\n- 个人助手：构建能够学习用户习惯的个性化 AI 助手。\n- 自动化工作流：在业务系统中嵌入可进化的决策 Agent。\n- 研究与实验：作为 Agent 框架的基准，测试不同策略和模型。\n\n## 总结\n\nHermes-Agent 是一个值得关注的 Agent 框架，尤其适合希望构建“成长型”智能体的开发者。虽然目前缺乏详细的技术文档和示例，但其理念和开源性质使其具有较高的探索价值。",
+  "highlights": [
+    "开源且可扩展的 Agent 框架",
+    "强调“与用户一同成长”的持续进化理念",
+    "具备较高实用价值，适合快速构建智能体"
+  ],
+  "score_reason": "该项目直接聚焦 AI Agent 框架，属于当前 LLM 应用热点方向，但描述中未提及突破性技术细节，故评 8 分。",
+  "tags": [
+    "agent",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:10:16.108004+08:00",
+  "status": "reviewed"
+}

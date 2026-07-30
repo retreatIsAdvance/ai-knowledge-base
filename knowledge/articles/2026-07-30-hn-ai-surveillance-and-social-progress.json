@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260730-013",
+  "title": "AI Surveillance and Social Progress",
+  "source": "hackernews",
+  "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+  "author": "N/A",
+  "summary": "文章探讨了AI监控技术对社会进步的潜在影响，分析了其利弊及伦理考量。",
+  "content": "## 项目概述\n该文章来自Bruce Schneier的博客，讨论AI监控技术如何影响社会进步。作者从技术、伦理和社会角度分析了监控系统的利弊，强调在效率与隐私之间寻求平衡。\n\n## 核心特性\n- **伦理分析**：探讨监控对个人自由和社会信任的影响。\n- **技术视角**：简述AI在监控中的应用，如面部识别和行为分析。\n- **社会影响**：讨论监控如何可能促进或阻碍社会进步。\n\n## 适用场景\n- 对AI伦理和社会影响感兴趣的研究者。\n- 政策制定者需了解监控技术的潜在风险。\n- 公众教育材料，帮助理解AI监控的复杂性。",
+  "highlights": [
+    "深入分析AI监控对社会进步的复杂影响",
+    "探讨监控技术的伦理与隐私问题",
+    "提供平衡的视角，避免极端立场"
+  ],
+  "score_reason": "文章涉及AI的社会影响，但非技术深度内容，与AI/LLM/Agent直接相关性中等。",
+  "tags": [
+    "opinion",
+    "safety"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-07-30T10:09:54.269962+08:00",
+  "analyzed_at": "2026-07-30T10:13:02.862309+08:00",
+  "status": "reviewed"
+}

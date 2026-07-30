@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260730-003",
+  "title": "affaan-m/ECC",
+  "source": "github-trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "author": "affaan-m",
+  "summary": "ECC 是一个开源的智能体性能优化系统，通过技能、指令和上下文管理提升 Agent 效率。",
+  "content": "## 项目概述\n\nECC 是一个开源的智能体（Agent）性能优化系统，旨在通过引入 Skills（技能）、Instincts（本能）和 Context（上下文）等核心组件，提升 Agent 的执行效率和可扩展性。该项目由 affaan-m 开发，在 GitHub 上获得了较高热度。\n\n## 核心特性\n\n- **Skills**: 定义 Agent 可执行的具体能力模块\n- **Instincts**: 内置的默认行为或反应机制\n- **Context**: 管理 Agent 运行时的上下文信息\n\n## 适用场景\n\n- 需要优化现有 Agent 系统的性能\n- 构建可扩展的智能体框架\n- 研究 Agent 内部机制和效率提升方法\n\n## 技术分析\n\nECC 的设计理念类似于模块化 Agent 框架，通过分离技能、本能和上下文，使 Agent 能够更灵活地适应不同任务。然而，目前仓库描述较为简略，缺乏详细的架构文档和示例代码，建议进一步查看源码以获取完整理解。",
+  "highlights": [
+    "开源智能体性能优化系统",
+    "核心组件包括 Skills、Instincts 和 Context",
+    "旨在提升 Agent 的效率和可扩展性"
+  ],
+  "score_reason": "该项目直接针对 AI Agent 的性能优化，与 Agent 技术高度相关，但描述较为简略，缺乏具体实现细节。",
+  "tags": [
+    "agent",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:10:09.972144+08:00",
+  "status": "reviewed"
+}

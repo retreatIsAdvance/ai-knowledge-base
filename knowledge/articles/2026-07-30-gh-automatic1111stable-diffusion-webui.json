@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260730-008",
+  "title": "AUTOMATIC1111/stable-diffusion-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "author": "AUTOMATIC1111",
+  "summary": "Stable Diffusion web UI 的开源项目，提供直观的浏览器界面，支持多种模型和功能扩展，极大简化了图像生成流程。",
+  "content": "## 项目概述\n\nAUTOMATIC1111/stable-diffusion-webui 是一个开源的 Stable Diffusion web 界面，旨在为用户提供便捷、强大的图像生成体验。它基于 Gradio 构建，支持多种后端模型（如 Stable Diffusion 1.5、2.1、SDXL 等），并拥有丰富的扩展生态。\n\n## 核心特性\n\n- **直观的 Web UI**：通过浏览器即可操作，无需命令行或编程知识。\n- **多模型支持**：兼容主流 Stable Diffusion 模型及自定义检查点。\n- **功能丰富**：包括文生图、图生图、图像修复、超分辨率、批量处理等。\n- **扩展系统**：支持安装社区开发的插件，如 ControlNet、LoRA、提示词优化等。\n- **性能优化**：支持 GPU 加速、xformers 等，提升生成速度。\n\n## 适用场景\n\n- **AI 艺术创作**：快速生成高质量图像，适合设计师、艺术家。\n- **内容生成**：为游戏、广告、社交媒体等生成视觉素材。\n- **研究与实验**：探索不同模型和参数对生成结果的影响。\n- **教育与学习**：作为学习 Stable Diffusion 原理和实践的入门工具。",
+  "highlights": [
+    "提供直观的浏览器界面，无需编程即可使用",
+    "支持多种 Stable Diffusion 模型和扩展",
+    "集成图像生成、编辑、放大等丰富功能"
+  ],
+  "score_reason": "该项目是AI图像生成领域的标杆工具，虽非LLM/Agent直接相关，但属于生成式AI重要分支，高度相关。",
+  "tags": [
+    "open-source",
+    "framework",
+    "multimodal"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:10:38.778149+08:00",
+  "status": "reviewed"
+}

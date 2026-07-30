@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260730-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "Open WebUI 是一个用户友好的 AI 交互界面，支持 Ollama 和 OpenAI API，提供聊天、文档分析、插件扩展等功能。",
+  "content": "## 项目概述\n\nOpen WebUI 是一个开源的、用户友好的 AI 交互界面，旨在简化与大型语言模型（LLM）的交互。它支持通过 Ollama 和 OpenAI API 连接多种模型，提供聊天、文档分析、RAG（检索增强生成）等功能，适合个人和团队使用。\n\n## 核心特性\n\n- **多模型支持**：无缝对接 Ollama 和 OpenAI API，可切换不同 LLM。\n- **聊天功能**：提供流畅的对话界面，支持上下文记忆。\n- **文档分析**：上传文档并进行智能问答，结合 RAG 技术。\n- **插件扩展**：支持自定义插件，增强功能灵活性。\n- **易于部署**：基于 Docker 或直接运行，配置简单。\n\n## 适用场景\n\n- 个人用户：快速搭建本地 AI 助手，进行日常问答和文档处理。\n- 团队协作：共享模型资源，提升工作效率。\n- 开发者：作为 LLM 应用的前端框架，快速原型开发。",
+  "highlights": [
+    "支持 Ollama 和 OpenAI API，灵活对接多种 LLM",
+    "内置聊天、文档分析、RAG 等实用功能",
+    "开源且易于部署，社区活跃度高"
+  ],
+  "score_reason": "该项目是 AI 交互界面的实用工具，与 LLM 部署和应用高度相关，但非核心模型或算法创新。",
+  "tags": [
+    "llm",
+    "rag",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:11:04.852881+08:00",
+  "status": "reviewed"
+}

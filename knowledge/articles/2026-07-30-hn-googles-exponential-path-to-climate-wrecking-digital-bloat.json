@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260730-017",
+  "title": "Google’s exponential path to climate-wrecking digital bloat",
+  "source": "hackernews",
+  "source_url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+  "author": "N/A",
+  "summary": "文章批评谷歌的数字膨胀导致气候破坏，指出其产品臃肿、能耗激增，呼吁技术界反思可持续性。",
+  "content": "### 项目概述\n该文章来自Hacker News，批评谷歌产品（如Chrome、Android）体积和功能膨胀导致能源消耗和碳排放激增，认为这是气候破坏的隐形推手。\n\n### 核心特性\n- **数字膨胀分析**：指出谷歌软件体积和资源需求指数增长。\n- **气候影响**：量化能耗与碳排放的关联。\n- **批判视角**：呼吁技术公司减少冗余，提升效率。\n\n### 适用场景\n- 技术伦理讨论\n- 可持续软件开发\n- 企业社会责任评估",
+  "highlights": [
+    "揭示谷歌产品体积指数级增长与碳排放的关系",
+    "分析数字膨胀对气候的负面影响",
+    "呼吁技术行业关注可持续性"
+  ],
+  "score_reason": "文章涉及技术对环境的影响，与AI/LLM/Agent核心领域弱相关，但可作为技术伦理讨论的参考。",
+  "tags": [
+    "opinion",
+    "deployment"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-07-30T10:09:54.269962+08:00",
+  "analyzed_at": "2026-07-30T10:13:20.829377+08:00",
+  "status": "reviewed"
+}

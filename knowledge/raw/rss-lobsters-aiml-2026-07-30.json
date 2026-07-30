@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Languages as designed latent spaces",
+    "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/ljg2qr/languages_as_designed_latent_spaces\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Open Weights and American AI Leadership",
+    "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/gqgbrz/open_weights_american_ai_leadership\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
+    "url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/o9vjlt/tour_mlir_dialect_stack_everyone_depends\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Not just development, distribution of software may change as well",
+    "url": "https://antirez.com/news/170",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/wfural/not_just_development_distribution\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "What Rose Petals Teach Us about Induction",
+    "url": "https://www.oranlooney.com/post/rose-petals/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/wwelib/what_rose_petals_teach_us_about_induction\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+    "url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/1xbtlo/two_years_vector_search_at_notion_10x\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Triton language for Alibaba SAIL",
+    "url": "https://github.com/t-head/triton-for-sail",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Human-like Neural Nets by Catapulting",
+    "url": "https://gwern.net/llm-catapult",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/qmvc5h/human_like_neural_nets_by_catapulting\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "How does Pangram work?",
+    "url": "https://pangram.substack.com/p/how-does-pangram-work",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/femw5f/how_does_pangram_work\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+    "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/srir6m/novel_computer_scrabble_engine_based_on\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+    "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p>The book \"Inventing ELIZA - How the First Chatbot Shaped the Future of AI\".  It is Open Access so the link to the PDF is <a href=\"https://direct.mit.edu/books/book-pdf/2615293/book_9780262052504.pdf\" rel=\"ugc\">here</a></p>\n<p>The book has a companion <a href=\"findingeliza.org\" rel=\"ugc\">site</a> - I was monitoring this since I first heard the <a href=\"https://corecursive.com/eliza-with-jeff-shrager/\" rel=\"ugc\">episode</a> on CoRecursive.</p>\n<p><a href=\"https://lobste.rs/s/hquwey/inventing_el",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Verifiable AI inference",
+    "url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/xkk9ja/verifiable_ai_inference\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Tensor is the might",
+    "url": "https://zserge.com/posts/tensor/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/uhzuf7/tensor_is_might\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
+    "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/srdtlp/full_pipeline_inference_optimization\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "AI Surveillance and Social Progress",
+    "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/qvu1m0/ai_surveillance_social_progress\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "A Prolog library for interfacing with LLMs",
+    "url": "https://github.com/vagos/llmpl",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/ad7cm6/prolog_library_for_interfacing_with_llms\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Native-speed vLLM transformers modeling backend",
+    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/az2jfb/native_speed_vllm_transformers_modeling\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "A global workspace in language models",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/xgtzrp/global_workspace_language_models\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Google’s exponential path to climate-wrecking digital bloat",
+    "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/v8hk8q/google_s_exponential_path_climate\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  },
+  {
+    "title": "Investigating idiosyncrasies in AI fiction",
+    "url": "https://arxiv.org/abs/2604.03136",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/hjuopb/investigating_idiosyncrasies_ai\">Comments</a></p>",
+    "collected_at": "2026-07-30T10:09:54.269962+08:00"
+  }
+]

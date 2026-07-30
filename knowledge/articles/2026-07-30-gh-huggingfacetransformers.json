@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260730-009",
+  "title": "huggingface/transformers",
+  "source": "github-trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "author": "huggingface",
+  "summary": "Hugging Face Transformers 是一个提供数千种预训练模型和工具的开源框架，用于自然语言处理、计算机视觉等任务。",
+  "content": "## 项目概述\n\nHugging Face Transformers 是一个开源框架，提供数千个预训练模型和工具，用于处理文本、图像、音频等数据。它支持 PyTorch、TensorFlow 和 JAX，并提供了统一的 API 来加载、训练和部署模型。\n\n## 核心特性\n\n- **模型库丰富**：包含 BERT、GPT、T5、ViT、Whisper 等主流模型，覆盖 NLP、计算机视觉、语音处理等领域。\n- **多框架支持**：同一模型可在 PyTorch、TensorFlow、JAX 之间无缝切换。\n- **易用性**：通过 `pipeline` 函数快速实现文本分类、问答、翻译等任务。\n- **训练工具**：集成 Trainer API，简化微调流程。\n- **社区生态**：与 Hugging Face Hub 深度集成，可共享和发现模型。\n\n## 适用场景\n\n- 自然语言处理（文本分类、命名实体识别、机器翻译）\n- 计算机视觉（图像分类、目标检测）\n- 多模态任务（图文检索、视觉问答）\n- 语音处理（语音识别、语音合成）\n- 研究和教学中的模型实验与对比",
+  "highlights": [
+    "支持 PyTorch、TensorFlow、JAX 三大深度学习框架",
+    "提供超过 100,000 个预训练模型，涵盖 NLP、CV、音频等多模态",
+    "统一的 API 设计，方便模型加载、训练和推理"
+  ],
+  "score_reason": "Transformers 是 AI/LLM 领域最核心的开源框架之一，直接支持 Transformer 架构的模型训练与部署，与 LLM、多模态等高度相关。",
+  "tags": [
+    "llm",
+    "transformer",
+    "multimodal",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:10:44.278786+08:00",
+  "status": "reviewed"
+}

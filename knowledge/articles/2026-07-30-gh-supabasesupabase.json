@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260730-020",
+  "title": "supabase/supabase",
+  "source": "github-trending",
+  "source_url": "https://github.com/supabase/supabase",
+  "author": "supabase",
+  "summary": "Supabase 是一个开源的后端开发平台，提供数据库、认证、存储和实时功能，作为 Firebase 的替代方案。",
+  "content": "## 项目概述\n\nSupabase 是一个开源的 Firebase 替代品，提供完整的后端开发平台。它基于 PostgreSQL 构建，集成了数据库、身份认证、文件存储、实时功能和边缘函数等核心服务。\n\n## 核心特性\n\n- **实时数据库**：基于 PostgreSQL 的实时订阅功能，支持行级安全策略\n- **身份认证**：内置用户管理，支持多种登录方式（邮箱、OAuth、手机等）\n- **文件存储**：可扩展的对象存储，支持图片优化和访问控制\n- **边缘函数**：基于 Deno 的无服务器函数，全球部署\n- **自动生成 API**：根据数据库表结构自动生成 RESTful 和 GraphQL API\n- **管理面板**：内置可视化数据库管理界面\n\n## 适用场景\n\n- 快速搭建 Web 和移动应用的后端\n- 需要实时数据同步的协作应用\n- 作为 AI 应用的数据存储和用户认证基础设施\n- 替代 Firebase 的开源方案\n\n## 技术栈\n\n- 后端：PostgreSQL, Go, TypeScript\n- 客户端：支持 JavaScript, Dart, Python, Kotlin 等 SDK\n- 部署：支持自托管和云服务（Supabase Cloud）",
+  "highlights": [
+    "基于 PostgreSQL 的实时数据库，支持实时订阅和行级安全",
+    "内置身份认证、文件存储和边缘函数，开箱即用",
+    "完全开源，可自托管，社区活跃，文档完善"
+  ],
+  "score_reason": "Supabase 是通用后端平台，与 AI/LLM 无直接关联，但可作为 AI 应用的数据和认证基础设施，有一定相关性。",
+  "tags": [
+    "open-source",
+    "framework",
+    "deployment"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-07-30T10:09:50.662956+08:00",
+  "analyzed_at": "2026-07-30T10:11:45.488356+08:00",
+  "status": "reviewed"
+}
