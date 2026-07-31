@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260731-003",
+  "title": "You Could Have Come Up With Kimi Delta Attention",
+  "source": "hackernews",
+  "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+  "author": "N/A",
+  "summary": "本文从第一性原理推导Kimi的Delta Attention机制，展示如何通过分析注意力模式自然得出该创新，并探讨其高效处理长上下文的能力。",
+  "content": "## 项目概述\n本文是一篇技术博客，作者以教学视角，从标准注意力机制出发，逐步推导出Kimi模型中的Delta Attention设计。文章强调该创新并非高不可攀，而是基于对注意力模式的分析和优化需求自然产生的。\n\n## 核心特性\n- **推导过程**：从标准softmax注意力开始，分析其在长上下文下的计算瓶颈，引入稀疏化、线性注意力等改进，最终引出Delta Attention的核心思想——通过增量更新减少重复计算。\n- **数学解释**：提供Delta Attention的数学公式，展示如何利用状态缓存和增量计算来降低复杂度。\n- **代码示例**：包含PyTorch风格的伪代码，帮助读者理解实现细节。\n\n## 适用场景\n- 对LLM架构优化感兴趣的开发者\n- 需要处理超长上下文的NLP应用（如文档分析、多轮对话）\n- 希望从第一性原理学习模型设计的AI研究者\n\n## 总结\n本文以清晰的教学方式，让读者理解Delta Attention的来龙去脉，不仅解释了其原理，还鼓励读者独立思考，是一篇高质量的LLM技术解析文章。",
+  "highlights": [
+    "从基础注意力机制出发，逐步推导出Delta Attention的设计思路",
+    "强调创新源于对现有模型局限性的深入分析",
+    "提供代码示例和数学推导，便于理解与复现"
+  ],
+  "score_reason": "文章深入解析Kimi的Delta Attention，属于LLM架构创新，对理解长上下文处理有直接价值，但未涉及Agent或RAG等应用层面。",
+  "tags": [
+    "llm",
+    "transformer",
+    "framework",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-31T18:31:15.688430+08:00",
+  "analyzed_at": "2026-07-31T18:34:05.967294+08:00",
+  "status": "reviewed"
+}

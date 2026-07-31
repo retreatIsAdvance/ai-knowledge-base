@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260731-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "open-webui 是一个用户友好的开源 AI 交互界面，支持 Ollama 和 OpenAI API，提供类似 ChatGPT 的体验，并集成 RAG、多用户管理等高级功能。",
+  "content": "## 项目概述\n\nopen-webui 是一个开源的、用户友好的 AI 交互界面，旨在为 Ollama 和 OpenAI 兼容 API 提供类似 ChatGPT 的 Web 体验。它解决了本地模型部署后缺乏高质量 UI 的痛点，同时支持云端模型接入，是构建个人或团队 AI 助手的理想选择。\n\n## 核心特性\n\n- **多后端支持**：无缝对接 Ollama 本地模型和 OpenAI API，支持自定义 API 端点。\n- **RAG 集成**：内置文档加载、分块和向量检索管道，支持上传 PDF、TXT 等文件进行问答。\n- **多用户管理**：提供用户注册、登录、角色权限控制，适合团队协作部署。\n- **聊天管理**：支持会话历史持久化、搜索、分享和导出。\n- **模型管理**：可视化浏览、切换和配置模型参数（如温度、top_p）。\n- **响应式设计**：基于 Svelte 构建，适配桌面和移动设备。\n\n## 适用场景\n\n- **个人本地 AI 助手**：结合 Ollama 部署私有化 ChatGPT。\n- **团队知识库问答**：利用 RAG 功能构建内部文档检索系统。\n- **AI 应用原型开发**：快速搭建带 UI 的 LLM 应用演示。\n- **教育与研究**：作为学习 LLM 交互和 RAG 管道的参考实现。\n\n## 技术栈\n\n- 前端：SvelteKit + Tailwind CSS\n- 后端：Python (FastAPI)\n- 数据库：SQLite（默认）\n- 向量存储：ChromaDB（RAG 支持）\n\n## 总结\n\nopen-webui 凭借其易用性、功能丰富度和活跃的社区，已成为开源 AI 界面领域的热门项目。对于需要快速部署 AI 交互界面的开发者，它是一个值得优先考虑的选择。",
+  "highlights": [
+    "支持 Ollama 和 OpenAI 双后端，无缝切换本地与云端模型",
+    "内置 RAG 管道，支持文档问答与知识库检索",
+    "提供多用户管理、权限控制和聊天历史持久化",
+    "响应式 Web UI，支持移动端与桌面端",
+    "活跃社区，持续迭代，热度极高"
+  ],
+  "score_reason": "作为 AI 应用层框架，直接服务于 LLM 交互与 RAG 场景，对开发者构建 AI 工具有较高参考价值，但非核心算法突破。",
+  "tags": [
+    "framework",
+    "rag",
+    "llm",
+    "open-source",
+    "deployment"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-31T18:31:11.533966+08:00",
+  "analyzed_at": "2026-07-31T18:32:51.854755+08:00",
+  "status": "reviewed"
+}

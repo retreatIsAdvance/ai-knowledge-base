@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260731-018",
+  "title": "microsoft/generative-ai-for-beginners",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "author": "microsoft",
+  "summary": "微软推出的生成式AI入门课程，包含21个课时，涵盖从基础概念到实际构建生成式AI应用的完整学习路径。",
+  "content": "## 项目概述\n\n[microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) 是微软官方推出的生成式AI入门课程，旨在帮助初学者快速上手构建生成式AI应用。课程包含21个课时，从基础概念到实际应用，循序渐进地引导学习者掌握生成式AI的核心技术。\n\n## 核心特性\n\n- **系统化课程设计**：21个课时覆盖生成式AI的各个方面，包括提示工程、RAG、微调、多模态等。\n- **实战导向**：每个课时都配有代码示例和作业，帮助学习者动手实践。\n- **多语言支持**：课程内容提供多种语言版本，方便全球学习者使用。\n- **免费开放**：所有内容在GitHub上开源，无需付费即可学习。\n\n## 适用场景\n\n- **初学者入门**：适合对生成式AI感兴趣的开发者或学生，从零开始学习。\n- **技术提升**：已有一定基础的开发者可以通过课程中的高级主题（如RAG、微调）提升技能。\n- **教学参考**：可作为高校或培训机构的AI课程教材。\n\n## 课程内容概览\n\n1. **基础概念**：生成式AI的定义、应用场景、工作原理。\n2. **提示工程**：如何设计有效的提示词，优化模型输出。\n3. **RAG（检索增强生成）**：结合外部知识库提升生成质量。\n4. **微调**：针对特定任务调整预训练模型。\n5. **多模态应用**：处理文本、图像、音频等多种输入。\n\n## 总结\n\n微软的 `generative-ai-for-beginners` 是一个高质量、系统化的生成式AI学习资源，适合所有希望进入AI领域的开发者。其开源、免费的特点使其成为学习生成式AI的首选教程之一。",
+  "highlights": [
+    "21个课时系统化学习生成式AI",
+    "提供丰富的代码示例和实战项目",
+    "覆盖RAG、提示工程、微调等核心主题"
+  ],
+  "score_reason": "微软官方出品的高质量AI学习资源，内容直接涉及LLM、RAG、提示工程等核心主题，对开发者学习生成式AI有重要参考价值。",
+  "tags": [
+    "llm",
+    "rag",
+    "prompt-engineering",
+    "fine-tuning",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-07-31T18:31:11.533966+08:00",
+  "analyzed_at": "2026-07-31T18:33:24.137420+08:00",
+  "status": "reviewed"
+}
