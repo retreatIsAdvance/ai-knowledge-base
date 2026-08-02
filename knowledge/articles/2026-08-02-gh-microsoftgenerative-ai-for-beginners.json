@@ -1,0 +1,27 @@
+{
+  "id": "github-trending-20260802-018",
+  "title": "microsoft/generative-ai-for-beginners",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "author": "microsoft",
+  "summary": "微软出品的生成式AI入门课程，含21个课时，涵盖核心概念、提示工程、RAG、Agent等，配套代码示例，适合初学者快速上手。",
+  "content": "## 项目概述\n\n**microsoft/generative-ai-for-beginners** 是微软推出的免费开源课程，旨在帮助初学者系统学习生成式AI（Generative AI）的基础与应用。课程包含21个课时，每个课时都配有详细的讲解、代码示例和练习，覆盖从概念到实战的完整路径。\n\n## 核心特性\n\n- **系统化课程结构**：21个课时，按主题划分，循序渐进，适合自学或教学。\n- **多语言代码示例**：提供Python和TypeScript两种主流语言的实现，满足不同开发者需求。\n- **实战导向**：每个课时包含动手练习，帮助学习者巩固知识。\n- **覆盖前沿主题**：包括提示工程、RAG（检索增强生成）、Agent（智能体）、微调、评估等。\n- **持续更新**：项目活跃维护，内容紧跟AI技术发展。\n\n## 适用场景\n\n- **初学者入门**：零基础学习生成式AI的最佳起点。\n- **开发者转型**：已有编程经验但想进入AI领域的开发者。\n- **教学资源**：可作为高校或培训机构的课程素材。\n- **快速参考**：各课时独立，可随时查阅特定主题。\n\n## 课程内容概览\n\n1. **基础概念**：生成式AI、LLM、Transformer架构等。\n2. **提示工程**：如何设计有效的提示词。\n3. **RAG**：检索增强生成，结合外部知识。\n4. **Agent**：构建能自主决策的AI代理。\n5. **微调**：针对特定任务调整模型。\n6. **评估与部署**：模型评估、应用部署等。\n\n## 总结\n\n微软的这门课程是生成式AI领域不可多得的免费资源，无论你是学生、开发者还是技术爱好者，都能从中获得系统性的知识和实战经验。强烈推荐给所有对生成式AI感兴趣的人。",
+  "highlights": [
+    "21个系统化课时，覆盖生成式AI核心主题",
+    "提供大量Python和TypeScript代码示例",
+    "包含RAG、Agent、微调等进阶内容",
+    "免费开源，持续更新"
+  ],
+  "score_reason": "微软官方高质量教程，直接涉及LLM、RAG、Agent等核心AI技术，对初学者和开发者极具参考价值，但非突破性研究，故评8分。",
+  "tags": [
+    "llm",
+    "rag",
+    "agent",
+    "tutorial",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-02T17:50:29.623394+08:00",
+  "analyzed_at": "2026-08-02T17:52:30.754886+08:00",
+  "status": "reviewed"
+}

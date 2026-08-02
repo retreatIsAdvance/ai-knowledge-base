@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260802-006",
+  "title": "Significant-Gravitas/AutoGPT",
+  "source": "github-trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "author": "Significant-Gravitas",
+  "summary": "AutoGPT 是开源项目，旨在让 AI 人人可用，通过自主智能体实现任务自动化，是 Agent 领域的先驱。",
+  "content": "## 项目概述\n\nAutoGPT 是 Significant-Gravitas 团队发起的开源项目，其愿景是让 AI 对所有人可访问。它通过自主智能体（Agent）的方式，让用户以自然语言描述目标，智能体自动分解任务、调用工具并执行，实现端到端的自动化。\n\n## 核心特性\n\n- **自主任务分解**：基于 LLM 将复杂目标拆解为可执行的子任务。\n- **工具调用**：支持文件操作、网页搜索、代码执行等多种工具。\n- **可扩展性**：提供插件机制，便于集成自定义工具和功能。\n- **多平台支持**：支持 CLI、Web 和桌面应用。\n\n## 适用场景\n\n- 自动化工作流（如数据整理、报告生成）\n- 研究辅助（信息收集与总结）\n- 原型开发与实验\n\n## 社区与热度\n\nGitHub 上拥有极高关注度（185k+ stars），社区活跃，持续更新，是 Agent 领域的重要参考项目。",
+  "highlights": [
+    "自主智能体核心，可分解任务并执行",
+    "支持多种工具和平台集成",
+    "活跃社区与持续迭代"
+  ],
+  "score_reason": "AutoGPT 是 Agent 领域的标志性开源项目，直接推动自主智能体概念普及，与 AI/Agent 高度相关，值得关注。",
+  "tags": [
+    "agent",
+    "open-source",
+    "framework",
+    "tool-use"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-02T17:50:29.623394+08:00",
+  "analyzed_at": "2026-08-02T17:51:12.755867+08:00",
+  "status": "reviewed"
+}

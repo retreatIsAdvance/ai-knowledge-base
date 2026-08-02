@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260802-003",
+  "title": "affaan-m/ECC",
+  "source": "github-trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "author": "affaan-m",
+  "summary": "ECC 是一个专注于 agent harness 性能优化的开源系统，通过 Skills 机制提升 AI 代理的执行效率与稳定性。",
+  "content": "## 项目概述\n\n**ECC**（Agent Harness Performance Optimization System）是一个开源项目，旨在通过系统化的方法优化 AI 代理（agent）的执行性能。项目核心引入了 **Skills** 机制，用于标准化和提升代理在复杂任务中的行为表现。\n\n## 核心特性\n\n- **Skills 机制**：将代理的常用操作或决策模式封装为可复用的技能模块，减少重复计算，提升响应速度。\n- **性能优化**：针对 agent harness（代理运行框架）进行深度调优，降低延迟和资源消耗。\n- **开源友好**：代码完全开源，便于社区贡献和二次开发。\n\n## 适用场景\n\n- 需要高吞吐、低延迟的 AI 代理服务（如客服机器人、自动化工作流）。\n- 多代理协作系统中，需要统一技能管理和性能监控的场景。\n- 研究 agent 架构性能瓶颈的开发者或团队。\n\n## 技术分析\n\n项目聚焦于 agent 运行时的性能层，而非模型本身。通过 Skills 抽象，可能涉及缓存、并行调度或指令压缩等技术。由于描述有限，具体实现细节需查看仓库源码。\n\n## 总结\n\nECC 为 agent 性能优化提供了一个新思路，尤其适合对代理执行效率有严格要求的应用。对于关注 agent 工程化落地的开发者，这是一个值得关注的项目。",
+  "highlights": [
+    "核心亮点是 Skills 机制，用于优化 agent 行为",
+    "专注 agent harness 性能，提升执行效率",
+    "开源项目，社区热度高（236k+）"
+  ],
+  "score_reason": "直接涉及 AI agent 性能优化，属于 agent 领域的技术项目，但描述较简略，缺乏具体实现细节，故评 8 分。",
+  "tags": [
+    "agent",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-02T17:50:29.623394+08:00",
+  "analyzed_at": "2026-08-02T17:50:55.622805+08:00",
+  "status": "reviewed"
+}

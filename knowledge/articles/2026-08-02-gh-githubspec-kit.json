@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260802-016",
+  "title": "github/spec-kit",
+  "source": "github-trending",
+  "source_url": "https://github.com/github/spec-kit",
+  "author": "github",
+  "summary": "spec-kit 是 GitHub 官方推出的规范驱动开发工具包，帮助开发者快速上手基于规范（Spec）的 AI 应用开发，提升开发效率与一致性。",
+  "content": "## 项目概述\n\nspec-kit 是 GitHub 官方发布的一个开源工具包，旨在帮助开发者快速上手 **Spec-Driven Development（规范驱动开发）**。它提供了一套标准化的工具和模板，让开发者能够基于明确的规范（如 API 定义、数据模型等）来构建和部署 AI 应用，从而减少歧义、提升开发效率。\n\n## 核心特性\n\n- **规范驱动**：以规范（Spec）为核心，确保开发流程的一致性和可维护性。\n- **快速启动**：提供脚手架和模板，帮助开发者快速创建项目。\n- **官方支持**：由 GitHub 团队维护，与 GitHub 生态（如 Codespaces、Actions）深度集成。\n- **开源免费**：遵循开源协议，社区可自由使用和贡献。\n\n## 适用场景\n\n- 需要快速原型验证的 AI 应用开发。\n- 团队协作中需要统一接口和数据规范的场景。\n- 希望将 AI 功能集成到现有 GitHub 工作流的开发者。\n\n## 总结\n\nspec-kit 是 GitHub 在 AI 工程化领域的一次重要尝试，它降低了规范驱动开发的门槛，适合希望采用更严谨开发流程的 AI 开发者。虽然它不直接涉及 LLM 算法，但作为工具链，对 AI 应用的落地有实际帮助。",
+  "highlights": [
+    "GitHub 官方出品，权威性与可靠性高",
+    "聚焦 Spec-Driven 开发范式，契合 AI 应用需求",
+    "提供开箱即用的工具链，降低入门门槛"
+  ],
+  "score_reason": "该项目由 GitHub 官方推出，聚焦规范驱动开发，与 AI 应用工程化高度相关，但并非直接涉及 LLM 核心算法，故评分为 7。",
+  "tags": [
+    "framework",
+    "open-source",
+    "deployment",
+    "tool-use"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-02T17:50:29.623394+08:00",
+  "analyzed_at": "2026-08-02T17:52:16.872981+08:00",
+  "status": "reviewed"
+}

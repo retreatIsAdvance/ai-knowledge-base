@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260802-002",
+  "title": "You Could Have Come Up With Kimi Delta Attention",
+  "source": "hackernews",
+  "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+  "author": "N/A",
+  "summary": "本文从第一性原理推导出 Kimi 的 Delta Attention 机制，展示如何通过简单推理改进注意力计算，提升长上下文效率。",
+  "content": "## 项目概述\n\n本文是一篇技术博客，作者通过第一性原理推导，展示了如何独立发现 Kimi 模型中的 Delta Attention 机制。文章旨在说明，即使没有前沿背景，通过逻辑推理也能设计出高效的注意力变体，用于改善长上下文场景下的计算效率。\n\n## 核心特性\n\n- **推导过程清晰**：从标准注意力机制出发，逐步引入 Delta 规则，解释如何通过增量更新减少重复计算。\n- **长上下文优化**：Delta Attention 通过缓存键值对的增量变化，避免重新计算全部历史，从而降低推理复杂度。\n- **教学价值高**：文章以“你能想到”为切入点，鼓励读者参与思考，适合作为理解注意力机制改进的入门教程。\n\n## 适用场景\n\n- 对 LLM 架构感兴趣的开发者或研究者\n- 需要优化长上下文推理性能的工程师\n- 希望学习创新思维方法的技术爱好者\n\n## 总结\n\n本文不仅解释了 Delta Attention 的原理，更传递了一种可复用的思考方式，对于理解现代 LLM 优化技术具有启发意义。",
+  "highlights": [
+    "从零推导 Delta Attention，无需复杂背景",
+    "揭示 Delta Attention 对长上下文推理的优化原理",
+    "以教学方式展示创新思维，鼓励读者独立发现"
+  ],
+  "score_reason": "文章深入解析了 Kimi 的 Delta Attention 技术，属于 LLM 架构改进，对理解长上下文优化有直接价值，但非突破性新成果，故评 8 分。",
+  "tags": [
+    "llm",
+    "transformer",
+    "framework",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-02T17:50:33.062216+08:00",
+  "analyzed_at": "2026-08-02T17:52:56.273462+08:00",
+  "status": "reviewed"
+}
