@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260803-020",
+  "title": "What does it mean to be a mathematician when AI does the math?",
+  "source": "hackernews",
+  "source_url": "https://spectrum.ieee.org/ai-in-mathematics",
+  "author": "N/A",
+  "summary": "探讨AI在数学领域应用后，数学家角色与工作方式的转变，反思数学本质与未来。",
+  "content": "## 项目概述\n\n本文是IEEE Spectrum上的一篇观点文章，探讨当AI能够执行数学计算时，数学家的角色和意义将如何变化。文章从AI在数学研究中的实际应用出发，引发对数学本质、数学家的核心能力以及数学教育未来的深刻反思。\n\n## 核心特性\n\n- **AI辅助数学研究**：讨论AI（如大语言模型）如何辅助定理证明、公式推导等数学工作。\n- **角色转变**：分析数学家从计算执行者向问题提出者、验证者、解释者的转变。\n- **教育影响**：探讨数学教育应如何适应AI时代，培养学生的哪些能力。\n\n## 适用场景\n\n- 对AI技术社会影响感兴趣的读者\n- 数学研究者、教育工作者\n- 关注AI与人类智能关系的人士\n\n## 总结\n\n文章提供了一个关于AI与数学交叉领域的深度思考，虽非技术教程，但有助于理解AI技术对专业领域的深远影响。",
+  "highlights": [
+    "深入探讨AI对数学研究的影响",
+    "反思数学家的核心价值与技能",
+    "展望数学教育与研究的未来"
+  ],
+  "score_reason": "文章聚焦AI在数学中的应用，属于AI技术的社会影响与哲学思考，与AI技术本身关联中等，但值得关注。",
+  "tags": [
+    "opinion",
+    "llm"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-03T19:15:22.302385+08:00",
+  "analyzed_at": "2026-08-03T19:19:43.426962+08:00",
+  "status": "reviewed"
+}

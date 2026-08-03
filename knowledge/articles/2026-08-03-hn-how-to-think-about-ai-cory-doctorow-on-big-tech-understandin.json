@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260803-019",
+  "title": "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More",
+  "source": "hackernews",
+  "source_url": "https://www.youtube.com/watch?v=OBUzl_IaWIw",
+  "author": "N/A",
+  "summary": "Cory Doctorow 在访谈中探讨如何思考 AI，批判大科技公司对 AI 的炒作，分析 AI 对劳动自动化的影响，并呼吁公众理性看待技术。",
+  "content": "## 项目概述\n\n这是一段 Cory Doctorow 的访谈视频，主题为“如何思考 AI”。Doctorow 是知名的科技评论家、记者和作家，他以批判大科技公司而闻名。在访谈中，他探讨了 AI 技术背后的商业动机、AI 对劳动力市场的冲击，以及公众应如何理性看待 AI 的炒作与风险。\n\n## 核心特性\n\n- **批判性视角**：Doctorow 指出大科技公司通过炒作 AI 来获取利益，夸大 AI 能力，忽视其局限性和社会成本。\n- **劳动自动化分析**：深入讨论了 AI 在自动化工作流程中的实际作用，以及它对不同行业就业的潜在影响，强调技术并非中立，而是受资本驱动。\n- **思考框架**：提供了公众和从业者思考 AI 的实用框架，包括如何识别炒作、评估真实影响，以及关注权力集中问题。\n\n## 适用场景\n\n- 对 AI 社会影响、伦理和政策感兴趣的读者。\n- 希望了解 AI 炒作背后商业逻辑的从业者。\n- 关注劳动自动化和未来工作形态的人群。\n\n## 总结\n\n本视频并非技术教程，而是一篇观点性内容，适合作为 AI 伦理与政策讨论的参考。它提醒我们，在追逐 AI 技术的同时，应保持批判性思维，关注技术背后的社会与政治经济因素。",
+  "highlights": [
+    "批判大科技公司对 AI 的过度炒作与利益驱动",
+    "深入分析 AI 对劳动自动化的实际影响与潜在风险",
+    "提供公众理性思考 AI 的框架与视角"
+  ],
+  "score_reason": "内容涉及 AI 的社会影响与批判性思考，与 AI 技术本身关联中等，适合关注 AI 伦理与政策的读者。",
+  "tags": [
+    "opinion",
+    "safety",
+    "deployment"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-03T19:15:22.302385+08:00",
+  "analyzed_at": "2026-08-03T19:19:38.837593+08:00",
+  "status": "reviewed"
+}

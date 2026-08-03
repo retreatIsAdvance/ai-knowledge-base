@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260803-018",
+  "title": "GPT2-BASIC: Portable Machine Intelligence in BASIC",
+  "source": "hackernews",
+  "source_url": "https://github.com/tsotchke/gpt2-basic",
+  "author": "N/A",
+  "summary": "一个用 BASIC 语言实现的 GPT-2 推理引擎，可在老旧或极简硬件上运行小型语言模型，主打可移植性和极简依赖。",
+  "content": "## 项目概述\n\nGPT2-BASIC 是一个将 GPT-2 模型推理逻辑用 BASIC 语言重新实现的开源项目。它旨在让小型语言模型能够在 1980 年代的计算机、单片机或任何支持 BASIC 的极简环境中运行，体现了极致的可移植性。\n\n## 核心特性\n\n- **纯 BASIC 实现**：不依赖任何现代库或操作系统 API，仅使用标准 BASIC 语法。\n- **极低资源占用**：设计目标是在 KB 级内存上运行，通过量化或裁剪模型权重实现。\n- **跨平台兼容**：可在 Commodore 64、Apple II 等复古硬件或模拟器上运行。\n- **教育意义**：通过简化实现，帮助理解 Transformer 架构的核心计算流程。\n\n## 适用场景\n\n- **复古计算爱好者**：在经典硬件上体验 AI 生成文本。\n- **教学演示**：用最简代码展示 GPT 的前向传播过程。\n- **极端边缘部署**：为资源受限的嵌入式系统提供极简推理参考。\n\n## 技术分析\n\n该项目并非追求性能或精度，而是探索语言模型在极端约束下的可行性。其实现必然牺牲了模型大小和速度，但保留了 GPT-2 的基本结构（如注意力机制、层归一化）。对于现代 AI 工程师，它更多是一个趣味性项目，而非实用工具。",
+  "highlights": [
+    "用 BASIC 语言实现 GPT-2 推理，兼容多种老旧平台",
+    "极简依赖，可在无操作系统或极低资源环境下运行",
+    "展示了将现代 LLM 压缩到复古编程环境的可能性"
+  ],
+  "score_reason": "与 LLM 推理相关，但属于极简/复古实现，非主流技术方向，对 AI 工程实践参考价值有限，但具趣味性。",
+  "tags": [
+    "llm",
+    "deployment",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-03T19:15:22.302385+08:00",
+  "analyzed_at": "2026-08-03T19:19:32.207662+08:00",
+  "status": "reviewed"
+}

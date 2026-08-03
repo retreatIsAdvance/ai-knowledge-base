@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260803-006",
+  "title": "Human-like Neural Nets by Catapulting",
+  "source": "hackernews",
+  "source_url": "https://gwern.net/llm-catapult",
+  "author": "N/A",
+  "summary": "Gwern 探讨了通过“弹射”技术（catapulting）提升神经网络类人性能的方法，涉及训练动态与泛化能力。",
+  "content": "## 项目概述\n\nGwern 的文章《Human-like Neural Nets by Catapulting》探讨了一种名为“弹射”（catapulting）的神经网络训练技术，旨在提升模型的类人性能和泛化能力。文章基于实验数据，分析了该技术对训练动态的影响。\n\n## 核心特性\n\n- **弹射技术**：通过特定的学习率调整策略，在训练过程中引入“弹射”效应，帮助模型跳出局部最优，提升泛化。\n- **类人行为**：文章关注模型如何表现出类似人类的认知模式，如对干扰的鲁棒性。\n- **实验分析**：提供详细的实验数据和图表，支持技术有效性。\n\n## 适用场景\n\n- 深度学习研究者：了解前沿训练技巧。\n- 模型优化工程师：探索提升模型泛化能力的方法。\n- AI爱好者：深入理解神经网络训练动态。\n\n## 总结\n\n该文章为神经网络训练提供了新颖的视角，对追求模型性能提升的从业者具有参考价值。",
+  "highlights": [
+    "提出“弹射”训练技术，改善模型泛化",
+    "分析神经网络类人行为与训练动态",
+    "基于实验数据，提供可复现的见解"
+  ],
+  "score_reason": "文章深入探讨神经网络训练技术，与AI模型优化高度相关，但非直接针对LLM或Agent，故评7分。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "framework",
+    "paper"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-03T19:15:22.302385+08:00",
+  "analyzed_at": "2026-08-03T19:18:18.140352+08:00",
+  "status": "reviewed"
+}

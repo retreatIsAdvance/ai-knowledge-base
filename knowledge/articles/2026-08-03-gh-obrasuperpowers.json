@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260803-002",
+  "title": "obra/superpowers",
+  "source": "github-trending",
+  "source_url": "https://github.com/obra/superpowers",
+  "author": "obra",
+  "summary": "superpowers 是一个开源的 Agent 技能框架与软件开发工具，通过可组合的技能模块增强 AI 代理的软件开发能力。",
+  "content": "## 项目概述\n\n**superpowers** 是一个开源的 **Agentic Skills Framework**，旨在为 AI 代理（Agent）提供结构化的技能定义和管理能力，从而提升其在软件开发场景中的表现。项目由 obra 发起，在 GitHub 上获得了较高的关注度（热度 265444）。\n\n## 核心特性\n\n- **技能框架**：提供一套标准化的方式来定义、组织和复用 AI 代理的技能，使代理能够更高效地完成复杂任务。\n- **软件开发导向**：专注于软件开发场景，可能包含代码生成、调试、重构等技能模块。\n- **可扩展性**：支持自定义技能，开发者可以根据需求扩展代理的能力。\n- **集成友好**：设计上可能兼容主流的 AI 代理框架（如 LangChain、AutoGPT 等），便于集成到现有工作流中。\n\n## 适用场景\n\n- 开发者希望构建具备特定软件开发技能的 AI 代理。\n- 团队需要标准化 AI 代理的行为和技能库。\n- 研究者和爱好者探索 Agent 技能编排与管理的最佳实践。\n\n## 总结\n\nsuperpowers 为 AI 代理的软件开发能力提供了一种结构化的解决方案，是 Agent 领域值得关注的开源项目。",
+  "highlights": [
+    "提供结构化的技能定义与管理机制",
+    "支持与主流 AI 代理框架集成",
+    "开源且社区活跃，热度高"
+  ],
+  "score_reason": "该项目直接面向 AI 代理（Agent）开发，属于 agent 框架范畴，与 AI 技术高度相关，且热度高，值得关注。",
+  "tags": [
+    "agent",
+    "framework",
+    "open-source",
+    "tool-use"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-03T19:15:17.984707+08:00",
+  "analyzed_at": "2026-08-03T19:15:37.055812+08:00",
+  "status": "reviewed"
+}

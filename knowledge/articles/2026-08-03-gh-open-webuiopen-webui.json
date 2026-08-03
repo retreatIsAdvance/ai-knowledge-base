@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260803-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "open-webui 是一个用户友好的开源 AI 界面，支持 Ollama 和 OpenAI API，提供丰富的聊天、RAG、工具调用等功能，适合本地部署。",
+  "content": "## 项目概述\n\nopen-webui 是一个开源的、用户友好的 AI 交互界面，旨在为本地或云端部署的 LLM 提供类似 ChatGPT 的体验。它支持 Ollama 和 OpenAI API，允许用户连接多种模型，并提供了丰富的功能，如多用户管理、RAG 文档问答、工具调用等。\n\n## 核心特性\n\n- **多模型支持**：通过 Ollama 或 OpenAI 兼容 API 连接多种 LLM，包括本地模型和云端模型。\n- **RAG 集成**：内置检索增强生成管道，支持上传文档并进行基于文档的问答。\n- **多用户管理**：提供用户注册、登录、权限控制，适合团队或组织使用。\n- **工具调用**：支持定义和调用外部工具，扩展 AI 能力。\n- **响应式 UI**：界面现代、响应式，支持移动端和桌面端。\n- **易于部署**：提供 Docker 镜像和简单安装脚本，支持一键部署。\n\n## 适用场景\n\n- 个人或团队本地部署 AI 助手，保护数据隐私。\n- 需要与 Ollama 或 OpenAI 模型快速集成的应用。\n- 构建基于文档的问答系统，利用 RAG 提升回答准确性。\n- 作为 AI 应用开发的基础框架，快速搭建原型。\n\n## 技术架构\n\n基于 Python 和 Svelte 构建，后端使用 FastAPI，前端使用 SvelteKit。支持 WebSocket 实时通信，提供 REST API 和 Web UI。\n\n## 总结\n\nopen-webui 是一个功能全面、易于使用的 AI 界面框架，适合希望快速部署 AI 助手的开发者和团队。其活跃的社区和持续更新保证了项目的活力。",
+  "highlights": [
+    "支持 Ollama 和 OpenAI API，兼容多种模型",
+    "内置 RAG 管道，支持文档问答",
+    "提供多用户管理和权限控制",
+    "支持工具调用和函数调用，扩展性强",
+    "界面美观，响应式设计，易于部署"
+  ],
+  "score_reason": "该项目是 AI 应用层的开源框架，直接服务于 LLM 交互和部署，与 AI 技术高度相关，但非底层模型或算法创新，故评 8 分。",
+  "tags": [
+    "framework",
+    "rag",
+    "tool-use",
+    "deployment",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-03T19:15:17.984707+08:00",
+  "analyzed_at": "2026-08-03T19:16:55.123412+08:00",
+  "status": "reviewed"
+}

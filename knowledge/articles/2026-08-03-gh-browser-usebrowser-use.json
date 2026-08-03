@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260803-019",
+  "title": "browser-use/browser-use",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "summary": "browser-use 是一个开源项目，旨在让 AI 代理能够像人类一样操作浏览器，自动化执行网页任务。",
+  "content": "## 项目概述\n\nbrowser-use 是一个开源 Python 库，其核心目标是 **让 AI 代理（Agent）能够像人类一样使用浏览器**。它通过将浏览器操作抽象为一系列工具（如点击、输入、导航、提取内容等），使大语言模型（LLM）能够根据任务指令自主控制浏览器，完成从简单查询到复杂多步骤操作的自动化任务。\n\n## 核心特性\n\n- **AI 驱动的浏览器控制**：利用 LLM 的推理能力，将自然语言指令转换为具体的浏览器操作序列。\n- **简洁的 API 设计**：提供直观的 `Agent` 和 `Browser` 类，开发者可以快速上手，几行代码即可启动一个自动化代理。\n- **多模型支持**：兼容 OpenAI、Anthropic、Google 等主流 LLM API，也支持本地模型。\n- **高可扩展性**：允许自定义浏览器操作和工具，方便针对特定网站或业务逻辑进行定制。\n- **实时可视化**：支持在 Jupyter Notebook 或浏览器中实时查看代理的操作过程，便于调试和演示。\n\n## 适用场景\n\n- **网页自动化测试**：替代传统的 Selenium 脚本，用自然语言描述测试步骤。\n- **数据采集与监控**：自动登录、翻页、抓取动态网页数据。\n- **AI 助手集成**：为聊天机器人或智能助手提供网页交互能力，如查询信息、预订服务。\n- **工作流自动化**：将涉及网页操作的多步骤任务（如填写表单、跨网站信息汇总）交给 AI 代理完成。\n\n## 技术架构\n\n项目基于 Playwright 构建，提供了稳定的浏览器控制底层。上层通过 `Agent` 类管理 LLM 对话循环，将模型输出的结构化动作（如 `click_element`、`type_text`）映射到浏览器操作，并反馈页面状态（如 DOM 快照）给模型，形成闭环。\n\n## 总结\n\nbrowser-use 是当前 AI Agent 生态中一个非常实用的工具，它填补了 LLM 与真实网页交互之间的空白。对于希望构建具备网页操作能力的 AI 应用的开发者来说，这是一个值得关注和使用的开源项目。",
+  "highlights": [
+    "让 AI 代理直接控制浏览器，实现网页自动化操作",
+    "提供简洁的 Python API，易于集成到现有 AI 工作流",
+    "支持多种浏览器和主流 AI 模型，具备高扩展性"
+  ],
+  "score_reason": "该项目直接关联 AI Agent 与工具使用（tool-use），是让 LLM 落地到实际网页操作的关键基础设施，具有较高技术价值。",
+  "tags": [
+    "agent",
+    "tool-use",
+    "framework",
+    "open-source",
+    "llm"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-03T19:15:17.984707+08:00",
+  "analyzed_at": "2026-08-03T19:17:35.592816+08:00",
+  "status": "reviewed"
+}
