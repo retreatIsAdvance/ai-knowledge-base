@@ -1,0 +1,342 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github-trending",
+    "popularity": 385104,
+    "summary": "openclaw 是一个Your own personal AI assistant的开源项目，核心亮点是Any OS. Any Platform. The l",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github-trending",
+    "popularity": 266025,
+    "summary": "superpowers 是一个An agentic skills framework & software development的开源项目，核心亮点是其功能具",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github-trending",
+    "popularity": 237484,
+    "summary": "ECC 是一个The agent harness performance optimization system的开源项目，核心亮点是Skills, insti",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github-trending",
+    "popularity": 225176,
+    "summary": "hermes-agent 是一个The agent that grows with you的开源项目，核心亮点是其功能具有较高实用价值。",
+    "description": "The agent that grows with you",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "source": "github-trending",
+    "popularity": 199290,
+    "summary": "n8n 是一个Fair-code workflow automation platform with native的开源项目，核心亮点是Combine visu",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source": "github-trending",
+    "popularity": 185805,
+    "summary": "AutoGPT 是一个AutoGPT is the vision of accessible AI for everyon的开源项目，核心亮点是Our miss",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github-trending",
+    "popularity": 177746,
+    "summary": "ollama 是一个Get up and running with Kimi-K2的开源项目，核心亮点是6, GLM-5.2, MiniMax, DeepSee",
+    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "source": "github-trending",
+    "popularity": 164388,
+    "summary": "stable-diffusion-webui 是一个Stable Diffusion web UI的开源项目，核心亮点是其功能具有较高实用价值。",
+    "description": "Stable Diffusion web UI",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "source": "github-trending",
+    "popularity": 163327,
+    "summary": "transformers 是一个🤗 Transformers: the model-definition framework for的开源项目，核心亮点是其功能",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "source": "github-trending",
+    "popularity": 160532,
+    "summary": "firecrawl 是一个The context API to search, scrape, and interact wi的开源项目，核心亮点是🔥。",
+    "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "source": "github-trending",
+    "popularity": 157509,
+    "summary": "JavaGuide 是一个Java 面试 & 后端通用面试指南的开源项目，核心亮点是覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应。",
+    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "source": "github-trending",
+    "popularity": 151302,
+    "summary": "dify 是一个Build Agentic workflows, RAG pipelines, with rich 的开源项目，核心亮点是Deploy on c",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "github-trending",
+    "popularity": 147801,
+    "summary": "open-webui 是一个User-friendly AI Interface (Supports Ollama, OpenA的开源项目，核心亮点是..)。",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "source": "github-trending",
+    "popularity": 143404,
+    "summary": "langchain 是一个The agent engineering platform的开源项目，核心亮点是其功能具有较高实用价值。",
+    "description": "The agent engineering platform.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "source": "github-trending",
+    "popularity": 142551,
+    "summary": "system-prompts-and-models-of-ai-tools 是一个FULL Augment Code, Claude Code, Cluely,",
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "source": "github-trending",
+    "popularity": 125238,
+    "summary": "spec-kit 是一个💫 Toolkit to help you get started with Spec-Driven的开源项目，核心亮点是其功能具有较高",
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "source": "github-trending",
+    "popularity": 123547,
+    "summary": "ComfyUI 是一个The most powerful and modular diffusion model GUI,的开源项目，核心亮点是其功能具有较高实",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "source": "github-trending",
+    "popularity": 115963,
+    "summary": "generative-ai-for-beginners 是一个21 Lessons, Get Started Building with Generative ",
+    "description": "21 Lessons, Get Started Building with Generative AI ",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "source": "github-trending",
+    "popularity": 107822,
+    "summary": "browser-use 是一个🌐 Make websites accessible for AI agents的开源项目，核心亮点是Automate tasks",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "source": "github-trending",
+    "popularity": 107553,
+    "summary": "supabase 是一个The Postgres development platform的开源项目，核心亮点是Supabase gives you a ded",
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+    "collected_at": "2026-08-04T18:29:47.461760+08:00"
+  },
+  {
+    "title": "Categorization with NLP",
+    "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/yndrxm/categorization_with_nlp\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+    "url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/vytqfi/why_do_cognitive_scientists_hate_llms\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Categorization with NLP",
+    "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/vyy2jf/categorization_with_nlp\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Why we write our own C and C++ inference engines",
+    "url": "https://localai.io/blog/why-we-write-our-own-engines/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/t7zdif/why_we_write_our_own_c_c_inference_engines\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "You Could Have Come Up With Kimi Delta Attention",
+    "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/jjap0n/you_could_have_come_up_with_kimi_delta\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Languages as designed latent spaces",
+    "url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/ljg2qr/languages_as_designed_latent_spaces\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "What Rose Petals Teach Us about Induction",
+    "url": "https://www.oranlooney.com/post/rose-petals/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/wwelib/what_rose_petals_teach_us_about_induction\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+    "url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/1xbtlo/two_years_vector_search_at_notion_10x\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Human-like Neural Nets by Catapulting",
+    "url": "https://gwern.net/llm-catapult",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/qmvc5h/human_like_neural_nets_by_catapulting\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+    "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/srir6m/novel_computer_scrabble_engine_based_on\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+    "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p>The book \"Inventing ELIZA - How the First Chatbot Shaped the Future of AI\".  It is Open Access so the link to the PDF is <a href=\"https://direct.mit.edu/books/book-pdf/2615293/book_9780262052504.pdf\" rel=\"ugc\">here</a></p>\n<p>The book has a companion <a href=\"findingeliza.org\" rel=\"ugc\">site</a> - I was monitoring this since I first heard the <a href=\"https://corecursive.com/eliza-with-jeff-shrager/\" rel=\"ugc\">episode</a> on CoRecursive.</p>\n<p><a href=\"https://lobste.rs/s/hquwey/inventing_el",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Tensor is the might",
+    "url": "https://zserge.com/posts/tensor/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/uhzuf7/tensor_is_might\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "A global workspace in language models",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/xgtzrp/global_workspace_language_models\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Google’s exponential path to climate-wrecking digital bloat",
+    "url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/v8hk8q/google_s_exponential_path_climate\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Matrix Orthogonalization Improves Memory in Recurrent Models",
+    "url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/k9qw5n/matrix_orthogonalization_improves\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+    "url": "https://ieeexplore.ieee.org/document/11475847/",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update\" rel=\"ugc\">NIST article</a> covers this paper well</p>\n<p><a href=\"https://lobste.rs/s/7exvix/robust_ai_security_alignment_sisyphean\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Convolutional Neural Networks in APL (2019)",
+    "url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "MAX models can now run on Apple silicon GPUs",
+    "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/bxhmjt/ai_learns_dark_art_rf_chip_design\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  },
+  {
+    "title": "Comparing Transformers and Hybrid Models at the Token Level",
+    "url": "https://arxiv.org/pdf/2606.20936",
+    "source": "hackernews",
+    "popularity": 0,
+    "summary": "<p><a href=\"https://lobste.rs/s/6c5c4j/comparing_transformers_hybrid_models_at\">Comments</a></p>",
+    "collected_at": "2026-08-04T18:29:51.589455+08:00"
+  }
+]
