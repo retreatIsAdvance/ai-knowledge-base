@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260804-019",
+  "title": "browser-use/browser-use",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "summary": "browser-use 是一个开源项目，让 AI 代理能够访问和操作网站，实现浏览器任务自动化。",
+  "content": "## 项目概述\n\nbrowser-use 是一个开源项目，旨在让 AI 代理能够像人类一样使用浏览器。它提供了一套工具和接口，使 AI 可以自动化执行网页操作，如填写表单、点击按钮、提取数据等。该项目在 GitHub 上热度极高（107k+），表明其受到开发者社区的广泛关注。\n\n## 核心特性\n\n- **浏览器自动化**：支持通过 AI 代理控制浏览器，执行复杂的网页交互任务。\n- **易于集成**：提供简洁的 API，方便开发者将其集成到自己的 AI 应用中。\n- **开源免费**：项目完全开源，允许自由使用和修改。\n\n## 适用场景\n\n- **网页数据采集**：自动化提取网页信息，用于数据分析或监控。\n- **测试自动化**：利用 AI 代理进行端到端的网页测试。\n- **智能助手**：构建能够自主完成在线任务的 AI 助手，如自动预订、信息查询等。\n\n## 技术价值\n\n该项目展示了如何将 AI 代理与浏览器工具结合，是 tool-use 和 agent 领域的重要实践。它为开发者提供了一个现成的解决方案，降低了构建网页自动化 AI 的门槛。",
+  "highlights": [
+    "让 AI 代理直接操控浏览器，完成网页自动化任务",
+    "开源项目，社区活跃，热度高",
+    "简化 AI 与网页交互的复杂性，提升自动化效率"
+  ],
+  "score_reason": "该项目直接涉及 AI 代理（agent）与浏览器交互，属于 agent 和 tool-use 领域，与 AI 技术高度相关，但并非突破性研究，故评 8 分。",
+  "tags": [
+    "agent",
+    "tool-use",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-04T18:29:47.461760+08:00",
+  "analyzed_at": "2026-08-04T18:33:05.429150+08:00",
+  "status": "reviewed"
+}

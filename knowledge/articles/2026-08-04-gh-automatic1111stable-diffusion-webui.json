@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260804-008",
+  "title": "AUTOMATIC1111/stable-diffusion-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "author": "AUTOMATIC1111",
+  "summary": "stable-diffusion-webui 是一个功能强大的开源 Stable Diffusion Web 界面，提供丰富的图像生成与编辑工具，支持扩展和自定义，是 AI 绘画领域最流行的工具之一。",
+  "content": "## 项目概述\n\nstable-diffusion-webui 是由 AUTOMATIC1111 开发的开源项目，为 Stable Diffusion 模型提供了一个功能丰富的 Web 界面。它允许用户通过浏览器轻松进行文本到图像、图像到图像等生成任务，并支持多种高级功能，如修复、扩展、放大等。该项目在 GitHub 上拥有极高的热度（164k+ stars），是 AI 绘画领域最受欢迎的工具之一。\n\n## 核心特性\n\n- **多种生成模式**：支持 txt2img（文生图）、img2img（图生图）、inpainting（局部重绘）、outpainting（扩展画布）等。\n- **模型管理**：支持加载多种 Stable Diffusion 模型（如 SD 1.5、SD 2.x、SDXL），并可切换 VAE、超网络等。\n- **高级控制**：提供采样器选择、CFG Scale、种子控制、批量生成等参数调整。\n- **扩展生态**：支持安装第三方扩展，如 ControlNet、LoRA、动态提示词等，极大扩展了功能。\n- **用户友好**：提供直观的 Web 界面，支持多语言（包括中文），并内置提示词语法高亮、图片预览等。\n- **性能优化**：支持 GPU 加速、xformers、模型量化等，提升生成速度。\n\n## 适用场景\n\n- **AI 艺术创作**：艺术家和设计师快速生成概念图、插画、背景等。\n- **内容生产**：用于游戏、影视、广告等行业的素材预生成。\n- **学习与研究**：作为 Stable Diffusion 的实践平台，便于理解扩散模型的应用。\n- **个人娱乐**：普通用户探索 AI 绘画的乐趣。\n\n## 技术架构\n\n项目基于 Python 和 Gradio 构建，后端调用 Stable Diffusion 模型进行推理，前端通过 Web UI 交互。支持本地部署，也可通过 API 集成到其他应用。\n\n## 总结\n\nstable-diffusion-webui 是一个成熟、活跃的开源项目，凭借其强大的功能和易用性，已成为 AI 绘画领域的标准工具之一。对于任何对 AI 图像生成感兴趣的用户，它都是一个值得尝试的选择。",
+  "highlights": [
+    "功能全面：支持 txt2img、img2img、inpainting、outpainting 等多种图像生成与编辑模式",
+    "高度可扩展：支持自定义模型、LoRA、超网络、脚本和扩展，社区生态活跃",
+    "用户友好：提供直观的 Web UI，支持中文等多语言，降低使用门槛"
+  ],
+  "score_reason": "该项目是 AI 图像生成领域的标杆工具，与 AI 技术高度相关，但更偏向应用层而非核心算法研究，因此评分为 7。",
+  "tags": [
+    "framework",
+    "open-source",
+    "deployment",
+    "multimodal",
+    "tool-use"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-04T18:29:47.461760+08:00",
+  "analyzed_at": "2026-08-04T18:32:08.254501+08:00",
+  "status": "reviewed"
+}

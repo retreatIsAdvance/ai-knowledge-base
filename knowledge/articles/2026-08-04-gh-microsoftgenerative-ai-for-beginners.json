@@ -1,0 +1,27 @@
+{
+  "id": "github-trending-20260804-018",
+  "title": "microsoft/generative-ai-for-beginners",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "author": "microsoft",
+  "summary": "微软出品的生成式AI入门课程，包含21个课时，从基础概念到实战构建，覆盖提示工程、RAG、Agent等核心主题，适合初学者系统学习。",
+  "content": "## 项目概述\n\n[microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) 是微软官方推出的生成式人工智能入门课程，旨在帮助开发者从零开始学习构建生成式AI应用。项目以 **21个课时** 的结构化课程形式呈现，内容循序渐进，覆盖从基础概念到实际项目构建的完整路径。目前该项目在 GitHub 上拥有超过 **115k** 的星标，是学习生成式AI最受欢迎的免费资源之一。\n\n## 核心特性\n\n- **系统化课程设计**：21个课时，每个课时包含视频讲解、文字教程和配套代码，适合自学或作为教学材料。\n- **主题全面**：覆盖生成式AI的核心领域，包括：\n  - **提示工程基础**：如何设计有效的Prompt。\n  - **RAG（检索增强生成）**：将外部知识库与大模型结合。\n  - **Agent 应用**：构建能自主决策和调用工具的多智能体系统。\n  - **微调（Fine-tuning）**：针对特定任务优化模型。\n  - **应用开发实战**：从零构建聊天机器人、图像生成应用等。\n- **实践导向**：每个课程都配有可运行的代码示例（主要使用Python和JavaScript），并支持在 Azure OpenAI 或 OpenAI 上运行。\n- **开源免费**：所有内容均开源，遵循 MIT 许可证，可自由使用和修改。\n\n## 适用场景\n\n- **初学者入门**：对AI和LLM感兴趣，但缺乏系统学习路径的开发者。\n- **技术转型**：希望从传统软件开发转向AI应用开发的工程师。\n- **教学培训**：作为高校或企业内部培训的课程素材。\n- **快速原型验证**：通过课程中的代码模板，快速搭建AI应用原型。\n\n## 总结\n\n这是一个高质量、高星标的生成式AI入门教程，尤其适合希望快速上手LLM应用开发的开发者。虽然内容偏向基础，但其系统性和实用性使其成为学习路径中不可或缺的一环。",
+  "highlights": [
+    "21个系统化课程，从零基础到实战构建生成式AI应用",
+    "涵盖提示工程、RAG、Agent、微调等核心主题",
+    "提供丰富的代码示例和动手实验，理论与实践结合",
+    "微软官方出品，质量有保障，且完全免费开源"
+  ],
+  "score_reason": "高度相关的AI教育内容，系统覆盖LLM应用开发关键技能，虽非前沿突破，但对开发者学习与实践极具价值。",
+  "tags": [
+    "llm",
+    "rag",
+    "agent",
+    "prompt-engineering",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-04T18:29:47.461760+08:00",
+  "analyzed_at": "2026-08-04T18:33:01.375307+08:00",
+  "status": "reviewed"
+}

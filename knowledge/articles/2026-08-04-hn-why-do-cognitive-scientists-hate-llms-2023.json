@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260804-002",
+  "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+  "source": "hackernews",
+  "source_url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+  "author": "N/A",
+  "summary": "本文探讨认知科学家对大型语言模型（LLMs）的批评，分析其局限性及与人类认知的差异，引发对AI本质的反思。",
+  "content": "## 项目概述\n本文是一篇观点文章，基于2023年的讲座内容，探讨认知科学家为何对大型语言模型（LLMs）持批评态度。文章从认知科学视角出发，分析LLMs在理解、推理和语言使用上的根本局限，并与人类认知机制进行对比。\n\n## 核心特性\n- **认知科学视角**：从人类认知的独特性出发，审视LLMs的模拟能力。\n- **批评观点**：指出LLMs缺乏真正的理解、意图和世界模型，仅依赖统计模式匹配。\n- **对比分析**：对比LLMs与人类在语言习得、推理和常识上的差异。\n\n## 适用场景\n- 对AI本质和局限性感兴趣的读者。\n- 认知科学、心理学与AI交叉领域的研究者。\n- 希望理解LLMs批评声音的技术从业者。\n\n## 总结\n文章提供了一个重要的批判性视角，提醒我们LLMs虽强大，但并非人类认知的等价物。对于AI开发者而言，理解这些批评有助于更合理地评估模型能力，避免过度炒作。",
+  "highlights": [
+    "深入剖析认知科学家对LLMs的核心质疑",
+    "对比LLMs与人类认知机制的差异",
+    "引发对AI能力本质的哲学思考"
+  ],
+  "score_reason": "文章直接讨论LLMs的认知局限，与AI技术高度相关，但偏重理论观点而非技术实现，适合关注AI本质的读者。",
+  "tags": [
+    "llm",
+    "opinion",
+    "evaluation"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-04T18:29:51.589455+08:00",
+  "analyzed_at": "2026-08-04T18:33:18.901862+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260804-013",
+  "title": "Google’s exponential path to climate-wrecking digital bloat",
+  "source": "hackernews",
+  "source_url": "https://ketanjoshi.co/2026/07/01/googles-exponential-path-to-climate-wrecking-digital-bloat/",
+  "author": "N/A",
+  "summary": "文章批评Google等科技巨头通过AI和数字服务膨胀，导致能源消耗和碳排放呈指数级增长，加剧气候危机。",
+  "content": "## 项目概述\n本文是一篇观点文章，作者Ketan Joshi在2026年7月发表，批评Google等科技巨头在AI和数字服务领域的扩张导致能源消耗和碳排放呈指数级增长，加剧气候危机。文章通过分析Google的路径，探讨了数字膨胀对环境的影响。\n\n## 核心特性\n- **指数增长批判**：指出科技公司为追求增长，不断扩展AI服务和数据中心，导致能耗和碳排放指数级上升。\n- **环境责任缺失**：批评科技公司忽视气候承诺，优先商业利益。\n- **数字膨胀概念**：提出“数字膨胀”一词，形容无节制的数字服务扩张。\n\n## 适用场景\n- 关注AI技术环境影响的研究者或政策制定者。\n- 对科技伦理和可持续发展感兴趣的读者。\n- 讨论AI部署与气候政策平衡的场合。\n\n## 技术相关性\n文章虽非技术教程，但涉及AI部署（deployment）和LLM的能源成本，对理解AI技术的社会影响有参考价值。评分6分，因内容相关但非技术深度分析。",
+  "highlights": [
+    "指出AI和云计算推动数字基础设施能耗激增",
+    "批评科技公司以增长为名忽视环境责任",
+    "呼吁重新思考技术发展与气候保护的平衡"
+  ],
+  "score_reason": "文章聚焦AI的环境影响，与AI技术发展相关，但非技术深度内容，更多是观点评论，故评分中等。",
+  "tags": [
+    "opinion",
+    "deployment",
+    "llm"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-04T18:29:51.589455+08:00",
+  "analyzed_at": "2026-08-04T18:34:16.310379+08:00",
+  "status": "reviewed"
+}

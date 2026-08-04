@@ -1,0 +1,22 @@
+{
+  "id": "hackernews-20260804-009",
+  "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+  "source": "hackernews",
+  "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+  "author": "N/A",
+  "summary": "一篇2021年的论文，介绍基于概率的新型电脑拼字游戏引擎，达到冠军级水平，展示了在特定游戏AI中的创新方法。",
+  "content": "## 项目概述\n\n本文介绍了一种基于概率的新型电脑拼字游戏（Scrabble）引擎，该引擎在2021年达到冠军级水平。研究重点在于利用概率模型优化单词选择和棋盘布局决策，从而提升整体游戏表现。\n\n## 核心特性\n\n- **概率决策**：引擎使用概率评估候选单词和位置，权衡得分与未来机会。\n- **冠军级性能**：在标准测试中达到或超越人类冠军水平。\n- **算法创新**：结合蒙特卡洛模拟或类似技术，增强搜索效率。\n\n## 适用场景\n\n- 游戏AI开发，特别是回合制策略游戏。\n- 概率决策在有限信息环境中的应用研究。\n- 对AI算法在特定领域优化感兴趣的开发者。\n\n## 技术分析\n\n该引擎展示了概率方法在复杂决策空间中的有效性，尽管领域特定，但其核心思想可迁移至其他需要权衡短期收益与长期策略的场景。与LLM/Agent的关联较弱，但作为算法研究案例有一定参考价值。",
+  "highlights": [
+    "基于概率的决策机制，提升拼字游戏AI性能",
+    "达到冠军级水平，验证了方法的有效性",
+    "为游戏AI领域提供新的思路"
+  ],
+  "score_reason": "该内容聚焦于特定游戏AI，与通用AI/LLM技术关联度中等，但展示了概率方法在决策中的应用，有一定参考价值。",
+  "tags": [
+    "framework"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-04T18:29:51.589455+08:00",
+  "analyzed_at": "2026-08-04T18:33:57.671469+08:00",
+  "status": "reviewed"
+}

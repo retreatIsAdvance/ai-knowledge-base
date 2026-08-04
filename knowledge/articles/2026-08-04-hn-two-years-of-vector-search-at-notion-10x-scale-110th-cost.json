@@ -1,0 +1,26 @@
+{
+  "id": "hackernews-20260804-007",
+  "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+  "source": "hackernews",
+  "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+  "author": "Two years of vector search at Notion: 10x scale, 1",
+  "summary": "Notion 分享其向量搜索系统两年演进经验：从原型到支撑 10 倍规模，同时将成本降至 1/10，涵盖架构选型、优化策略与工程实践。",
+  "content": "## 项目概述\n\nNotion 官方博客文章《Two years of vector search at Notion: 10x scale, 1/10th cost》总结了其向量搜索系统从 2022 年至今的演进历程。文章详细描述了 Notion 如何应对用户生成内容爆炸式增长带来的搜索挑战，通过引入向量搜索技术，实现了搜索质量的显著提升，同时优化了基础设施成本。\n\n## 核心特性\n\n- **规模与成本优化**：系统支撑了 10 倍的数据规模增长，同时通过架构优化和资源调度，将单位成本降低至原来的 1/10。\n- **架构演进**：从最初的简单原型，逐步演进为分布式、高可用的生产级系统，涉及索引构建、查询路由、缓存策略等关键设计。\n- **工程实践**：分享了向量索引选择（如 HNSW）、分片策略、混合搜索（关键词+向量）等具体技术决策，以及如何平衡召回率与延迟。\n\n## 适用场景\n\n- 需要构建大规模向量搜索能力的团队（如 RAG 应用、语义搜索、推荐系统）。\n- 关注生产环境向量数据库选型与成本控制的工程师。\n- 对搜索系统架构演进感兴趣的开发者。\n\n## 总结\n\n这篇文章是 Notion 工程团队的一线经验总结，不仅展示了技术细节，更强调了在真实业务约束下如何权衡性能、成本和可维护性。对于任何计划在生产环境中部署向量搜索的团队，都具有极高的参考价值。",
+  "highlights": [
+    "实现 10 倍规模扩展，成本降低至原来的 1/10",
+    "详细阐述向量搜索架构演进与工程权衡",
+    "提供生产环境向量搜索的实战经验与教训"
+  ],
+  "score_reason": "直接涉及向量搜索在生产环境的规模化实践，与 RAG/向量数据库高度相关，对 AI 工程化有重要参考价值。",
+  "tags": [
+    "vector-db",
+    "rag",
+    "deployment",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-04T18:29:51.589455+08:00",
+  "analyzed_at": "2026-08-04T18:33:47.241531+08:00",
+  "status": "reviewed"
+}

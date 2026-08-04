@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260804-014",
+  "title": "langchain-ai/langchain",
+  "source": "github-trending",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "author": "langchain-ai",
+  "summary": "LangChain 是一个用于构建 AI 代理（Agent）的开源工程平台，提供模块化组件和工具，帮助开发者将大语言模型与外部数据源和工具连接，构建复杂应用。",
+  "content": "## 项目概述\n\nLangChain 是一个开源的 **Agent 工程平台**，旨在简化基于大语言模型（LLM）的应用开发。它通过提供标准化的接口和模块化组件，让开发者能够轻松地将 LLM 与外部数据源、工具和 API 连接，构建出功能强大的 AI 代理和自动化工作流。\n\n## 核心特性\n\n- **模块化抽象**：核心抽象包括 `Chain`（链）、`Agent`（代理）、`Tool`（工具）、`Retriever`（检索器）等，开发者可以像搭积木一样组合这些组件。\n- **丰富的集成**：支持 OpenAI、Anthropic、Google 等主流模型，以及 Pinecone、Chroma 等向量数据库，还有数百种第三方工具集成。\n- **代理能力**：内置多种 Agent 实现（如 ReAct、Plan-and-Execute），支持工具调用、多步骤推理和自主决策。\n- **可扩展性**：提供 LangGraph 用于构建有状态、可细粒度控制的图结构代理，适合复杂生产级应用。\n- **生态工具链**：包含 LangSmith（调试/监控）、LangServe（部署）等配套工具，覆盖开发到上线的全流程。\n\n## 适用场景\n\n- **智能客服与问答系统**：结合 RAG 技术，从企业知识库中检索信息并生成回答。\n- **自动化工作流**：让代理自动调用 API、操作数据库、发送邮件等，完成多步骤任务。\n- **数据分析助手**：通过自然语言查询数据库，生成报表或图表。\n- **代码生成与审查**：利用工具调用能力，辅助编写、测试和审查代码。\n\n## 总结\n\nLangChain 已成为 AI 应用开发的事实标准之一，其强大的抽象能力和庞大的生态系统，使其成为构建下一代智能代理的首选框架。对于任何从事 LLM 应用开发的团队或个人，LangChain 都是值得深入学习和使用的核心工具。",
+  "highlights": [
+    "模块化架构：提供链（Chains）、代理（Agents）、工具（Tools）等抽象，支持灵活组合",
+    "生态丰富：集成数百种模型提供商、向量数据库、工具和 API",
+    "活跃社区：GitHub 星标超 14 万，持续迭代，文档完善"
+  ],
+  "score_reason": "LangChain 是 AI Agent 领域最核心的开源框架之一，直接支撑 LLM 应用开发，与 agent、framework、tool-use 等标签高度相关，是必读项目。",
+  "tags": [
+    "agent",
+    "framework",
+    "tool-use",
+    "llm",
+    "open-source"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-04T18:29:47.461760+08:00",
+  "analyzed_at": "2026-08-04T18:32:40.135653+08:00",
+  "status": "reviewed"
+}

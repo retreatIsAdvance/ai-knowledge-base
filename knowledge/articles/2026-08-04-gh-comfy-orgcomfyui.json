@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260804-017",
+  "title": "Comfy-Org/ComfyUI",
+  "source": "github-trending",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "author": "Comfy-Org",
+  "summary": "ComfyUI 是一个功能强大且模块化的开源扩散模型图形界面，通过节点式工作流实现高度灵活的图像生成与定制。",
+  "content": "## 项目概述\n\nComfyUI 是一个开源的、模块化的扩散模型图形用户界面（GUI），旨在为用户提供最强大且灵活的图像生成体验。它通过节点式工作流（Node-based workflow）让用户能够以可视化的方式构建和定制复杂的图像生成流程，支持从基础文生图到高级的图像编辑、修复等任务。\n\n## 核心特性\n\n- **节点式工作流**：用户可以通过拖拽节点并连接来构建自定义的生成流程，实现高度灵活性和可重复性。\n- **模型支持**：支持多种扩散模型，包括 Stable Diffusion 系列及其变体，并允许加载自定义模型。\n- **性能优化**：针对 GPU 进行了优化，支持批量处理、队列管理，以及高效的显存使用。\n- **扩展生态**：拥有丰富的自定义节点和插件，社区贡献了大量扩展功能，如 ControlNet、LoRA 等。\n- **跨平台**：可在 Windows、macOS 和 Linux 上运行，并提供 Web 界面，方便远程访问。\n\n## 适用场景\n\n- **AI 艺术创作**：艺术家和设计师可以利用 ComfyUI 生成高质量图像，并通过精细控制实现创意表达。\n- **研究与实验**：研究人员可以快速测试不同的模型和参数，验证新算法或工作流。\n- **自动化生产**：通过 API 和命令行接口，ComfyUI 可以集成到自动化流水线中，用于批量生成内容。\n\n## 总结\n\nComfyUI 凭借其强大的模块化设计和活跃的社区，已成为扩散模型图像生成领域的重要工具。对于追求高度定制化和专业级图像生成的用户来说，它是一个不可多得的开源解决方案。",
+  "highlights": [
+    "节点式模块化设计，支持复杂工作流构建",
+    "支持多种扩散模型（如 Stable Diffusion）",
+    "活跃的开源社区，持续更新与扩展"
+  ],
+  "score_reason": "ComfyUI 是 AI 图像生成领域的重要工具，与扩散模型和生成式 AI 高度相关，但非 LLM/Agent 核心方向，故评分 7。",
+  "tags": [
+    "framework",
+    "open-source",
+    "multimodal",
+    "deployment"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-04T18:29:47.461760+08:00",
+  "analyzed_at": "2026-08-04T18:32:55.285762+08:00",
+  "status": "reviewed"
+}
