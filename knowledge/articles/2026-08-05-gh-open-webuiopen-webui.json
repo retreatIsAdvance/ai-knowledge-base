@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260805-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "open-webui 是一个用户友好的开源 AI 交互界面，支持 Ollama 和 OpenAI API，提供丰富的聊天、RAG、多用户管理等特性，旨在成为功能全面的本地 AI 助手平台。",
+  "content": "## 项目概述\n\n**open-webui** 是一个开源的、用户友好的 AI 交互界面（Web UI），目前是 GitHub 上的热门项目（147k+ 星标）。它最初是作为 Ollama 的本地 Web 客户端而设计，现已扩展为支持多种 OpenAI 兼容 API 的通用前端。项目核心目标是让用户能够通过一个美观、功能丰富的 Web 界面，轻松地与本地或云端的大语言模型进行交互。\n\n## 核心特性\n\n- **多后端支持**：无缝对接 **Ollama**（本地模型）和 **OpenAI API**（云端模型），并兼容任何 OpenAI 格式的第三方服务。\n- **内置 RAG 管道**：支持上传文档（PDF、TXT、Markdown 等），自动进行向量化与检索，实现基于文档的问答，无需额外配置向量数据库。\n- **多用户与权限管理**：内置用户注册、登录、管理员角色，支持团队协作和 API 密钥管理。\n- **丰富的聊天功能**：支持多轮对话、流式输出、Markdown 渲染、代码高亮、提示词模板、模型参数调节（温度、Top-P 等）。\n- **响应式 UI**：基于 Svelte 构建，界面现代、响应式，支持桌面和移动端。\n- **扩展性**：提供 Python 后端 API，支持自定义工具和管道（Pipeline），可集成到现有工作流。\n\n## 适用场景\n\n- **个人本地 AI 助手**：通过 Ollama 运行本地模型，完全离线使用，保护隐私。\n- **团队知识库问答**：利用 RAG 功能，将内部文档作为知识源，供团队成员查询。\n- **模型测试与评估**：作为统一前端，快速切换不同模型进行对比测试。\n- **轻量级 AI 应用部署**：为不具备前端开发能力的团队提供开箱即用的交互界面。\n\n## 技术架构\n\n- **前端**：SvelteKit（TypeScript）\n- **后端**：Python（FastAPI）\n- **数据库**：SQLite（默认），支持 PostgreSQL 等\n- **向量存储**：内置 ChromaDB 或可配置外部向量库\n\n## 总结\n\nopen-webui 是当前 AI 开源生态中非常成功的“最后一公里”工具，它降低了 LLM 应用的门槛，将模型推理、检索增强和用户管理整合到一个简洁的界面中。对于希望快速搭建 AI 助手或知识库系统的开发者，这是一个极具性价比的选择。",
+  "highlights": [
+    "支持 Ollama 和 OpenAI 双后端，无缝切换本地与云端模型",
+    "内置 RAG 管道，支持文档问答与知识库构建",
+    "提供多用户管理、权限控制和响应式 Web UI，适合团队部署"
+  ],
+  "score_reason": "该项目是 AI 应用层的热门开源框架，直接服务于 LLM 交互与部署，虽非模型或算法创新，但对 AI 工程化落地有高价值，值得关注。",
+  "tags": [
+    "framework",
+    "rag",
+    "deployment",
+    "open-source",
+    "llm"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-05T18:28:37.506705+08:00",
+  "analyzed_at": "2026-08-05T18:30:07.878657+08:00",
+  "status": "reviewed"
+}

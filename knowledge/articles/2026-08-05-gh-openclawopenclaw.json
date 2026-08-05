@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260805-001",
+  "title": "openclaw/openclaw",
+  "source": "github-trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "author": "openclaw",
+  "summary": "openclaw 是一个开源的个人 AI 助手项目，强调跨平台兼容性，可在任何操作系统和平台上运行，提供高度可定制的智能助理体验。",
+  "content": "## 项目概述\n\n**openclaw** 是一个开源的个人 AI 助手项目，其核心定位是“Your own personal AI assistant”。项目最突出的特点是**跨平台能力**，宣称支持“Any OS. Any Platform.”，旨在打破操作系统和硬件平台的限制，让用户在任何设备上都能获得一致的 AI 助手体验。\n\n## 核心特性\n\n- **全平台兼容**：从桌面到移动端，从主流操作系统到嵌入式环境，openclaw 致力于实现真正的跨平台运行。\n- **个人化定制**：作为个人助手，用户可以根据自身需求配置功能、接入不同的 LLM 后端，或扩展自定义技能。\n- **开源驱动**：项目采用开源许可，鼓励社区贡献，加速功能迭代和生态建设。\n\n## 适用场景\n\n- **多设备用户**：需要在手机、电脑、平板等不同设备间无缝切换使用 AI 助手的个人用户。\n- **开发者与极客**：希望深度定制 AI 助手行为、集成到自有工作流或进行二次开发的技术人员。\n- **企业轻量部署**：在特定硬件或私有化环境中快速部署一个可交互的 AI 助手入口。\n\n## 技术分析\n\n从技术栈推测，openclaw 可能采用跨平台框架（如 Flutter、React Native 或 Electron）构建 UI，底层通过 API 网关连接各类 LLM（如 GPT、Claude 或本地模型）。其核心价值在于**抽象层设计**，将不同平台的差异封装，提供统一的交互接口。\n\n## 总结\n\nopenclaw 凭借其“Any OS. Any Platform.”的宏大愿景和开源模式，在 GitHub 上获得了极高热度（385k）。虽然目前尚未披露详细技术文档，但其定位清晰，有望成为个人 AI 助手领域的重要开源力量。对于关注 AI 应用落地和跨平台部署的开发者，这是一个值得跟踪的项目。",
+  "highlights": [
+    "跨平台支持：宣称可在任何操作系统和任何平台上运行，打破设备限制",
+    "个人化定制：作为个人 AI 助手，强调用户可深度定制和扩展",
+    "开源生态：基于开源模式，社区可参与开发与改进"
+  ],
+  "score_reason": "该项目属于 AI 助手应用层，直接涉及 LLM 的部署与交互，虽非底层模型创新，但高度相关且热度极高，值得关注。",
+  "tags": [
+    "llm",
+    "agent",
+    "framework",
+    "open-source",
+    "deployment"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-05T18:28:37.506705+08:00",
+  "analyzed_at": "2026-08-05T18:28:51.133668+08:00",
+  "status": "reviewed"
+}

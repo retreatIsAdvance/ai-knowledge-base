@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260805-010",
+  "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+  "source": "hackernews",
+  "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+  "author": "N/A",
+  "summary": "一篇2021年的论文，介绍基于概率的新型计算机Scrabble引擎，达到冠军级水平，展示了在特定游戏AI领域的创新方法。",
+  "content": "## 项目概述\n\n本文介绍了一种新型计算机Scrabble引擎，其核心创新在于基于概率的决策方法，而非传统依赖启发式搜索或穷举的算法。该引擎在比赛中达到冠军级水平，证明了概率模型在复杂决策问题中的有效性。\n\n## 核心特性\n\n- **概率决策**：利用概率评估每一步棋的潜在收益，平衡短期得分与长期局势。\n- **高效搜索**：结合概率剪枝，减少搜索空间，提升计算效率。\n- **冠军级表现**：在标准Scrabble规则下，与顶级人类玩家和现有引擎对弈，胜率显著。\n\n## 适用场景\n\n- 游戏AI开发，特别是需要策略权衡的棋盘游戏。\n- 概率决策模型在资源受限环境下的应用研究。\n- 作为教学案例，展示概率方法在AI中的应用。\n\n## 技术分析\n\n该引擎的架构包括词库管理、棋盘状态评估、概率模型和搜索算法。其创新点在于将概率分布引入评估函数，动态调整策略。与传统的GADDAG或Maven引擎相比，该方法在计算复杂度和决策质量上取得了平衡。\n\n## 总结\n\n虽然该论文不直接涉及LLM或Agent，但其概率决策思想对AI领域有参考价值，尤其适合对游戏AI或概率推理感兴趣的读者。",
+  "highlights": [
+    "基于概率的决策模型，而非传统启发式搜索",
+    "达到冠军级比赛水平，验证了方法的有效性",
+    "为游戏AI提供了新思路，可借鉴到其他领域"
+  ],
+  "score_reason": "与AI相关，但聚焦于特定游戏（Scrabble），非LLM/Agent主流方向，属于弱相关但有一定启发性的技术内容。",
+  "tags": [
+    "framework",
+    "paper",
+    "evaluation"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-05T18:28:42.076114+08:00",
+  "analyzed_at": "2026-08-05T18:31:44.529669+08:00",
+  "status": "reviewed"
+}

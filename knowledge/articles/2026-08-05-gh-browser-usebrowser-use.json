@@ -1,0 +1,27 @@
+{
+  "id": "github-trending-20260805-019",
+  "title": "browser-use/browser-use",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "summary": "browser-use 是一个开源项目，旨在让 AI 代理能够访问和操作网站，通过自然语言自动化浏览器任务，如填写表单、点击按钮和提取信息。",
+  "content": "## 项目概述\n\nbrowser-use 是一个开源 Python 库，核心目标是 **让 AI 代理（Agent）能够像人类一样使用浏览器**。它通过将 LLM（大语言模型）与浏览器自动化工具（如 Playwright）结合，使 AI 能够根据自然语言指令自主完成网页操作任务。\n\n## 核心特性\n\n- **自然语言驱动**：用户只需用自然语言描述任务（如“帮我搜索并预订机票”），AI 代理即可自动分解步骤并执行。\n- **浏览器自动化**：基于 Playwright 实现，支持点击、输入、滚动、导航等常见浏览器操作。\n- **多模型兼容**：支持 OpenAI、Anthropic、Google 等多种主流 LLM，用户可自由选择。\n- **可扩展性**：提供清晰的 API 和回调机制，方便开发者自定义行为或集成到现有工作流。\n- **可视化调试**：支持实时查看代理的操作轨迹，便于调试和优化。\n\n## 适用场景\n\n- **网页自动化测试**：替代传统脚本，用自然语言编写测试用例。\n- **数据采集**：自动从动态网页中提取结构化数据。\n- **RPA（机器人流程自动化）**：处理需要登录、交互的复杂业务流程。\n- **AI 助手集成**：为聊天机器人或智能助手提供网页操作能力。\n\n## 技术架构\n\n项目主要分为三个层次：\n1. **LLM 层**：负责理解用户意图并生成操作指令。\n2. **控制层**：将指令转换为具体的浏览器动作序列。\n3. **执行层**：通过 Playwright 驱动真实浏览器执行动作。\n\n## 快速上手\n\n```python\nfrom browser_use import Agent\nimport asyncio\n\nasync def main():\n    agent = Agent(\n        task=\"在 GitHub 上搜索 browser-use 仓库并获取 star 数\",\n        llm=YourLLM()  # 替换为你的 LLM 实例\n    )\n    result = await agent.run()\n    print(result)\n\nasyncio.run(main())\n```\n\n## 总结\n\nbrowser-use 是当前 AI Agent 领域一个非常实用的开源项目，它降低了网页自动化的门槛，将 LLM 的能力延伸到真实世界交互中。对于想要构建智能代理或自动化工具的开发者和研究者来说，这是一个值得深入研究和使用的项目。",
+  "highlights": [
+    "让 AI 代理直接操作浏览器，实现网页自动化任务",
+    "支持自然语言指令，无需编写复杂脚本",
+    "开源项目，热度高，社区活跃",
+    "可集成多种 AI 模型，灵活性强"
+  ],
+  "score_reason": "该项目直接关联 AI 代理（Agent）与工具使用（Tool-use），是 LLM 落地应用的重要方向，且热度极高，值得关注。",
+  "tags": [
+    "agent",
+    "tool-use",
+    "framework",
+    "open-source",
+    "llm"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-05T18:28:37.506705+08:00",
+  "analyzed_at": "2026-08-05T18:30:42.434897+08:00",
+  "status": "reviewed"
+}

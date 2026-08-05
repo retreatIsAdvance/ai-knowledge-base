@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260805-005",
+  "title": "You Could Have Come Up With Kimi Delta Attention",
+  "source": "hackernews",
+  "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+  "author": "N/A",
+  "summary": "文章从第一性原理推导Kimi的Delta Attention机制，展示如何从标准注意力出发，通过数学变换得到线性注意力变体，降低KV缓存开销。",
+  "content": "## 项目概述\n\n本文是一篇技术博客，作者以教学视角，从标准注意力机制出发，逐步推导出Kimi（月之暗面）提出的Delta Attention机制。文章强调，这一创新并非遥不可及，而是可以通过逻辑推理和数学变换自然得出。\n\n## 核心特性\n\n- **推导过程清晰**：从softmax注意力公式开始，通过引入delta函数和线性化技巧，展示如何将标准注意力转化为Delta Attention。\n- **理论联系**：将Delta Attention与线性注意力、状态空间模型（如Mamba）进行对比，揭示其本质是线性注意力的一种变体。\n- **工程价值**：Delta Attention通过维护一个增量状态，显著减少KV缓存大小，降低推理内存占用，适合长上下文场景。\n\n## 适用场景\n\n- 对LLM架构设计感兴趣的开发者或研究者\n- 需要优化长文本推理性能的工程师\n- 希望理解前沿注意力机制的教学场景\n\n## 总结\n\n文章以“你能想到”为切入点，降低了理解门槛，适合作为学习注意力机制演进的入门材料。虽然未提供代码实现，但推导过程严谨，对理解Kimi的Delta Attention有直接帮助。",
+  "highlights": [
+    "从标准注意力公式逐步推导Delta Attention，强调可理解性",
+    "揭示Delta Attention与线性注意力、状态空间模型的联系",
+    "提供降低KV缓存开销的实用思路，适合工程实践"
+  ],
+  "score_reason": "直接涉及LLM注意力机制改进，属于AI技术深度内容，对理解前沿模型有较高价值，但非突破性创新，故评8分。",
+  "tags": [
+    "llm",
+    "transformer",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-05T18:28:42.076114+08:00",
+  "analyzed_at": "2026-08-05T18:31:16.611653+08:00",
+  "status": "reviewed"
+}
