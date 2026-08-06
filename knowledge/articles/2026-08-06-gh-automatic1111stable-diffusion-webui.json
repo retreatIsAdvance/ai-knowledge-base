@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260806-008",
+  "title": "AUTOMATIC1111/stable-diffusion-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "author": "AUTOMATIC1111",
+  "summary": "stable-diffusion-webui 是 AUTOMATIC1111 开发的开源 Stable Diffusion Web 界面，提供丰富的图像生成、编辑和扩展功能，是社区最流行的 SD 工具之一。",
+  "content": "## 项目概述\n\n**stable-diffusion-webui** 是由 AUTOMATIC1111 维护的 Stable Diffusion 官方 Web 界面，是目前最流行的 Stable Diffusion 图形化操作工具。它基于 Gradio 构建，提供浏览器访问的交互界面，支持从文本生成图像、图像编辑、超分辨率放大等多种功能。\n\n## 核心特性\n\n- **多模式生成**：支持 txt2img（文生图）、img2img（图生图）、inpainting（局部修复）、outpainting（外扩）等。\n- **模型兼容性**：支持 Stable Diffusion 1.x/2.x、SDXL、以及多种社区微调模型（如 LoRA、Checkpoint）。\n- **扩展系统**：内置扩展管理器，可安装 ControlNet、LoRA 训练、动画生成等第三方插件。\n- **高级参数控制**：提供采样器选择、CFG Scale、种子控制、批量生成等专业参数。\n- **脚本支持**：允许用户编写 Python 脚本实现自定义工作流。\n\n## 适用场景\n\n- **AI 绘画爱好者**：无需编写代码即可体验 Stable Diffusion 的完整功能。\n- **设计师与创作者**：快速生成概念图、插画、素材，辅助创意工作。\n- **开发者与研究者**：作为实验平台，测试不同模型和参数对生成效果的影响。\n\n## 技术要点\n\n- 基于 **Gradio** 构建 Web UI，支持本地部署和远程访问。\n- 依赖 PyTorch 和 Transformers 库，支持 GPU 加速。\n- 提供命令行启动参数，可配置端口、模型路径、显存优化等。\n\n## 总结\n\n作为开源社区最活跃的 Stable Diffusion 前端之一，该项目极大降低了 AI 图像生成的使用门槛，其扩展生态和社区支持使其成为该领域的重要基础设施。",
+  "highlights": [
+    "功能全面的 Web UI，支持文生图、图生图、修复、放大等",
+    "丰富的扩展生态和脚本支持，可高度自定义",
+    "活跃的社区和持续更新，兼容多种模型和插件"
+  ],
+  "score_reason": "该项目是 AI 图像生成领域的知名开源工具，与 LLM/Agent 无直接关联，但属于生成式 AI 生态的重要组成部分，有一定参考价值。",
+  "tags": [
+    "open-source",
+    "framework",
+    "deployment",
+    "multimodal"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-06T18:32:10.184907+08:00",
+  "analyzed_at": "2026-08-06T18:33:12.547419+08:00",
+  "status": "reviewed"
+}

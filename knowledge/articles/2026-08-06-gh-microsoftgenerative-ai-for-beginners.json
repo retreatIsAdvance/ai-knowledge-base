@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260806-018",
+  "title": "microsoft/generative-ai-for-beginners",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "author": "microsoft",
+  "summary": "微软出品的生成式AI入门课程，包含21个课时，涵盖从基础概念到实际构建生成式AI应用的全流程，适合初学者快速上手。",
+  "content": "## 项目概述\n\n**microsoft/generative-ai-for-beginners** 是微软推出的免费开源课程，旨在帮助初学者快速入门生成式AI。课程包含21个课时，从基础概念（如提示工程、大语言模型原理）到实际应用（如构建聊天应用、RAG系统），循序渐进，适合零基础开发者。\n\n## 核心特性\n\n- **系统化课程结构**：21个课时，每个课时包含理论讲解、代码示例和作业，覆盖生成式AI的完整知识体系。\n- **实战导向**：提供大量Jupyter Notebook和Python代码，学员可动手实践，加深理解。\n- **官方维护**：由微软Azure云AI团队维护，内容质量高，且持续更新以反映最新技术。\n- **多语言支持**：课程内容提供多种语言版本（包括中文），降低学习门槛。\n\n## 适用场景\n\n- **初学者入门**：对生成式AI感兴趣但缺乏基础的学生或开发者。\n- **企业培训**：作为团队内部AI技能提升的参考教材。\n- **教学辅助**：高校或培训机构可作为课程设计蓝本。\n\n## 总结\n\n该课程是学习生成式AI的优质资源，尤其适合希望快速上手构建AI应用的开发者。虽然深度有限，但覆盖面广，是入门和教学的不错选择。",
+  "highlights": [
+    "21个系统化课程，覆盖生成式AI核心概念与实战",
+    "提供丰富的代码示例和Jupyter Notebook实践",
+    "由微软官方维护，内容权威且持续更新"
+  ],
+  "score_reason": "作为微软官方教程，系统讲解生成式AI基础与开发实践，对初学者和开发者有较高参考价值，但非前沿研究或深度技术，故评8分。",
+  "tags": [
+    "tutorial",
+    "llm",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-06T18:32:10.184907+08:00",
+  "analyzed_at": "2026-08-06T18:34:16.511222+08:00",
+  "status": "reviewed"
+}
