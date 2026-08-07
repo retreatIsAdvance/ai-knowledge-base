@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260807-019",
+  "title": "browser-use/browser-use",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "summary": "browser-use 是一个开源项目，旨在让 AI 代理能够像人类一样操作浏览器，通过自然语言指令自动完成网页任务，如填写表单、点击按钮和提取信息。",
+  "content": "## 项目概述\n\nbrowser-use 是一个开源 Python 库，核心目标是 **让 AI 代理能够像人类一样使用浏览器**。它通过将自然语言指令转换为浏览器操作（如点击、输入、导航），使 AI 能够自动化完成复杂的网页任务，例如自动填写表单、抓取数据、执行测试等。该项目在 GitHub 上拥有超过 10 万 Star，是当前 AI Agent 生态中备受关注的基础设施工具。\n\n## 核心特性\n\n- **自然语言驱动**：用户只需用自然语言描述任务，browser-use 会调用 LLM 解析意图并生成操作序列。\n- **多模态支持**：支持 GPT-4V 等多模态模型，模型可以“看到”网页截图，从而更准确地理解页面布局和元素。\n- **智能元素定位**：通过 DOM 解析和视觉模型结合，自动识别可交互元素，避免依赖脆弱的 CSS 选择器。\n- **可扩展与可定制**：允许自定义浏览器实例（如使用 Playwright 或 Selenium），并支持远程调试和自定义提示词。\n- **错误恢复**：内置重试和错误处理机制，当操作失败时能自动调整策略。\n\n## 适用场景\n\n- **网页自动化测试**：替代传统脚本，用自然语言编写测试用例。\n- **数据采集**：从动态网页中提取结构化数据，无需编写复杂爬虫。\n- **AI 助手集成**：为聊天机器人或 Agent 提供网页操作能力，实现“上网办事”。\n- **RPA 替代方案**：在需要灵活处理页面变化的场景中，比传统 RPA 更智能。\n\n## 技术架构\n\n项目基于 Playwright 构建，提供异步和同步 API。核心流程为：用户输入任务 → LLM 生成操作计划 → 浏览器执行操作 → 观察结果 → 循环直到任务完成。它支持多种 LLM 后端（OpenAI、Anthropic 等），并允许自定义提示词模板。\n\n## 快速上手示例\n\n```python\nfrom browser_use import Agent\nimport asyncio\n\nasync def main():\n    agent = Agent(\n        task=\"在 GitHub 上搜索 browser-use 并打开第一个结果\",\n        llm=...  # 配置你的 LLM\n    )\n    await agent.run()\n\nasyncio.run(main())\n```\n\n## 总结\n\nbrowser-use 是 AI Agent 从“对话”走向“行动”的关键桥梁。它降低了让 AI 操作网页的门槛，对于构建自动化工具、智能助手和测试框架具有重要价值。虽然目前仍存在对复杂页面处理不稳定的情况，但其设计理念和社区活跃度使其成为该领域的标杆项目。",
+  "highlights": [
+    "提供简洁的 Python API，几行代码即可让 AI 代理控制浏览器",
+    "支持多模态模型（如 GPT-4V），可理解网页截图并执行操作",
+    "内置 DOM 提取和元素定位功能，提高操作准确性和稳定性",
+    "活跃的社区和持续更新，已获得超过 10 万 GitHub Star",
+    "支持自定义浏览器配置和远程调试，便于集成到现有工作流"
+  ],
+  "score_reason": "该项目直接实现 AI 代理与网页交互，属于 Agent 工具使用（tool-use）和自动化领域的核心应用，与 AI 技术高度相关且热度极高。",
+  "tags": [
+    "agent",
+    "tool-use",
+    "framework",
+    "open-source",
+    "multimodal"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-07T16:49:31.275076+08:00",
+  "analyzed_at": "2026-08-07T16:51:31.054058+08:00",
+  "status": "reviewed"
+}

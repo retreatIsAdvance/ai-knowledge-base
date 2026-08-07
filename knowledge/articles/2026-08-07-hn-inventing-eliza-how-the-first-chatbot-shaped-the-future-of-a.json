@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260807-011",
+  "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+  "source": "hackernews",
+  "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+  "author": "N/A",
+  "summary": "《Inventing ELIZA》一书深入探讨了首个聊天机器人ELIZA的诞生及其对AI发展的深远影响，开放获取，附有配套网站和播客访谈。",
+  "content": "## 项目概述\n\n《Inventing ELIZA》是由MIT Press出版的开放获取书籍，由Jeff Shrager撰写，详细记录了1966年Joseph Weizenbaum创造的第一个聊天机器人ELIZA的发明过程、设计思想及其对人工智能领域的深远影响。该书不仅提供了历史背景，还分析了ELIZA的技术实现和哲学意义。\n\n## 核心特性\n\n- **开放获取**：全书PDF免费下载，便于广泛传播和学习。\n- **历史深度**：基于一手资料和访谈，还原ELIZA的诞生细节。\n- **配套资源**：提供findingeliza.org网站，包含交互式ELIZA演示和更多资料。\n- **跨学科视角**：涉及计算机科学、心理学和哲学，探讨人机交互的本质。\n\n## 适用场景\n\n- **AI历史研究**：适合对AI发展史感兴趣的研究者和学生。\n- **聊天机器人设计**：为现代对话系统设计提供历史参考和启发。\n- **技术传播**：作为科普读物，帮助大众理解AI的起源和演变。\n\n## 总结\n\n该书不仅是技术史的重要文献，也引发对AI伦理和人类认知的思考，是连接过去与未来的桥梁。",
+  "highlights": [
+    "开放获取，提供PDF免费下载",
+    "详细讲述ELIZA的发明历程与设计哲学",
+    "配套网站findingeliza.org及CoRecursive播客访谈",
+    "探讨ELIZA对现代AI和聊天机器人的影响"
+  ],
+  "score_reason": "该书聚焦AI历史与聊天机器人起源，对理解AI发展脉络有重要价值，但非当前技术前沿，直接相关性中等偏高。",
+  "tags": [
+    "llm",
+    "open-source",
+    "tutorial"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-07T16:49:35.227669+08:00",
+  "analyzed_at": "2026-08-07T16:52:33.068324+08:00",
+  "status": "reviewed"
+}

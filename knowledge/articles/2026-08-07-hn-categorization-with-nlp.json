@@ -1,0 +1,22 @@
+{
+  "id": "hackernews-20260807-001",
+  "title": "Categorization with NLP",
+  "source": "hackernews",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+  "author": "N/A",
+  "summary": "文章探讨了使用NLP技术进行文本分类的方法，涵盖传统机器学习与深度学习方案，并提供了实践建议。",
+  "content": "## 项目概述\n本文是软件工程师 Ivan Sagalaev 撰写的一篇技术博客，讨论了如何利用自然语言处理（NLP）技术对文本进行分类。文章基于作者的实际经验，从实用角度出发，介绍了从传统统计方法到现代深度学习模型的多种分类技术，并给出了选型建议。\n\n## 核心特性\n- **技术对比**：详细比较了 TF-IDF + 线性模型、词嵌入（如 Word2Vec）和 Transformer 模型（如 BERT）在文本分类任务中的优缺点。\n- **实践导向**：强调数据预处理、标签设计、评估指标等实际工程问题，而非纯理论。\n- **选型建议**：根据任务复杂度、数据规模和资源限制，提供了分阶段的实施路线图。\n\n## 适用场景\n- 需要快速实现文本分类的开发者（如垃圾邮件过滤、新闻分类、意图识别）。\n- 希望了解 NLP 分类技术全貌的技术决策者。\n- 对传统 ML 与深度学习在 NLP 中应用差异感兴趣的读者。\n\n## 简要评价\n文章内容实用，但深度有限，未涉及最新的 LLM 或 Agent 技术，适合入门或中级读者。",
+  "highlights": [
+    "对比了TF-IDF、词嵌入与Transformer模型在分类任务中的表现",
+    "强调了数据质量与标签设计对分类效果的关键影响",
+    "提供了从简单到复杂的分类技术选型路线图"
+  ],
+  "score_reason": "文章涉及NLP分类技术，与AI相关，但未聚焦LLM或Agent，属于基础应用，关联度中等。",
+  "tags": [
+    "tutorial"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-07T16:49:35.227669+08:00",
+  "analyzed_at": "2026-08-07T16:51:41.025878+08:00",
+  "status": "reviewed"
+}

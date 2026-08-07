@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260807-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "open-webui 是一个用户友好的开源 AI 交互界面，支持 Ollama 和 OpenAI API，提供聊天、RAG、多用户管理等丰富功能，是自托管 AI 应用的理想前端。",
+  "content": "## 项目概述\n\nopen-webui 是一个功能丰富、用户友好的自托管 AI 交互界面，旨在为 Ollama、OpenAI 等大语言模型提供开箱即用的 Web UI。它支持多用户、权限管理、RAG 文档问答、模型管理、语音交互等特性，是目前 GitHub 上最热门的 LLM 前端项目之一（热度 148k+）。\n\n## 核心特性\n\n- **多后端支持**：原生支持 Ollama 和 OpenAI 兼容 API，可灵活切换或同时使用多个模型服务。\n- **RAG 管道**：内置文档加载、分块、向量化与检索流程，支持上传 PDF、TXT、Markdown 等文件进行知识库问答。\n- **多用户与权限**：提供用户注册/登录、管理员角色、群组权限控制，适合团队或企业部署。\n- **响应式 UI**：桌面和移动端均适配，支持暗色/亮色主题，交互流畅。\n- **高级功能**：支持语音输入（Web Speech API）、代码执行（Python/JS）、模型参数调节、对话历史管理、模型间对比等。\n- **易部署**：提供 Docker 一键部署，支持 CPU/GPU 环境，也支持离线安装。\n\n## 适用场景\n\n- **个人/团队自托管 AI 助手**：替代 ChatGPT 网页版，数据完全本地化。\n- **企业知识库问答**：结合 RAG 功能，构建内部文档检索与问答系统。\n- **AI 应用原型开发**：作为前端界面，快速验证模型效果和交互设计。\n- **教育与研究**：用于演示 LLM 能力、测试不同模型或提示词策略。\n\n## 技术栈与架构\n\n- 前端：SvelteKit（现代响应式框架）\n- 后端：Python (FastAPI)\n- 数据库：SQLite（默认），支持 PostgreSQL\n- 向量存储：ChromaDB（内置），可扩展至其他向量数据库\n\n## 总结\n\nopen-webui 是一个成熟、活跃的开源项目，将 LLM 交互、RAG、多用户管理等复杂功能封装成易用的 Web 应用，极大降低了自托管 AI 的门槛。对于需要私有化部署 AI 助手或构建知识库应用的开发者，这是一个值得优先考虑的选择。",
+  "highlights": [
+    "支持 Ollama 和 OpenAI 等多种后端，无缝切换",
+    "内置 RAG 管道，支持文档问答和知识库",
+    "提供多用户管理、权限控制和响应式界面",
+    "支持语音输入、代码执行、模型管理等功能",
+    "活跃社区驱动，持续更新，安装部署简单"
+  ],
+  "score_reason": "作为 LLM 应用层的开源前端框架，直接服务于 AI 部署与交互，与 agent、rag 等方向高度相关，但非核心算法突破，故评 8 分。",
+  "tags": [
+    "framework",
+    "rag",
+    "deployment",
+    "open-source",
+    "llm"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-07T16:49:31.275076+08:00",
+  "analyzed_at": "2026-08-07T16:50:56.277139+08:00",
+  "status": "reviewed"
+}

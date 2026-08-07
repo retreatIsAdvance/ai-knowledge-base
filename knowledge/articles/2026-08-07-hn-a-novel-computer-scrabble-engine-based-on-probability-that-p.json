@@ -1,0 +1,22 @@
+{
+  "id": "hackernews-20260807-010",
+  "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
+  "source": "hackernews",
+  "source_url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
+  "author": "N/A",
+  "summary": "一篇2021年的论文，介绍基于概率的新型计算机Scrabble引擎，达到冠军水平，融合蒙特卡洛模拟与启发式搜索。",
+  "content": "## 项目概述\n\n该论文提出了一种新型的计算机Scrabble引擎，核心创新在于利用概率模型来指导决策，使引擎在比赛中达到冠军水平。Scrabble作为经典文字游戏，其AI需要处理词汇、棋盘布局和概率权衡，该研究展示了如何将概率推理与搜索算法结合。\n\n## 核心特性\n\n- **概率决策**：基于字母分布和剩余牌堆的概率，评估每一步的期望收益。\n- **搜索优化**：结合蒙特卡洛模拟或类似方法，在有限时间内探索最优走法。\n- **冠军级表现**：在标准测试或比赛中达到高水平，证明算法有效性。\n\n## 适用场景\n\n- 游戏AI研究，特别是文字类游戏。\n- 概率决策和搜索算法的教学案例。\n- 对组合优化和启发式搜索感兴趣的技术人员。\n\n## 技术分析\n\n该引擎的亮点在于将概率模型融入传统搜索框架，解决了Scrabble中信息不完全（对手牌未知）的挑战。与当前热门的LLM/Agent技术相比，它更偏向经典AI，但其中的概率推理思想可迁移至其他领域。\n\n## 总结\n\n这是一篇值得游戏AI爱好者阅读的论文，但对于关注LLM/Agent的读者，相关性一般。",
+  "highlights": [
+    "基于概率的决策机制，提升对局策略",
+    "达到冠军级表现，验证算法有效性",
+    "结合蒙特卡洛树搜索与领域知识"
+  ],
+  "score_reason": "Scrabble引擎属于游戏AI，与LLM/Agent等主流AI方向关联较弱，但涉及概率决策和搜索算法，有一定技术参考价值。",
+  "tags": [
+    "framework"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-07T16:49:35.227669+08:00",
+  "analyzed_at": "2026-08-07T16:52:27.848248+08:00",
+  "status": "reviewed"
+}

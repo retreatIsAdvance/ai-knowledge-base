@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260807-012",
+  "title": "langgenius/dify",
+  "source": "github-trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "summary": "Dify 是一个开源平台，用于构建 Agentic 工作流和 RAG 管道，支持可视化编排、模型接入和快速部署，热度极高。",
+  "content": "## 项目概述\n\nDify 是一个开源的 LLM 应用开发平台，旨在帮助开发者快速构建生产级的 AI 应用，包括 Agentic 工作流、RAG 管道等。它提供了可视化的编排界面、丰富的模型接入能力以及完整的部署方案，降低了 AI 应用开发的门槛。\n\n## 核心特性\n\n- **可视化工作流编排**：通过拖拽方式构建 Agent 工作流，支持条件分支、循环、工具调用等复杂逻辑。\n- **RAG 管道集成**：内置文档加载、分块、向量化、检索等完整 RAG 流程，支持多种向量数据库。\n- **多模型支持**：兼容 OpenAI、Anthropic、开源模型等多种 LLM，可灵活切换和配置。\n- **企业级部署**：支持 Docker Compose、Kubernetes 等部署方式，提供日志、监控、权限管理等生产级功能。\n- **插件生态**：提供丰富的工具插件，可扩展自定义工具和 API。\n\n## 适用场景\n\n- 快速搭建企业内部知识库问答系统\n- 构建复杂的 Agent 自动化流程（如客服、数据分析助手）\n- 作为 AI 应用开发的基础框架，进行二次开发和定制\n\n## 总结\n\nDify 凭借其易用性、功能完整性和开源生态，已成为 AI 应用开发领域的热门选择，适合从原型验证到生产部署的各个阶段。",
+  "highlights": [
+    "可视化编排 Agent 工作流和 RAG 管道",
+    "支持多种 LLM 模型接入和灵活切换",
+    "提供完整的企业级部署方案和可观测性"
+  ],
+  "score_reason": "Dify 是当前最热门的 AI 应用开发平台之一，直接涉及 Agent 和 RAG 核心概念，与 AI 技术高度相关，且社区活跃、热度高。",
+  "tags": [
+    "agent",
+    "rag",
+    "framework",
+    "open-source",
+    "deployment"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-07T16:49:31.275076+08:00",
+  "analyzed_at": "2026-08-07T16:50:48.943013+08:00",
+  "status": "reviewed"
+}
