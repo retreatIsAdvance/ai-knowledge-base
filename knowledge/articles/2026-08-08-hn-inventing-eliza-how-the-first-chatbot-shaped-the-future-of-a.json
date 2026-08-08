@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260808-012",
+  "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+  "source": "hackernews",
+  "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+  "author": "N/A",
+  "summary": "《发明ELIZA》一书深入探讨了首个聊天机器人ELIZA的诞生过程及其对AI发展的深远影响，开放获取，并配有互动网站。",
+  "content": "## 项目概述\n\n《发明ELIZA》是一本由MIT出版社出版的开放获取书籍，详细记录了ELIZA——世界上第一个聊天机器人——的发明过程及其对人工智能发展的深远影响。该书基于对ELIZA创造者Jeff Shrager的深度采访，并配有互动网站findingeliza.org，提供丰富的补充材料。\n\n## 核心特性\n\n- **历史深度**：深入剖析ELIZA的诞生背景、技术原理及社会反响。\n- **开放获取**：提供免费PDF下载，促进知识传播。\n- **互动体验**：配套网站提供交互式内容，增强读者参与感。\n\n## 适用场景\n\n- 对AI历史感兴趣的开发者、研究者\n- 希望理解聊天机器人演进脉络的AI学习者\n- 关注人机交互设计理念的从业者\n\n## 总结\n\n这本书不仅是技术史的重要文献，也为理解现代LLM对话系统提供了历史视角，值得AI从业者阅读。",
+  "highlights": [
+    "开放获取PDF，免费阅读完整内容",
+    "基于对ELIZA创造者Jeff Shrager的深度采访",
+    "配有互动网站findingeliza.org，增强阅读体验"
+  ],
+  "score_reason": "ELIZA是AI聊天机器人的鼻祖，对理解对话AI历史有重要价值，但内容偏历史回顾，非前沿技术，故评7分。",
+  "tags": [
+    "llm",
+    "open-source"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-08T16:31:35.412658+08:00",
+  "analyzed_at": "2026-08-08T16:34:45.325165+08:00",
+  "status": "reviewed"
+}

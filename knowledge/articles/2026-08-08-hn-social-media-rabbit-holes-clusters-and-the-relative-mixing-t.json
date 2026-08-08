@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260808-001",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "hackernews",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "author": "N/A",
+  "summary": "文章探讨社交媒体中信息茧房与随机游走混合时间的关系，类比高中食堂，分析不同社交网络的结构特性。",
+  "content": "## 项目概述\n本文是一篇技术分析文章，标题为“social media rabbit holes, clusters, and the relative mixing times of random walks”，来源于Hacker News。文章将社交媒体比作高中食堂而非城镇广场，探讨了社交网络中的信息传播、聚类现象以及随机游走的混合时间。\n\n## 核心特性\n- **随机游走混合时间**：文章引入数学概念，分析不同社交网络结构下信息扩散的速度和效率。\n- **聚类与兔子洞**：通过类比，解释用户如何陷入信息茧房，以及网络聚类如何影响信息传播。\n- **跨学科视角**：结合网络科学、社会学和数学，提供对社交媒体动态的新理解。\n\n## 适用场景\n- 对社交网络分析感兴趣的研究者\n- 关注信息传播机制和推荐系统设计的技术人员\n- 希望理解网络结构对用户行为影响的从业者\n\n## 总结\n文章以独特的类比和数学工具，为理解社交媒体信息传播提供了新视角，虽非直接AI技术，但对设计更健康的推荐系统有参考价值。",
+  "highlights": [
+    "用随机游走混合时间量化社交网络的信息扩散效率",
+    "将社交媒体比作高中食堂，而非城镇广场，揭示其聚类特性",
+    "分析兔子洞效应与网络结构的关系，提供新视角"
+  ],
+  "score_reason": "文章涉及网络科学和社交网络分析，与AI技术关联较弱，但可能对理解信息传播和推荐系统有间接启发。",
+  "tags": [
+    "framework",
+    "opinion"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-08T16:31:35.412658+08:00",
+  "analyzed_at": "2026-08-08T16:33:46.600725+08:00",
+  "status": "reviewed"
+}
