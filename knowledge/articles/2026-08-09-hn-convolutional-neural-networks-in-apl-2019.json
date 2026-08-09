@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260809-017",
+  "title": "Convolutional Neural Networks in APL (2019)",
+  "source": "hackernews",
+  "source_url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+  "author": "N/A",
+  "summary": "一篇2019年论文，展示如何在APL语言中实现卷积神经网络，强调APL的数组编程范式与CNN的天然契合。",
+  "content": "## 项目概述\n\n本文是2019年发表于ACM的一篇论文，标题为《Convolutional Neural Networks in APL》。作者展示了如何使用APL（一种以数组为核心的高阶编程语言）来实现卷积神经网络（CNN）。APL以其简洁的数组操作和符号化语法著称，论文探讨了这种语言特性与CNN计算模式（如卷积、池化）的匹配度。\n\n## 核心特性\n\n- **数组原生支持**：APL的数组操作天然适合CNN的张量运算，代码量显著减少。\n- **函数式风格**：利用APL的高阶函数和运算符，实现卷积、反向传播等算法。\n- **教学价值**：通过APL的简洁性，帮助理解CNN的数学本质。\n\n## 适用场景\n\n- 对APL语言感兴趣的开发者，希望了解其在机器学习中的应用。\n- 研究编程语言与深度学习框架结合的技术爱好者。\n- 作为教学案例，展示不同编程范式在AI领域的可能性。\n\n## 局限与关联\n\n该论文不涉及现代LLM或Agent技术，与当前AI热点关联较弱，但可作为编程语言多样性参考。",
+  "highlights": [
+    "用APL的数组操作简洁实现CNN核心组件",
+    "展示APL在机器学习领域的潜力",
+    "提供可运行的代码示例"
+  ],
+  "score_reason": "与AI/LLM领域间接相关，聚焦于特定编程语言实现CNN，非主流AI技术方向，但有一定技术参考价值。",
+  "tags": [
+    "framework",
+    "tutorial",
+    "paper"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-09T16:33:28.952928+08:00",
+  "analyzed_at": "2026-08-09T16:36:58.696084+08:00",
+  "status": "reviewed"
+}

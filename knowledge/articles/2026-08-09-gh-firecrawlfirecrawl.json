@@ -1,0 +1,27 @@
+{
+  "id": "github-trending-20260809-009",
+  "title": "firecrawl/firecrawl",
+  "source": "github-trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "summary": "Firecrawl 是一个开源 API 服务，提供网站搜索、抓取和交互功能，可将任意网站内容转换为干净的 Markdown 或结构化数据，供 AI 应用使用。",
+  "content": "## 项目概述\n\nFirecrawl 是一个开源的网站抓取与数据转换 API 服务。它解决了 AI 应用（尤其是 RAG 和 Agent）在获取网页数据时面临的格式杂乱、动态渲染、反爬等痛点，提供了一套简洁的 API 接口，将网页内容统一转换为干净的 Markdown 或结构化 JSON 数据。\n\n## 核心特性\n\n- **统一 API 接口**：提供 `search`、`scrape`、`crawl` 和 `interact` 等核心端点，覆盖从搜索到数据提取的完整流程。\n- **高质量数据输出**：自动将 HTML 转换为干净的 Markdown，去除导航、广告等噪音，保留核心内容。\n- **动态内容支持**：内置无头浏览器，可渲染 JavaScript 生成的动态页面。\n- **结构化数据提取**：支持通过 schema 定义，从网页中提取特定字段，输出为 JSON。\n- **批量抓取**：支持站点地图（sitemap）和深度优先爬取，方便处理整个网站。\n- **多语言 SDK**：提供 Python、Node.js 等主流语言的 SDK，易于集成。\n\n## 适用场景\n\n- **RAG 数据管道**：作为数据接入层，将网页内容转换为适合向量化的文本。\n- **Agent 工具调用**：为 AI Agent 提供网页访问和内容提取能力。\n- **市场调研与监控**：定期抓取竞品网站或新闻页面，提取关键信息。\n- **知识库构建**：将文档网站、博客等批量转换为结构化知识。\n\n## 技术架构\n\nFirecrawl 采用服务端渲染 + 智能解析的架构。核心组件包括：\n\n1. **抓取引擎**：基于 Playwright 的无头浏览器，处理动态内容。\n2. **内容解析器**：使用启发式算法和机器学习模型识别主内容区域。\n3. **转换管道**：将 HTML 转换为 Markdown 或 JSON，支持自定义 schema。\n4. **API 层**：提供 RESTful 接口和 WebSocket 支持。\n\n## 快速上手\n\n```python\nfrom firecrawl import FirecrawlApp\n\napp = FirecrawlApp(api_key=\"your-api-key\")\n\n# 抓取单个页面\nscrape_result = app.scrape_url('https://example.com')\n\n# 搜索并抓取\nsearch_result = app.search('AI news')\n\n# 批量爬取整个网站\ncrawl_result = app.crawl_url('https://example.com', params={'limit': 100})\n```\n\n## 总结\n\nFirecrawl 是 AI 应用生态中重要的数据基础设施，它降低了获取和处理网页数据的门槛，使得开发者可以更专注于核心 AI 逻辑。对于构建 RAG 系统、AI Agent 或任何需要网页数据的应用，Firecrawl 都是一个值得考虑的开源解决方案。",
+  "highlights": [
+    "提供统一的 API 来搜索、抓取和与网站交互",
+    "能将网页转换为干净的 Markdown 或结构化数据，便于 LLM 处理",
+    "支持站点地图、深度抓取、动态内容渲染等高级功能",
+    "开源项目，热度高（163k+），社区活跃"
+  ],
+  "score_reason": "该项目直接服务于 LLM 应用的数据获取与预处理，是 RAG 和 Agent 工作流中常用的数据接入工具，与 AI 技术栈高度相关。",
+  "tags": [
+    "llm",
+    "rag",
+    "tool-use",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-09T16:33:24.443709+08:00",
+  "analyzed_at": "2026-08-09T16:34:23.011463+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260809-002",
+  "title": "Categorization with NLP",
+  "source": "hackernews",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+  "author": "N/A",
+  "summary": "一篇关于使用NLP进行文本分类的技术文章，探讨了从传统方法到现代LLM的分类技术演进。",
+  "content": "## 项目概述\n\n本文是软件开发者 Ivan Sagalaev 撰写的一篇技术博客，标题为“Categorization with NLP”，发布于2026年7月30日。文章聚焦于使用自然语言处理（NLP）技术进行文本分类（categorization），探讨了从传统机器学习方法到现代大语言模型（LLM）的演进。\n\n## 核心特性\n\n- **方法对比**：文章对比了传统NLP分类方法（如TF-IDF、朴素贝叶斯、SVM）与现代基于LLM的分类方法（如零样本分类、微调）。\n- **实践导向**：提供了具体的代码示例和实现思路，帮助读者理解如何在实际项目中应用这些技术。\n- **挑战讨论**：分析了分类任务中常见的挑战，如数据不平衡、类别模糊、计算成本等，并给出了应对建议。\n\n## 适用场景\n\n- 开发者希望为产品添加文本分类功能（如邮件分类、新闻分类、客服工单分类）。\n- 对NLP技术演进感兴趣，想了解传统方法与LLM方法的优劣。\n- 需要快速上手文本分类的入门教程。\n\n## 总结\n\n文章是一篇实用的技术教程，适合有一定编程基础但对NLP分类不熟悉的读者。它提供了清晰的对比和实操指导，但未涉及前沿研究或突破性技术，因此相关性中等。",
+  "highlights": [
+    "对比传统NLP分类方法与现代LLM分类方法",
+    "提供实际分类任务的实现思路与代码示例",
+    "讨论分类任务中的挑战与最佳实践"
+  ],
+  "score_reason": "文章主题为NLP分类，与AI/LLM相关但非突破性内容，属于技术教程类，适合关注NLP应用的读者。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "tutorial"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-09T16:33:28.952928+08:00",
+  "analyzed_at": "2026-08-09T16:35:36.852065+08:00",
+  "status": "reviewed"
+}

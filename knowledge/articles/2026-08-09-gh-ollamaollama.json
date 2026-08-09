@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260809-007",
+  "title": "ollama/ollama",
+  "source": "github-trending",
+  "source_url": "https://github.com/ollama/ollama",
+  "author": "ollama",
+  "summary": "ollama 是一个开源项目，支持快速运行 Kimi-K2、GLM-5.2、MiniMax、DeepSeek 等大模型，提供本地化部署和推理能力。",
+  "content": "## 项目概述\n\n**ollama/ollama** 是一个开源的大模型本地运行工具，旨在让用户通过简单的命令行即可快速启动和运行多种主流大语言模型（如 Kimi-K2、GLM-5.2、MiniMax、DeepSeek 等）。它简化了模型下载、依赖管理和推理服务的配置流程，支持 macOS、Linux 和 Windows 平台。\n\n## 核心特性\n\n- **一键运行**：通过 `ollama run <model>` 即可拉取并启动模型，无需手动配置 Python 环境或 GPU 驱动。\n- **多模型支持**：内置模型库涵盖开源社区最热门的模型，并支持自定义导入 GGUF 格式模型。\n- **轻量级架构**：基于 Go 语言开发，资源占用低，适合个人电脑和边缘设备。\n- **API 兼容**：提供 OpenAI 兼容的 REST API，方便集成到现有应用。\n- **模型管理**：支持模型列表查看、删除、更新等操作，便于版本管理。\n\n## 适用场景\n\n- **本地开发测试**：开发者快速验证模型效果，无需依赖云端 API。\n- **隐私敏感场景**：数据不出本地，适合金融、医疗等对数据安全要求高的领域。\n- **离线推理**：在没有网络的环境中运行模型，如内网部署。\n- **教学与实验**：学生和研究人员低成本体验前沿模型。\n\n## 总结\n\nollama 已成为本地 LLM 运行的事实标准工具之一，其简洁的设计和强大的生态使其成为 AI 开发者的必备工具。对于需要快速上手或私有化部署的用户，ollama 是首选方案。",
+  "highlights": [
+    "支持多种主流大模型（Kimi-K2、GLM-5.2、MiniMax、DeepSeek）",
+    "开源且易于上手，降低本地部署门槛",
+    "高热度（178k），社区活跃，生态成熟"
+  ],
+  "score_reason": "直接关联 LLM 本地部署与推理，是当前最流行的模型运行工具之一，对 AI 开发者和研究者高度相关。",
+  "tags": [
+    "llm",
+    "deployment",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-09T16:33:24.443709+08:00",
+  "analyzed_at": "2026-08-09T16:34:08.600004+08:00",
+  "status": "reviewed"
+}

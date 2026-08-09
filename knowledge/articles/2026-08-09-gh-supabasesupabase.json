@@ -1,0 +1,27 @@
+{
+  "id": "github-trending-20260809-020",
+  "title": "supabase/supabase",
+  "source": "github-trending",
+  "source_url": "https://github.com/supabase/supabase",
+  "author": "supabase",
+  "summary": "Supabase 是一个开源的 Postgres 开发平台，提供数据库、认证、实时订阅和存储等后端服务，旨在成为 Firebase 的开源替代品。",
+  "content": "## 项目概述\n\nSupabase 是一个开源的 Postgres 开发平台，为开发者提供了一整套后端基础设施，包括数据库、身份认证、实时订阅、存储和边缘函数。它旨在简化应用开发流程，让开发者无需管理后端服务器即可快速构建产品。该项目在 GitHub 上拥有超过 10 万星标，是当前最热门的开源后端平台之一。\n\n## 核心特性\n\n- **数据库**：基于 PostgreSQL，提供 SQL 编辑器、表编辑器、自动生成的 REST API 和实时订阅功能。\n- **认证**：内置完整的身份认证系统，支持邮箱密码、OAuth 社交登录、多因素认证等。\n- **存储**：提供文件存储服务，支持图片、视频等静态资源的上传和管理。\n- **实时功能**：通过 WebSocket 实现数据库变更的实时推送，适用于聊天、协作等场景。\n- **边缘函数**：基于 Deno 的 Serverless 函数，可编写后端逻辑。\n- **自托管**：支持 Docker 一键部署，也可使用 Supabase Cloud 托管服务。\n\n## 适用场景\n\n- **快速原型开发**：无需配置后端，几分钟内即可搭建带数据库和认证的应用。\n- **全栈 Web 应用**：作为前端框架（如 Next.js、React）的后端服务。\n- **移动应用**：提供离线同步和实时数据能力，适合 React Native 或 Flutter 应用。\n- **AI 应用数据层**：虽然本身不提供 AI 能力，但可作为 AI 应用的数据存储和向量检索基础（通过 pgvector 扩展）。\n\n## 技术架构\n\nSupabase 由多个开源组件构成：\n- **PostgREST**：将 Postgres 表自动转换为 RESTful API。\n- **GoTrue**：基于 JWT 的认证服务。\n- **Realtime**：基于 Elixir 的实时消息服务。\n- **Storage**：基于 S3 协议的文件存储服务。\n\n## 总结\n\nSupabase 是一个成熟、活跃的开源后端平台，适合需要快速构建数据驱动应用的开发者。对于 AI 开发者而言，它可作为数据存储和向量数据库的便捷选择，但与 LLM/Agent 等核心 AI 技术关联度不高。",
+  "highlights": [
+    "基于 Postgres 的完整后端平台，包含数据库、认证、实时功能和存储",
+    "开源且可自托管，支持本地开发与云端部署",
+    "提供类型安全的客户端 SDK，支持多种语言和框架",
+    "内置 SQL 编辑器、仪表盘和自动生成的 API，开发效率高",
+    "活跃的社区和丰富的扩展生态，与 Vercel 等工具集成良好"
+  ],
+  "score_reason": "该项目是后端开发平台，与 AI/LLM 无直接关系，但其数据库和实时能力可作为 AI 应用的数据层，有一定关联。",
+  "tags": [
+    "open-source",
+    "framework",
+    "deployment",
+    "vector-db"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-09T16:33:24.443709+08:00",
+  "analyzed_at": "2026-08-09T16:35:27.977196+08:00",
+  "status": "reviewed"
+}
