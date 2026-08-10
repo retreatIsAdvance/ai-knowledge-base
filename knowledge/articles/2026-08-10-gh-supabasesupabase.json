@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260810-020",
+  "title": "supabase/supabase",
+  "source": "github-trending",
+  "source_url": "https://github.com/supabase/supabase",
+  "author": "supabase",
+  "summary": "Supabase 是一个开源的 Postgres 开发平台，提供数据库、认证、实时订阅和存储等后端服务，旨在替代 Firebase。",
+  "content": "## 项目概述\n\nSupabase 是一个开源的 Postgres 开发平台，旨在为开发者提供一套完整的后端服务，包括数据库、认证、实时订阅、存储和边缘函数等。它常被视为 Firebase 的开源替代品，但基于 PostgreSQL，提供了更强大的关系型数据库能力和 SQL 操作。\n\n## 核心特性\n\n- **数据库**：基于 PostgreSQL，支持 SQL、关系型数据、行级安全、实时订阅和向量存储（pgvector）。\n- **认证**：内置用户认证，支持邮箱密码、OAuth 等多种方式。\n- **存储**：提供文件存储服务，支持图片、视频等静态资源。\n- **实时**：通过 WebSocket 提供实时数据同步。\n- **边缘函数**：支持 Deno 编写的无服务器函数。\n- **自托管**：开源，可自行部署到自己的服务器。\n\n## 适用场景\n\n- 快速搭建后端服务的 Web 或移动应用。\n- 需要实时数据同步的应用（如聊天、协作工具）。\n- 需要关系型数据库和 SQL 操作的项目。\n- 作为 AI 应用的后端，利用 pgvector 存储和检索向量。\n\n## 与 AI 的关联\n\nSupabase 支持 pgvector 扩展，可以作为向量数据库使用，用于 RAG（检索增强生成）等 AI 应用。此外，其认证和实时功能也可用于构建 AI 驱动的应用。但 Supabase 本身并非 AI 项目，而是基础设施。",
+  "highlights": [
+    "基于 PostgreSQL，提供完整的数据库功能",
+    "内置认证、实时订阅和存储服务",
+    "开源且可自托管，支持本地开发"
+  ],
+  "score_reason": "Supabase 是后端开发平台，与 AI 技术有一定关联（如支持向量存储），但非核心 AI 项目，相关性中等。",
+  "tags": [
+    "open-source",
+    "framework",
+    "vector-db"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-10T17:10:39.134415+08:00",
+  "analyzed_at": "2026-08-10T17:12:41.727949+08:00",
+  "status": "reviewed"
+}
