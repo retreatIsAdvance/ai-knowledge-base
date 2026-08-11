@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260811-002",
+  "title": "obra/superpowers",
+  "source": "github-trending",
+  "source_url": "https://github.com/obra/superpowers",
+  "author": "obra",
+  "summary": "superpowers 是一个开源的 Agentic 技能框架与软件开发工具，通过可组合的技能模块增强 AI 代理的软件开发能力。",
+  "content": "## 项目概述\n\n**obra/superpowers** 是一个开源的 **Agentic 技能框架**，旨在为 AI 代理（Agent）提供结构化的软件开发能力。该项目在 GitHub Trending 上获得 27 万+ 热度，表明其受到开发者社区的广泛关注。\n\n## 核心特性\n\n- **技能框架（Skills Framework）**：提供可组合、可复用的技能模块，让 AI 代理能够执行更复杂的软件开发任务。\n- **软件开发导向**：专注于代码生成、调试、重构等实际开发场景，而非通用对话。\n- **开源可扩展**：基于开源协议，开发者可以贡献或自定义技能模块。\n\n## 适用场景\n\n- 构建自主编程助手或自动化开发工具\n- 为现有 AI 代理增加特定开发技能（如测试生成、代码审查）\n- 研究 Agent 技能编排与组合方法\n\n## 技术分析\n\n该项目属于 **Agent 框架** 类别，与当前 AI 编程助手（如 Copilot 类）和自主 Agent 开发趋势高度契合。其核心价值在于将“技能”抽象为可插拔组件，降低了 Agent 功能扩展的复杂度。不过，由于描述信息有限，具体实现细节（如是否基于 LLM 调用、支持哪些语言）需进一步查看仓库文档。\n\n## 总结\n\n对于关注 **AI Agent 开发** 和 **自动化编程** 的开发者，superpowers 是一个值得关注的开源项目，其模块化技能框架设计具有较高的参考价值。",
+  "highlights": [
+    "Agentic 技能框架，支持模块化组合",
+    "聚焦软件开发场景，提升 AI 代理实用性",
+    "开源项目，社区活跃度高（热度 27 万+）"
+  ],
+  "score_reason": "直接面向 AI Agent 开发框架，与 agent 和 framework 标签高度相关，但描述信息有限，未明确创新点，故评 8 分。",
+  "tags": [
+    "agent",
+    "framework",
+    "open-source",
+    "tool-use"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-11T16:46:12.249115+08:00",
+  "analyzed_at": "2026-08-11T16:46:28.681311+08:00",
+  "status": "reviewed"
+}
