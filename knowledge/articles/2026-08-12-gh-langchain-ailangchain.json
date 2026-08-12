@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260812-014",
+  "title": "langchain-ai/langchain",
+  "source": "github-trending",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "author": "langchain-ai",
+  "summary": "LangChain 是一个开源智能体工程平台，提供模块化组件和工具，用于构建、部署和管理由 LLM 驱动的应用与代理。",
+  "content": "## 项目概述\n\nLangChain 是一个开源的智能体工程平台，旨在简化基于大语言模型（LLM）的应用开发。它提供了一套模块化的抽象和工具，使开发者能够快速构建、测试和部署复杂的 AI 应用，尤其是智能体（Agent）系统。\n\n## 核心特性\n\n- **模块化组件**：提供模型封装、提示模板、输出解析器、记忆、检索等模块，可灵活组合。\n- **智能体框架**：支持创建自主决策的代理，集成工具调用（Tool Use）和规划能力。\n- **丰富的集成**：与主流 LLM（OpenAI、Anthropic 等）、向量数据库（Pinecone、Chroma 等）和外部工具无缝集成。\n- **生产级工具**：提供 LangSmith 用于监控、调试和评估，LangServe 用于部署 API 服务。\n- **社区生态**：活跃的社区和大量示例，支持快速上手和扩展。\n\n## 适用场景\n\n- 构建对话式 AI 助手和客服机器人\n- 开发 RAG（检索增强生成）应用，结合私有知识库\n- 创建自动化工作流，如数据分析、报告生成\n- 构建多步骤推理和决策的智能体系统\n\n## 总结\n\nLangChain 作为智能体工程平台的标杆，凭借其模块化设计和强大的集成能力，已成为 AI 应用开发者的首选框架之一。无论是快速原型还是生产部署，LangChain 都提供了全面的支持。",
+  "highlights": [
+    "模块化架构，支持链式组合和自定义智能体",
+    "丰富的集成生态，连接多种 LLM、向量库和工具",
+    "提供部署、监控和评估工具，支持生产级应用"
+  ],
+  "score_reason": "LangChain 是 AI 智能体开发的核心框架，直接关联 LLM 应用构建，对开发者极具价值，热度高且持续更新。",
+  "tags": [
+    "llm",
+    "agent",
+    "framework",
+    "tool-use",
+    "open-source"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-12T17:04:38.564414+08:00",
+  "analyzed_at": "2026-08-12T17:06:04.880538+08:00",
+  "status": "reviewed"
+}

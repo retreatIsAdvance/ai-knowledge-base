@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260812-012",
+  "title": "langgenius/dify",
+  "source": "github-trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "summary": "Dify 是一个开源 LLM 应用开发平台，支持可视化编排 Agent 工作流和 RAG 管道，可快速部署到云环境，降低 AI 应用开发门槛。",
+  "content": "## 项目概述\n\nDify 是一个开源且功能强大的 LLM 应用开发平台，旨在帮助开发者通过可视化方式快速构建 AI 应用。它集成了 Agent 工作流编排、RAG 管道构建、模型管理、提示词编排等核心能力，并支持一键部署到云环境，极大简化了从原型到生产的开发流程。\n\n## 核心特性\n\n- **可视化工作流编排**：通过拖拽式界面构建复杂的 Agent 工作流，支持条件分支、循环、工具调用等节点，无需编写大量代码。\n- **RAG 管道构建**：内置完整的 RAG 流程，包括文档加载、分块、向量化、检索和重排序，支持多种向量数据库。\n- **多模型支持**：兼容 OpenAI、Anthropic、Google 等主流 LLM 提供商，也支持本地部署的开源模型。\n- **提示词管理**：提供提示词版本管理、测试和优化工具，方便迭代。\n- **一键部署**：支持 Docker Compose、Kubernetes 等多种部署方式，可快速迁移到云环境。\n\n## 适用场景\n\n- **企业级 AI 应用开发**：快速构建客服机器人、知识库问答、数据分析助手等。\n- **AI 产品原型验证**：通过可视化界面快速验证产品想法，降低试错成本。\n- **内部工具建设**：为团队构建定制化的 AI 辅助工具，提升工作效率。\n\n## 技术架构\n\nDify 采用前后端分离架构，后端基于 Python (Flask/FastAPI)，前端使用 React/Next.js。它通过 API 网关统一管理模型调用，并提供了丰富的插件机制，支持自定义工具和扩展。\n\n## 社区与生态\n\nDify 在 GitHub 上拥有超过 15 万 Star，社区活跃，文档完善。其生态包含大量插件和模板，可快速集成到现有技术栈中。\n\n## 总结\n\nDify 是一个功能全面、易于上手的 LLM 应用开发平台，特别适合希望快速构建 Agent 和 RAG 应用的开发者。其开源属性和活跃社区使其成为 AI 应用开发领域的重要基础设施。",
+  "highlights": [
+    "可视化工作流编排，支持 Agent 和 RAG 管道",
+    "提供丰富的模型接入和提示词管理能力",
+    "支持一键部署到云环境，降低运维成本"
+  ],
+  "score_reason": "Dify 是当前最热门的开源 LLM 应用开发平台之一，直接关联 Agent 和 RAG 技术，社区活跃度高，对 AI 应用开发者极具价值。",
+  "tags": [
+    "agent",
+    "rag",
+    "framework",
+    "open-source",
+    "deployment"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-12T17:04:38.564414+08:00",
+  "analyzed_at": "2026-08-12T17:05:52.842059+08:00",
+  "status": "reviewed"
+}
