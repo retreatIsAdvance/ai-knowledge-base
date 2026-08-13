@@ -1,0 +1,182 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github-trending",
+    "popularity": 386135,
+    "summary": "openclaw 是一个Your own personal AI assistant的开源项目，核心亮点是Any OS. Any Platform. The l",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github-trending",
+    "popularity": 271451,
+    "summary": "superpowers 是一个An agentic skills framework & software development的开源项目，核心亮点是其功能具",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github-trending",
+    "popularity": 239832,
+    "summary": "ECC 是一个The agent harness performance optimization system的开源项目，核心亮点是Skills, insti",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github-trending",
+    "popularity": 229808,
+    "summary": "hermes-agent 是一个The agent that grows with you的开源项目，核心亮点是其功能具有较高实用价值。",
+    "description": "The agent that grows with you",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "source": "github-trending",
+    "popularity": 200452,
+    "summary": "n8n 是一个Fair-code workflow automation platform with native的开源项目，核心亮点是Combine visu",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source": "github-trending",
+    "popularity": 186579,
+    "summary": "AutoGPT 是一个AutoGPT is the vision of accessible AI for everyon的开源项目，核心亮点是Our miss",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github-trending",
+    "popularity": 178418,
+    "summary": "ollama 是一个Get up and running with Kimi-K2的开源项目，核心亮点是6, GLM-5.2, MiniMax, DeepSee",
+    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "source": "github-trending",
+    "popularity": 166652,
+    "summary": "firecrawl 是一个The context API to search, scrape, and interact wi的开源项目，核心亮点是🔥。",
+    "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "source": "github-trending",
+    "popularity": 164507,
+    "summary": "stable-diffusion-webui 是一个Stable Diffusion web UI的开源项目，核心亮点是其功能具有较高实用价值。",
+    "description": "Stable Diffusion web UI",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "source": "github-trending",
+    "popularity": 164050,
+    "summary": "transformers 是一个🤗 Transformers: the model-definition framework for的开源项目，核心亮点是其功能",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "source": "github-trending",
+    "popularity": 157761,
+    "summary": "JavaGuide 是一个Java 面试 & 后端通用面试指南的开源项目，核心亮点是覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应。",
+    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "source": "github-trending",
+    "popularity": 152306,
+    "summary": "dify 是一个Build Agentic workflows, RAG pipelines, with rich 的开源项目，核心亮点是Deploy on c",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "github-trending",
+    "popularity": 148655,
+    "summary": "open-webui 是一个User-friendly AI Interface (Supports Ollama, OpenA的开源项目，核心亮点是..)。",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "source": "github-trending",
+    "popularity": 144145,
+    "summary": "langchain 是一个The agent engineering platform的开源项目，核心亮点是其功能具有较高实用价值。",
+    "description": "The agent engineering platform.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "source": "github-trending",
+    "popularity": 142778,
+    "summary": "system-prompts-and-models-of-ai-tools 是一个FULL Augment Code, Claude Code, Cluely,",
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "source": "github-trending",
+    "popularity": 127193,
+    "summary": "ComfyUI 是一个The most powerful and modular diffusion model GUI,的开源项目，核心亮点是其功能具有较高实",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "source": "github-trending",
+    "popularity": 126715,
+    "summary": "spec-kit 是一个💫 Toolkit to help you get started with Spec-Driven的开源项目，核心亮点是其功能具有较高",
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "source": "github-trending",
+    "popularity": 117646,
+    "summary": "generative-ai-for-beginners 是一个21 Lessons, Get Started Building with Generative ",
+    "description": "21 Lessons, Get Started Building with Generative AI ",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "source": "github-trending",
+    "popularity": 109035,
+    "summary": "browser-use 是一个🌐 Make websites accessible for AI agents的开源项目，核心亮点是Automate tasks",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  },
+  {
+    "title": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "source": "github-trending",
+    "popularity": 107919,
+    "summary": "supabase 是一个The Postgres development platform的开源项目，核心亮点是Supabase gives you a ded",
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+    "collected_at": "2026-08-13T17:04:53.269129+08:00"
+  }
+]
