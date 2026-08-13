@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260813-018",
+  "title": "microsoft/generative-ai-for-beginners",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "author": "microsoft",
+  "summary": "微软出品的生成式AI入门课程，包含21个课时，涵盖从基础概念到实际构建生成式AI应用的完整指南。",
+  "content": "## 项目概述\n\n[microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) 是微软提供的免费开源课程，旨在帮助初学者快速上手生成式AI。课程包含21个课时，从基础概念到实际应用构建，覆盖了生成式AI的完整学习路径。\n\n## 核心特性\n\n- **结构化课程**：21个课时，每课包含视频、文字教程和代码示例，适合自学或教学。\n- **实践导向**：提供大量可运行的代码，涵盖文本生成、聊天应用、RAG、Prompt工程等场景。\n- **技术栈丰富**：涉及Python、JavaScript、.NET等多种语言，以及Azure OpenAI、OpenAI API等主流服务。\n- **持续更新**：微软团队定期维护，内容紧跟生成式AI发展。\n\n## 适用场景\n\n- **初学者入门**：零基础学习生成式AI概念和开发。\n- **开发者转型**：快速掌握构建生成式AI应用的核心技能。\n- **教学资源**：作为高校或培训机构的课程素材。\n\n## 内容结构\n\n课程分为多个模块，包括：\n1. 生成式AI和LLM基础\n2. Prompt工程技巧\n3. 构建文本生成应用\n4. 聊天应用开发\n5. 向量数据库与RAG\n6. 图像生成应用\n7. 低代码AI应用\n8. 生成式AI的伦理与安全\n\n每个模块都配有实践项目，帮助学习者巩固知识。\n\n## 总结\n\n这是目前最全面的生成式AI入门课程之一，适合所有希望系统学习生成式AI的开发者。无论你是学生、工程师还是产品经理，都能从中获得实用价值。",
+  "highlights": [
+    "21个系统化课程，覆盖生成式AI核心概念与应用构建",
+    "提供丰富的代码示例和动手实践，适合初学者",
+    "由微软官方维护，内容权威且持续更新"
+  ],
+  "score_reason": "作为微软官方的生成式AI入门教程，内容直接涉及LLM、Prompt工程等AI核心技术，对初学者和开发者具有高度参考价值，但非突破性研究，故评8分。",
+  "tags": [
+    "llm",
+    "prompt-engineering",
+    "tutorial",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-13T17:04:53.269129+08:00",
+  "analyzed_at": "2026-08-13T17:06:45.446345+08:00",
+  "status": "reviewed"
+}
