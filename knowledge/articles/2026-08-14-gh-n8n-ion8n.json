@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260814-005",
+  "title": "n8n-io/n8n",
+  "source": "github-trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "author": "n8n-io",
+  "summary": "n8n 是一个公平代码（fair-code）的开源工作流自动化平台，通过可视化界面和原生 AI 能力，让用户无需代码即可构建强大的自动化流程。",
+  "content": "## 项目概述\n\nn8n 是一个**公平代码（fair-code）** 的开源工作流自动化平台，旨在通过可视化界面将复杂的业务流程自动化。它结合了低代码的易用性与代码节点的灵活性，并原生集成了 AI 能力，使其成为构建 AI Agent 和自动化工作流的热门选择。\n\n## 核心特性\n\n- **可视化工作流编辑器**：通过拖拽节点即可构建流程，支持 400+ 集成（如 HTTP、数据库、Slack、Gmail 等）。\n- **原生 AI 支持**：内置 AI Agent 节点，可连接 LangChain、OpenAI、Hugging Face 等，支持构建 RAG、Agent 等复杂 AI 应用。\n- **代码节点**：支持 JavaScript 和 Python，允许在流程中编写自定义逻辑，兼顾灵活性与低代码体验。\n- **公平代码许可**：采用 Sustainable Use License（SUL），允许个人和小型团队免费使用，大型企业需付费，平衡了开源与商业可持续性。\n- **自托管与云服务**：支持 Docker 一键部署到自有服务器，也提供官方云托管服务。\n- **丰富的模板库**：社区贡献了大量模板，覆盖常见场景（如数据同步、AI 客服、内容生成等）。\n\n## 适用场景\n\n- **AI Agent 开发**：快速搭建基于 LLM 的客服、助手、内容生成等应用。\n- **业务流程自动化**：将 CRM、ERP、邮件、数据库等系统连接起来，实现自动化操作。\n- **数据管道**：定时抓取、转换、存储数据，并触发下游任务。\n- **内部工具**：为团队快速构建内部自动化工具，无需开发完整应用。\n\n## 总结\n\nn8n 凭借其强大的可视化编排能力和原生 AI 集成，已成为开源工作流自动化领域的标杆项目。对于希望快速构建 AI 应用或自动化流程的开发者和团队来说，n8n 是一个值得关注和使用的工具。",
+  "highlights": [
+    "可视化拖拽式工作流编辑器，支持 400+ 集成节点",
+    "原生支持 AI Agent、LangChain 和向量数据库，可构建复杂 AI 工作流",
+    "公平代码许可（Sustainable Use License），支持自托管，兼顾开源与商业可持续性",
+    "支持代码节点（JavaScript/Python），兼顾灵活性与低代码易用性",
+    "活跃的社区和丰富的模板库，降低上手门槛"
+  ],
+  "score_reason": "n8n 作为工作流自动化平台，深度集成 AI Agent 和 LLM 能力，是构建 AI 应用的重要基础设施，与 AI 技术高度相关。",
+  "tags": [
+    "agent",
+    "framework",
+    "open-source",
+    "deployment",
+    "tool-use"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-14T17:00:47.588146+08:00",
+  "analyzed_at": "2026-08-14T17:01:24.050355+08:00",
+  "status": "reviewed"
+}

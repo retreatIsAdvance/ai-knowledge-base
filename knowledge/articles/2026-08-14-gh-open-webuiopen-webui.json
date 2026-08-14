@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260814-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "open-webui 是一个用户友好的开源 AI 交互界面，支持 Ollama 和 OpenAI API，提供丰富的聊天、RAG、工具调用等功能，可自托管部署。",
+  "content": "## 项目概述\n\nopen-webui 是一个开源的、用户友好的 AI 交互界面，旨在为 Ollama 和 OpenAI 等后端提供无缝的 Web UI。它支持本地部署，允许用户通过浏览器与 LLM 进行对话、文件交互和任务执行。项目在 GitHub 上拥有超过 148k 的 star，是当前最热门的 AI 前端项目之一。\n\n## 核心特性\n\n- **多后端支持**：原生支持 Ollama 和 OpenAI 兼容 API，可轻松切换本地或云端模型。\n- **RAG 集成**：内置检索增强生成（RAG）管道，支持文档上传和知识库问答。\n- **工具调用**：支持网页浏览、代码执行等工具，使模型能够执行更复杂的任务。\n- **多用户管理**：提供用户注册、权限控制和聊天记录隔离，适合团队或组织使用。\n- **响应式设计**：界面适配桌面和移动设备，提供流畅的交互体验。\n- **可扩展性**：支持自定义模型、提示词模板和 API 端点，便于二次开发。\n\n## 适用场景\n\n- **个人 AI 助手**：作为本地模型的 Web 前端，提供类似 ChatGPT 的体验。\n- **团队协作平台**：在组织内部署，共享模型资源并管理用户权限。\n- **开发测试环境**：快速搭建 LLM 应用原型，验证 RAG 和工具调用功能。\n- **教育演示**：用于展示 LLM 能力，无需编写前端代码。\n\n## 技术栈与部署\n\n项目基于 Python (FastAPI) 和 JavaScript (Svelte) 构建，支持 Docker 一键部署。用户可以通过 `docker run` 命令快速启动，或从源码构建。其模块化设计使得集成新模型或功能变得相对简单。\n\n## 总结\n\nopen-webui 是连接 LLM 后端与用户之间的桥梁，它降低了使用和部署 AI 模型的门槛，同时提供了丰富的企业级功能。对于需要自托管 AI 界面的开发者或团队来说，这是一个值得关注的高质量开源项目。",
+  "highlights": [
+    "支持 Ollama 和 OpenAI 等多种后端，灵活接入本地或云端模型",
+    "内置 RAG 管道、网页浏览和代码执行等工具，扩展 AI 能力",
+    "提供多用户管理、权限控制和响应式界面，适合团队协作"
+  ],
+  "score_reason": "该项目是 AI 应用层的热门开源框架，直接服务于 LLM 交互与部署，与 Agent 和 RAG 高度相关，但非底层模型或算法创新。",
+  "tags": [
+    "framework",
+    "rag",
+    "tool-use",
+    "deployment",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-14T17:00:47.588146+08:00",
+  "analyzed_at": "2026-08-14T17:02:17.679299+08:00",
+  "status": "reviewed"
+}

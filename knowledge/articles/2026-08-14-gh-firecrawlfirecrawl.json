@@ -1,0 +1,27 @@
+{
+  "id": "github-trending-20260814-008",
+  "title": "firecrawl/firecrawl",
+  "source": "github-trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "summary": "Firecrawl 是一个开源 API 服务，提供网站搜索、抓取和交互功能，可将任何网站转换为适合 LLM 使用的干净 Markdown 或结构化数据。",
+  "content": "## 项目概述\n\nFirecrawl 是一个开源 API 平台，旨在解决 LLM 应用获取网页数据的痛点。它提供统一的接口，让开发者能够轻松地搜索、抓取和与网站进行交互，并将结果转换为适合大语言模型消费的格式（如干净的 Markdown 或结构化 JSON）。\n\n## 核心特性\n\n- **统一 API**：一个 API 即可完成搜索、抓取和交互，简化开发流程。\n- **LLM 友好输出**：自动将 HTML 转换为干净的 Markdown，去除导航、广告等噪音，保留核心内容。\n- **动态渲染**：支持 JavaScript 渲染的网站，确保抓取到完整内容。\n- **结构化提取**：可根据需求提取特定字段，输出为 JSON 格式。\n- **交互能力**：支持与网页元素交互（如点击、填写表单），适用于自动化测试和 Agent 场景。\n\n## 适用场景\n\n- **RAG 数据管道**：作为数据摄取层，为知识库构建提供干净的文本数据。\n- **Agent 工具**：作为 Agent 的网页访问工具，使其能够获取实时信息。\n- **数据采集**：用于监控、市场调研等需要批量抓取网站数据的场景。\n\n## 技术架构\n\nFirecrawl 采用客户端-服务器架构，提供 RESTful API。它支持自托管，也提供云服务。项目使用 TypeScript 编写，并提供了 Python 和 Node.js SDK。\n\n## 总结\n\nFirecrawl 是 LLM 生态中重要的数据基础设施，它降低了网页数据获取和处理的复杂度，使得开发者可以更专注于构建上层应用。其开源属性和高热度表明社区对其价值的认可。",
+  "highlights": [
+    "提供统一的 API 接口，支持搜索、抓取和网站交互",
+    "将网页内容转换为干净的 Markdown，便于 LLM 处理",
+    "支持动态内容渲染和结构化数据提取",
+    "开源项目，热度高（167k stars）"
+  ],
+  "score_reason": "该项目为 LLM 应用提供关键的数据获取与预处理能力，是 RAG 和 Agent 工作流的重要基础设施，高度相关。",
+  "tags": [
+    "llm",
+    "rag",
+    "tool-use",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-14T17:00:47.588146+08:00",
+  "analyzed_at": "2026-08-14T17:01:42.397423+08:00",
+  "status": "reviewed"
+}

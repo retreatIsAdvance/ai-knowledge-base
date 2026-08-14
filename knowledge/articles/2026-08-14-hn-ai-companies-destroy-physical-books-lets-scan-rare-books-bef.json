@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260814-002",
+  "title": "AI companies destroy physical books — let’s scan rare books before it’s too late",
+  "source": "hackernews",
+  "source_url": "https://fr.annas-archive.gl/blog/physical-destruction.html",
+  "author": "N/A",
+  "summary": "文章呼吁在AI公司大规模扫描书籍导致物理书籍损毁前，紧急数字化稀有书籍，以保护人类知识遗产。",
+  "content": "## 项目概述\n\n本文是一篇观点文章，发布于Anna's Archive博客，讨论AI公司在训练模型时大规模扫描书籍，导致物理书籍（尤其是稀有书籍）被破坏的问题。作者呼吁在书籍被彻底损毁前，加速数字化进程，以保护人类知识遗产。\n\n## 核心特性\n\n- **问题揭示**：AI公司为获取训练数据，大量扫描实体书籍，过程中可能造成物理损坏，尤其是稀有或孤本书籍。\n- **紧迫性**：随着AI发展，扫描需求激增，稀有书籍面临不可逆损毁风险。\n- **行动呼吁**：鼓励社区、图书馆和个人参与稀有书籍的数字化保存，类似互联网档案馆的做法。\n\n## 适用场景\n\n- 关注AI数据采集伦理的读者\n- 图书馆、档案馆等文化遗产保护机构\n- 对开源数据与AI训练关系感兴趣的技术人员\n\n## 分析\n\n文章从数据源头切入，提醒AI发展不应以牺牲实体文化遗产为代价。虽然未提供技术方案，但引发对数据获取可持续性的思考。与LLM训练数据来源的讨论高度相关，但缺乏技术细节，因此关联度中等。",
+  "highlights": [
+    "指出AI扫描对物理书籍的破坏性影响",
+    "强调稀有书籍数字化紧迫性",
+    "提出行动呼吁，保护知识遗产"
+  ],
+  "score_reason": "文章涉及AI数据采集对实体书籍的影响，与AI数据伦理相关，但非技术核心，关联度中等。",
+  "tags": [
+    "open-source",
+    "opinion",
+    "llm"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-14T17:00:51.559646+08:00",
+  "analyzed_at": "2026-08-14T17:03:06.582997+08:00",
+  "status": "reviewed"
+}

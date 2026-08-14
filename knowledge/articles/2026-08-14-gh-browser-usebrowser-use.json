@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260814-019",
+  "title": "browser-use/browser-use",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "summary": "browser-use 是一个开源项目，旨在让 AI 代理能够像人类一样操作浏览器，自动化执行网页任务。",
+  "content": "## 项目概述\n\nbrowser-use 是一个开源项目，旨在让 AI 代理（如 LLM）能够像人类一样操作浏览器，从而自动化执行各种网页任务。它通过将浏览器操作抽象为工具调用，使 AI 代理能够理解网页内容并执行点击、输入、导航等操作，实现端到端的自动化流程。\n\n## 核心特性\n\n- **自然语言驱动**：用户可以用自然语言描述任务，AI 代理自动解析并执行。\n- **浏览器控制**：支持 Chrome、Firefox 等主流浏览器，通过 CDP 或 WebDriver 进行控制。\n- **智能元素定位**：利用 LLM 的视觉和语义理解能力，准确识别网页元素。\n- **可扩展性**：提供清晰的 API 和插件机制，方便开发者自定义操作和集成。\n- **开源社区**：项目在 GitHub 上拥有高星标，社区活跃，持续迭代。\n\n## 适用场景\n\n- **网页自动化测试**：替代传统脚本，用自然语言编写测试用例。\n- **数据采集**：自动抓取动态网页内容，无需编写复杂选择器。\n- **RPA 替代**：实现更智能的流程自动化，适应页面变化。\n- **AI 助手集成**：为聊天机器人或虚拟助手提供网页操作能力。\n\n## 技术架构\n\n项目基于 Python 开发，利用 LLM 的推理能力解析用户指令，通过浏览器自动化协议（如 Playwright）控制浏览器。它支持多种 LLM 后端（如 OpenAI、Anthropic），并提供了丰富的工具函数供代理调用。\n\n## 总结\n\nbrowser-use 是 AI 代理落地的重要工具，它降低了网页自动化的门槛，让 AI 能够真正“使用”互联网。对于开发者而言，这是一个值得关注和集成的开源框架。",
+  "highlights": [
+    "让 AI 代理直接控制浏览器，实现端到端自动化",
+    "支持自然语言指令驱动，简化复杂网页操作",
+    "开源且社区活跃，热度高，易于集成和扩展"
+  ],
+  "score_reason": "该项目直接赋能 AI 代理进行网页交互，是 agent 和 tool-use 领域的典型应用，与 AI 技术高度相关且具有实用价值。",
+  "tags": [
+    "agent",
+    "tool-use",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-14T17:00:47.588146+08:00",
+  "analyzed_at": "2026-08-14T17:02:49.946357+08:00",
+  "status": "reviewed"
+}

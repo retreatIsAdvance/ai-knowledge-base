@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260814-004",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "hackernews",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "author": "N/A",
+  "summary": "本文通过随机游走混合时间理论，将社交媒体比作高中食堂，解释信息孤岛和兔子洞的形成机制。",
+  "content": "## 项目概述\n\n本文是一篇技术评论文章，作者通过随机游走（random walk）的数学理论，探讨社交媒体中信息传播的“兔子洞”现象和用户聚类。文章标题直接点明核心：社交媒体不是城市广场，而是高中食堂，暗示其内部存在等级和隔离。\n\n## 核心特性\n\n- **理论框架**：利用随机游走的混合时间（mixing time）概念，分析信息在社交网络中的扩散速度与隔离程度。\n- **比喻模型**：将社交平台比作高中食堂，不同“小圈子”对应不同社区，解释为何用户容易陷入同质化信息流。\n- **现象解释**：说明为何极端或小众内容能在特定集群内快速传播，形成“兔子洞”效应。\n\n## 适用场景\n\n- 社交媒体算法设计者理解信息传播动力学\n- 研究信息茧房和网络极化的学者\n- 对网络科学和复杂系统感兴趣的读者\n\n## 总结\n\n文章提供了一种新颖的视角，将数学理论应用于社交媒体分析，但未涉及具体AI技术实现，与AI领域关联较弱。",
+  "highlights": [
+    "用随机游走混合时间分析社交网络信息传播",
+    "提出社交媒体非城市广场而是高中有等级食堂的比喻",
+    "解释信息孤岛和极端化内容的形成原理"
+  ],
+  "score_reason": "文章涉及网络科学和社交媒体分析，与AI技术间接相关，但非直接AI/LLM内容，评分中等。",
+  "tags": [
+    "opinion",
+    "framework"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-14T17:00:51.559646+08:00",
+  "analyzed_at": "2026-08-14T17:03:16.393894+08:00",
+  "status": "reviewed"
+}
