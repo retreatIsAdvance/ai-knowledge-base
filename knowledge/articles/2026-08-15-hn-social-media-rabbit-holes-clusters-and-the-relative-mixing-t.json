@@ -1,0 +1,24 @@
+{
+  "id": "hackernews-20260815-002",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "hackernews",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "author": "N/A",
+  "summary": "文章通过随机游走混合时间理论，分析社交媒体信息流如何形成回音室和兔子洞，类比高中食堂而非城镇广场。",
+  "content": "## 项目概述\n本文是一篇技术评论文章，探讨社交媒体信息流中的聚类现象，通过随机游走混合时间理论分析用户如何陷入信息兔子洞。作者将社交媒体比作高中食堂，而非城镇广场，强调群体隔离和同质化。\n\n## 核心特性\n- **随机游走混合时间**：用数学概念解释信息传播的收敛速度，混合时间短意味着信息快速同质化。\n- **聚类分析**：讨论用户群体如何形成紧密连接的簇，导致信息隔离。\n- **比喻性框架**：以高中食堂比喻社交媒体结构，直观易懂。\n\n## 适用场景\n- 社交网络分析研究\n- 信息传播模型理解\n- 回音室效应探讨\n\n## 技术相关性\n虽然不直接涉及AI模型，但随机游走理论在推荐系统和图神经网络中有应用，对理解算法推荐可能产生的信息茧房有参考价值。",
+  "highlights": [
+    "用随机游走混合时间解释信息流聚类现象",
+    "将社交媒体比作高中食堂，强调群体隔离",
+    "提供数学视角理解回音室效应"
+  ],
+  "score_reason": "文章涉及社交网络动态分析，与AI技术间接相关，但非直接AI/LLM内容，评分中等。",
+  "tags": [
+    "framework",
+    "opinion",
+    "evaluation"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-15T16:18:46.874402+08:00",
+  "analyzed_at": "2026-08-15T16:20:54.652485+08:00",
+  "status": "reviewed"
+}

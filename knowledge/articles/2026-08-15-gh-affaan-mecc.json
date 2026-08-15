@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260815-003",
+  "title": "affaan-m/ECC",
+  "source": "github-trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "author": "affaan-m",
+  "summary": "ECC 是一个开源代理框架性能优化系统，通过技能、指令和上下文管理提升 AI 代理的执行效率与可靠性。",
+  "content": "## 项目概述\n\nECC（The agent harness performance optimization system）是一个专注于 AI 代理框架性能优化的开源项目。它通过引入技能（Skills）、指令（Instructions）和上下文管理（Context）等机制，旨在提升代理系统在执行任务时的效率、准确性和资源利用率。\n\n## 核心特性\n\n- **技能（Skills）**：可能指代模块化的能力封装，使代理能够复用特定任务的处理逻辑。\n- **指令（Instructions）**：优化代理的指令遵循能力，确保任务执行符合预期。\n- **上下文管理（Context）**：改进上下文窗口的使用，减少冗余信息，提升推理速度。\n\n## 适用场景\n\n- 需要高性能代理的自动化工作流\n- 多任务代理系统的性能调优\n- 资源受限环境下的代理部署\n\n## 总结\n\nECC 作为代理性能优化系统，为 AI 代理的工程化落地提供了优化思路，适合关注代理效率的开发者研究。",
+  "highlights": [
+    "专注于代理框架性能优化",
+    "包含技能、指令和上下文管理机制",
+    "开源项目，热度高，社区关注度大"
+  ],
+  "score_reason": "该项目直接涉及 AI 代理（Agent）的性能优化，属于 Agent 领域的技术内容，与 AI 技术高度相关，但描述信息有限，未明确创新点，故评分为 8。",
+  "tags": [
+    "agent",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-15T16:18:43.340245+08:00",
+  "analyzed_at": "2026-08-15T16:19:05.282426+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260815-004",
+  "title": "NousResearch/hermes-agent",
+  "source": "github-trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "summary": "hermes-agent 是 NousResearch 推出的开源智能体项目，强调“与你一同成长”，提供实用且可扩展的 Agent 能力，当前热度较高。",
+  "content": "## 项目概述\n\n**hermes-agent** 是 NousResearch 发布的开源智能体（Agent）项目，项目口号为 \"The agent that grows with you\"，强调智能体能够随着用户需求和使用场景的深入而持续演进。目前该项目在 GitHub 上获得了超过 23 万的热度，属于近期备受关注的 AI 项目。\n\n## 核心特性\n\n- **成长性设计**：项目核心理念是 Agent 能适应用户的长期使用，可能包含记忆、学习或配置扩展机制（具体实现细节待仓库更新）。\n- **开源可定制**：基于开源协议发布，开发者可以自由修改、部署和集成到自己的业务中。\n- **NousResearch 背书**：该机构在开源 LLM 领域（如 Hermes 系列模型）有较强影响力，项目质量有一定保障。\n\n## 适用场景\n\n- 需要长期陪伴式 AI 助手（如个人知识管理、任务自动化）\n- 希望基于成熟框架二次开发 Agent 的团队\n- 对 Agent 成长性（记忆、持续学习）感兴趣的开发者\n\n## 注意事项\n\n当前仓库描述较为简洁，尚未披露具体的技术栈、模型依赖或性能基准。建议关注后续更新，或直接查看仓库 README 获取更详细的使用指南。",
+  "highlights": [
+    "由知名 AI 研究机构 NousResearch 出品，具备社区信任度",
+    "定位为“与你一同成长”的 Agent，强调可扩展性与长期使用价值",
+    "开源项目，便于开发者二次开发与定制",
+    "GitHub 热度高（23 万+），说明关注度与潜在生态活跃"
+  ],
+  "score_reason": "直接涉及 Agent 领域，且来自头部研究机构，但描述中未明确技术细节或创新点，故评分略低于顶级突破性项目。",
+  "tags": [
+    "agent",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-15T16:18:43.340245+08:00",
+  "analyzed_at": "2026-08-15T16:19:10.284619+08:00",
+  "status": "reviewed"
+}

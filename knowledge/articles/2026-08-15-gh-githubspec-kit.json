@@ -1,0 +1,24 @@
+{
+  "id": "github-trending-20260815-016",
+  "title": "github/spec-kit",
+  "source": "github-trending",
+  "source_url": "https://github.com/github/spec-kit",
+  "author": "github",
+  "summary": "spec-kit 是 GitHub 官方推出的规范驱动开发工具包，帮助开发者快速上手 Spec-Driven 工作流，通过结构化规范生成代码和测试。",
+  "content": "## 项目概述\n\n**spec-kit** 是 GitHub 官方发布的一个开源工具包，旨在帮助开发者快速上手 **Spec-Driven Development（规范驱动开发）**。它提供了一套标准化的流程和工具，让团队能够从规范（Spec）出发，自动生成或引导生成代码、测试和文档，从而减少开发中的歧义和返工。\n\n## 核心特性\n\n- **规范优先**：强调以机器可读的规范作为开发起点，确保需求与实现一致。\n- **工具链集成**：提供命令行工具和模板，简化从规范到代码的转换过程。\n- **GitHub 生态**：与 GitHub Actions、Codespaces 等原生集成，便于 CI/CD 流程。\n\n## 适用场景\n\n- 团队希望推行规范驱动开发，减少沟通成本。\n- 需要为 API、数据模型等生成初始代码骨架。\n- 在 GitHub 生态内构建标准化、可复用的开发流程。\n\n## 与 AI 的关联\n\n虽然 spec-kit 本身不直接依赖 AI，但其“规范到代码”的理念与 AI 代码生成（如 Copilot）高度互补。未来可能结合 LLM 实现更智能的规范解析和代码生成，但目前仍以传统模板引擎为主。",
+  "highlights": [
+    "GitHub 官方出品，权威性和可靠性高",
+    "聚焦 Spec-Driven 开发范式，提升开发效率",
+    "提供完整的工具链，覆盖从规范到代码的流程"
+  ],
+  "score_reason": "该项目属于软件开发方法论工具，与 AI/LLM 无直接关联，但规范驱动与代码生成概念与 AI 辅助开发有一定交集，故评为中等相关。",
+  "tags": [
+    "framework",
+    "open-source",
+    "tool-use"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-15T16:18:43.340245+08:00",
+  "analyzed_at": "2026-08-15T16:20:23.609382+08:00",
+  "status": "reviewed"
+}
