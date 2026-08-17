@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260817-013",
+  "title": "open-webui/open-webui",
+  "source": "github-trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "author": "open-webui",
+  "summary": "open-webui 是一个用户友好的开源 AI 交互界面，支持 Ollama 和 OpenAI 等后端，提供丰富的聊天、RAG、多模态和工具调用功能，部署简单。",
+  "content": "## 项目概述\n\n**open-webui** 是一个功能丰富的自托管 AI 交互界面，旨在为用户提供开箱即用、高度可定制的聊天体验。它兼容 Ollama、OpenAI 等主流推理后端，并集成了 RAG、多模态、工具调用等高级特性，是构建个人或团队 AI 工作台的理想选择。\n\n## 核心特性\n\n- **多后端支持**：无缝连接 Ollama、OpenAI API 及其他兼容接口，统一管理模型。\n- **内置 RAG 引擎**：支持上传文档（PDF、TXT、Markdown 等）进行语义检索，实现基于知识库的问答。\n- **多模态交互**：支持图像输入和视觉模型，可进行图片理解与对话。\n- **工具调用与 Agent**：允许定义和调用外部工具（如搜索、代码执行），扩展模型能力。\n- **用户与权限管理**：提供多用户注册、角色权限控制，适合团队协作。\n- **模型管理**：支持模型的创建、导入、导出和自定义参数调整。\n- **响应式 UI**：适配桌面和移动端，界面简洁现代。\n- **一键部署**：通过 Docker Compose 即可快速启动，支持离线安装。\n\n## 适用场景\n\n- **个人 AI 助手**：作为日常聊天、写作、编程辅助的入口。\n- **团队知识库**：搭建内部文档问答系统，共享 RAG 知识库。\n- **模型评测与演示**：快速对比不同模型输出，进行效果验证。\n- **本地化部署**：在私有环境中运行，保障数据安全。\n\n## 技术架构\n\n前端基于 SvelteKit，后端采用 FastAPI（Python），通过 WebSocket 实现实时通信。数据存储支持 SQLite 和 PostgreSQL，向量检索支持 ChromaDB 等。整体设计模块化，易于扩展。\n\n## 总结\n\nopen-webui 凭借其丰富的功能、易用性和活跃的社区，已成为自托管 AI 界面的标杆项目。对于希望快速搭建 AI 应用层、集成 RAG 和 Agent 能力的开发者，这是一个极具价值的开源工具。",
+  "highlights": [
+    "支持 Ollama、OpenAI 等多种后端，无缝切换",
+    "内置 RAG 管道，支持文档问答和知识库",
+    "提供多模态交互、工具调用和自定义模型管理",
+    "响应式 UI，支持多用户、权限管理和群组聊天",
+    "一键 Docker 部署，易于自托管"
+  ],
+  "score_reason": "作为 AI 应用层的开源框架，直接服务于 LLM 交互和部署，与 Agent/RAG 高度相关，但非底层模型或算法创新，故评 8 分。",
+  "tags": [
+    "framework",
+    "rag",
+    "deployment",
+    "open-source",
+    "multimodal"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-17T16:34:46.704126+08:00",
+  "analyzed_at": "2026-08-17T16:36:06.044634+08:00",
+  "status": "reviewed"
+}

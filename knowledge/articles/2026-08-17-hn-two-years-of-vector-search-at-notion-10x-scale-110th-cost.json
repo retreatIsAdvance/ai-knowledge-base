@@ -1,0 +1,26 @@
+{
+  "id": "hackernews-20260817-012",
+  "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+  "source": "hackernews",
+  "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+  "author": "Two years of vector search at Notion: 10x scale, 1",
+  "summary": "Notion 分享其向量搜索系统两年演进经验，实现10倍规模扩展与成本降至1/10，涵盖架构选型、优化策略与工程实践。",
+  "content": "## 项目概述\nNotion 官方博客文章，回顾其向量搜索功能从2022年上线至今的两年发展历程，重点介绍如何应对数据规模增长（10倍）同时将成本降低至原来的1/10。文章分享了架构选型、性能优化、成本控制等方面的实战经验。\n\n## 核心特性\n- **架构演进**：从最初的简单方案（如基于PostgreSQL的pgvector）逐步演进到专用向量数据库（如Cloudflare Vectorize），并最终采用自研或混合方案。\n- **性能优化**：通过向量量化（如标量量化）、分片、缓存、异步处理等技术，在保持搜索质量的同时大幅提升吞吐量并降低成本。\n- **成本控制**：利用Cloudflare Workers的按需计费模式，结合缓存和预计算，实现成本效益最大化。\n- **工程实践**：详细描述了监控、调优、故障处理等生产环境中的关键问题。\n\n## 适用场景\n- 需要构建大规模向量搜索系统的团队，尤其是基于RAG的应用。\n- 关注成本优化和性能平衡的AI基础设施工程师。\n- 对向量数据库选型（如pgvector vs 专用向量库）有决策需求的技术管理者。\n\n## 总结\n文章提供了宝贵的工程经验，展示了如何在真实产品中平衡性能、成本和可维护性，对AI应用落地具有直接参考价值。",
+  "highlights": [
+    "从原型到生产，向量搜索架构的演进路径",
+    "通过量化、分片等技巧实现10倍规模与1/10成本",
+    "结合工程实践，提供可复用的向量搜索优化经验"
+  ],
+  "score_reason": "直接涉及向量搜索（RAG核心组件）的工程实践，对AI应用落地有参考价值，但非突破性研究，故评8分。",
+  "tags": [
+    "vector-db",
+    "rag",
+    "deployment",
+    "framework",
+    "open-source"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-17T16:34:51.407729+08:00",
+  "analyzed_at": "2026-08-17T16:37:40.980483+08:00",
+  "status": "reviewed"
+}
