@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260818-001",
+  "title": "openclaw/openclaw",
+  "source": "github-trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "author": "openclaw",
+  "summary": "openclaw 是一个开源的个人 AI 助手项目，强调跨平台兼容性，可在任何操作系统和平台上运行，旨在提供高度可定制和本地化的智能助理体验。",
+  "content": "## 项目概述\n\n**openclaw** 是一个开源的个人 AI 助手项目，其核心卖点是 **Any OS. Any Platform.**，即跨平台、跨设备的运行能力。该项目在 GitHub Trending 上热度极高（386k+），表明其受到了开发者社区的广泛关注。\n\n## 核心特性\n\n- **跨平台兼容性**：项目描述强调可在任何操作系统和平台上运行，这意味着它可能采用了跨平台框架（如 Electron、Tauri 或 Rust 核心），或提供了多种安装方式。\n- **个人化 AI 助理**：定位为“Your own personal AI assistant”，暗示其功能可能包括对话、任务自动化、信息检索等，且强调用户对数据和模型的控制权。\n- **开源属性**：作为开源项目，用户可以自由审查代码、二次开发或部署到自己的服务器，符合当前 AI 本地化部署的趋势。\n\n## 适用场景\n\n- **个人生产力工具**：作为日常助手，管理日程、回答问题、执行简单任务。\n- **隐私敏感场景**：用户希望 AI 助手的数据不经过第三方云服务，而是本地或自托管运行。\n- **跨设备工作流**：需要在桌面、移动端、服务器等多种环境中使用同一 AI 助手的用户。\n\n## 技术分析（推测）\n\n由于描述信息有限，无法确认其具体技术栈。但结合“Any OS”的声明，推测其可能基于以下技术：\n- **后端**：可能使用 Rust 或 Go 编写核心逻辑，以保证性能和跨平台编译。\n- **前端/交互**：可能使用 Tauri 或 Electron 提供桌面 GUI，或提供 CLI 和 Web 接口。\n- **AI 能力**：可能集成多种 LLM API（如 OpenAI、Anthropic）或支持本地模型（如 Ollama、llama.cpp）。\n\n## 总结\n\nopenclaw 是一个值得关注的 AI 助手开源项目，其跨平台定位和开源特性使其在个人 AI 工具领域具有竞争力。建议进一步查看其 README 和代码仓库以获取更详细的技术文档和安装指南。",
+  "highlights": [
+    "跨平台支持：宣称支持任何操作系统和平台，具有极高的可移植性",
+    "开源个人助手：定位为个人 AI 助理，强调用户自主掌控数据与功能",
+    "高热度关注：在 GitHub Trending 上获得 38 万+ 热度，社区关注度高"
+  ],
+  "score_reason": "该项目属于 AI 助手领域，与 LLM/Agent 高度相关，但描述信息有限，未明确技术细节，故评分为 8。",
+  "tags": [
+    "llm",
+    "agent",
+    "open-source",
+    "framework",
+    "deployment"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-18T16:26:42.087099+08:00",
+  "analyzed_at": "2026-08-18T16:26:55.892352+08:00",
+  "status": "reviewed"
+}

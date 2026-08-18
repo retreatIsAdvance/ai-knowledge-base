@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260818-015",
+  "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+  "source": "github-trending",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "author": "x1xhlol",
+  "summary": "收集并整理多种AI工具（如Augment Code、Claude Code等）的系统提示词和模型配置的开源项目，便于开发者参考和复用。",
+  "content": "## 项目概述\n\n[x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) 是一个开源项目，旨在收集和整理当前主流AI工具（如 Augment Code、Claude Code、Cluely 等）的系统提示词（system prompts）和模型配置信息。该项目在 GitHub 上热度较高（142k stars），反映了开发者对理解 AI 工具内部机制和提示词设计的浓厚兴趣。\n\n## 核心特性\n\n- **系统提示词集合**：收录了多种 AI 工具的系统提示词，这些提示词是工具行为的关键，通过对比可以学习不同工具的设计思路。\n- **模型配置信息**：提供各工具使用的模型配置，帮助开发者了解工具背后的模型选择。\n- **社区驱动**：作为开源项目，开发者可以贡献新的提示词和配置，保持内容的更新和全面性。\n\n## 适用场景\n\n- **提示词工程学习**：对于希望提升提示词设计能力的开发者，这是一个极佳的参考资源。\n- **AI工具研究**：研究不同 AI 工具（如代码助手、聊天机器人）如何通过系统提示词定制行为。\n- **模型选型参考**：了解主流工具使用的模型配置，为自身项目选型提供参考。\n\n## 总结\n\n该项目是一个实用的资源库，尤其适合对提示词工程和 AI 工具内部机制感兴趣的开发者。虽然不包含原创技术，但其整理的内容具有较高的学习和参考价值。",
+  "highlights": [
+    "汇集多款主流AI工具的系统提示词，方便对比学习",
+    "提供模型配置信息，有助于理解工具背后的设计",
+    "开源项目，社区可贡献和更新，保持时效性"
+  ],
+  "score_reason": "该项目直接涉及AI工具的系统提示词和模型配置，对理解LLM应用设计有较高参考价值，但属于资源整理而非原创技术突破，故评7分。",
+  "tags": [
+    "prompt-engineering",
+    "open-source",
+    "llm",
+    "framework"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-18T16:26:42.087099+08:00",
+  "analyzed_at": "2026-08-18T16:28:16.206603+08:00",
+  "status": "reviewed"
+}

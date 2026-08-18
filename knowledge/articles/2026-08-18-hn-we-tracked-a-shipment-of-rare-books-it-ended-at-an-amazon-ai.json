@@ -1,0 +1,22 @@
+{
+  "id": "hackernews-20260818-001",
+  "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+  "source": "hackernews",
+  "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+  "author": "N/A",
+  "summary": "追踪一批稀有书籍的物流，发现其最终送达亚马逊AI训练设施，引发对AI训练数据来源和版权问题的讨论。",
+  "content": "## 项目概述\n\n本文是一篇调查报道，通过追踪一批稀有书籍的物流轨迹，发现其最终被送往亚马逊的AI训练设施。这一发现暗示AI公司可能通过购买稀有书籍来扩充训练数据，引发对数据来源合法性和版权问题的关注。\n\n## 核心特性\n\n- **调查方法**：利用物流追踪数据，将实体书籍流向与AI训练设施关联\n- **数据来源**：稀有书籍可能包含受版权保护的内容，未经授权用于AI训练\n- **行业影响**：揭示AI训练数据供应链的灰色地带\n\n## 适用场景\n\n- 关注AI训练数据伦理和版权问题的研究者\n- 对AI产业透明度感兴趣的从业者\n- 政策制定者和法律专家\n\n## 讨论要点\n\n- AI公司如何获取训练数据？\n- 版权法是否适用于AI训练？\n- 如何提高数据来源的透明度？",
+  "highlights": [
+    "揭示AI训练数据可能包含未经授权的稀有书籍",
+    "引发对版权和AI训练数据透明度的关注",
+    "结合物流追踪与AI产业调查的独特视角"
+  ],
+  "score_reason": "文章直接关联AI训练数据来源，涉及版权和伦理问题，对AI社区有警示意义，但非技术突破性内容。",
+  "tags": [
+    "llm"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-18T16:26:47.111477+08:00",
+  "analyzed_at": "2026-08-18T16:28:48.922065+08:00",
+  "status": "reviewed"
+}

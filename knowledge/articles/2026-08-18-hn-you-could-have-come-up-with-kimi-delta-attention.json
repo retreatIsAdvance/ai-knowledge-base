@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260818-009",
+  "title": "You Could Have Come Up With Kimi Delta Attention",
+  "source": "hackernews",
+  "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+  "author": "N/A",
+  "summary": "本文从第一性原理推导出 Kimi 的 Delta Attention 机制，展示其如何通过状态差分实现高效长上下文处理，并鼓励读者独立思考创新。",
+  "content": "## 项目概述\n\n本文是一篇技术博客，标题为“You Could Have Come Up With Kimi Delta Attention”，作者通过第一性原理的推导方式，向读者展示如何独立构思出 Kimi 模型中的 Delta Attention 机制。文章旨在降低理解门槛，让读者无需深厚的背景知识也能掌握这一创新注意力变体的核心思想。\n\n## 核心特性\n\n- **第一性原理推导**：从基础注意力机制出发，逐步引入状态差分概念，逻辑清晰，易于跟随。\n- **Delta Attention 机制**：通过维护状态差分而非完整状态，显著减少长上下文场景下的计算和存储开销。\n- **教学风格**：文章以教程形式呈现，强调思考过程而非结果，鼓励读者培养创新思维。\n\n## 适用场景\n\n- **学习与研究**：适合希望深入理解注意力机制变体的研究人员和学生。\n- **模型优化**：对需要处理超长上下文的 LLM 应用开发者有参考价值。\n- **创新启发**：启发读者在 AI 领域进行独立思考和原创设计。\n\n## 总结\n\n本文不仅解释了 Delta Attention 的技术细节，更传递了一种“创新可习得”的理念，是一篇兼具技术深度和教育意义的优质文章。",
+  "highlights": [
+    "从零推导 Delta Attention，无需复杂背景即可理解",
+    "揭示 Delta Attention 在长上下文中的计算效率优势",
+    "强调创新思维，鼓励读者独立发现类似机制"
+  ],
+  "score_reason": "文章深入解析 Kimi 的 Delta Attention，属于 LLM 架构创新，对理解高效注意力机制有直接价值，但非突破性新论文，故评 8 分。",
+  "tags": [
+    "llm",
+    "transformer",
+    "evaluation",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-18T16:26:47.111477+08:00",
+  "analyzed_at": "2026-08-18T16:29:36.043682+08:00",
+  "status": "reviewed"
+}
