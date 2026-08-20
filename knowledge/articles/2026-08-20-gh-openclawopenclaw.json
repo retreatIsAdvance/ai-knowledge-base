@@ -1,0 +1,25 @@
+{
+  "id": "github-trending-20260820-001",
+  "title": "openclaw/openclaw",
+  "source": "github-trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "author": "openclaw",
+  "summary": "openclaw 是一个开源的个人 AI 助手项目，支持任意操作系统和平台，提供跨平台智能交互能力。",
+  "content": "## 项目概述\n\nopenclaw 是一个开源的个人 AI 助手项目，旨在为用户提供跨平台、跨设备的智能交互体验。其核心卖点是“Any OS. Any Platform.”，意味着它可以在多种操作系统（如 Windows、macOS、Linux）和平台（如桌面、移动端）上运行，打破传统 AI 助手的平台限制。\n\n## 核心特性\n\n- **跨平台兼容性**：支持任意操作系统和平台，用户可以在不同设备上无缝使用。\n- **个人化助手**：作为个人 AI 助手，能够根据用户需求提供定制化服务。\n- **开源可扩展**：开源项目，用户可自由修改和扩展功能，适合开发者二次开发。\n\n## 适用场景\n\n- **个人效率提升**：作为日常助理，管理日程、提醒、信息查询等。\n- **跨设备协同**：在手机、电脑、平板等设备间同步使用。\n- **开发者实验**：作为 AI 助手框架，用于研究 LLM 应用和 agent 开发。\n\n## 技术分析\n\n虽然项目描述未提供详细技术栈，但作为 AI 助手，很可能基于 LLM（大语言模型）构建，并可能涉及 agent 架构（如工具调用、任务规划）。其跨平台特性可能采用跨平台框架（如 Electron、Flutter 或 Tauri）实现。\n\n## 总结\n\nopenclaw 是一个高关注度的开源 AI 助手项目，强调跨平台和个性化，适合需要统一 AI 助手的用户和开发者。但当前信息有限，建议进一步查看仓库文档以获取技术细节。",
+  "highlights": [
+    "跨平台支持：可在任意操作系统和平台上运行",
+    "开源个人 AI 助手，强调自主性和可定制性",
+    "高热度（386k），社区关注度极高"
+  ],
+  "score_reason": "该项目属于 AI 助手领域，直接涉及 LLM 应用，但描述较简略，未明确技术细节，故评分为 8。",
+  "tags": [
+    "llm",
+    "agent",
+    "open-source",
+    "framework"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-20T16:28:36.991433+08:00",
+  "analyzed_at": "2026-08-20T16:28:48.545066+08:00",
+  "status": "reviewed"
+}

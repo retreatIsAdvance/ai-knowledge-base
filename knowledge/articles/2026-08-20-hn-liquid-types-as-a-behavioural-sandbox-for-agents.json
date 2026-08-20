@@ -1,0 +1,25 @@
+{
+  "id": "hackernews-20260820-003",
+  "title": "Liquid Types as a behavioural sandbox for agents",
+  "source": "hackernews",
+  "source_url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents/",
+  "author": "N/A",
+  "summary": "本文介绍使用 Liquid Types 为 AI 智能体构建行为沙箱，通过类型系统在编译期验证智能体行为，实现逻辑护栏，确保其行动符合预设约束。",
+  "content": "## 项目概述\n\n本文（博客文章）探讨了如何将 Liquid Types（液体类型）作为 AI 智能体的行为沙箱，通过类型系统在编译期对智能体的行为进行逻辑约束，从而提供一种形式化的安全护栏。Liquid Types 是一种依赖类型扩展，允许在类型签名中嵌入逻辑谓词，从而在编译期验证程序属性。\n\n## 核心特性\n\n- **编译期行为验证**：利用 Liquid Types 的谓词抽象，在编译阶段检查智能体行为是否符合预设逻辑规则，避免运行时错误。\n- **逻辑护栏**：通过类型级逻辑约束，限制智能体可执行的操作范围，防止越界行为。\n- **与智能体框架集成**：展示了如何将 Liquid Types 应用于智能体设计，作为行为沙箱的替代方案。\n\n## 适用场景\n\n- 需要高安全性的 AI 智能体系统（如金融、医疗、自动驾驶）\n- 对智能体行为可解释性和可验证性有严格要求的场景\n- 研究形式化方法在 AI 安全中的应用\n\n## 分析\n\n该文章属于技术博客，可能基于作者的研究或实验。Liquid Types 在编程语言领域已有应用，但将其用于智能体行为约束是一个新颖方向。文章可能提供了具体示例或框架，但未提供代码库。对于关注 AI 安全与形式化验证的读者具有参考价值。",
+  "highlights": [
+    "将 Liquid Types 应用于智能体行为约束，提供编译期验证",
+    "通过类型级逻辑谓词定义行为边界，实现逻辑护栏",
+    "结合类型系统与智能体框架，提升安全性与可靠性"
+  ],
+  "score_reason": "直接涉及 AI 智能体的安全与约束机制，属于 Agent 领域的前沿技术探讨，但非主流方法，故评分为 8。",
+  "tags": [
+    "agent",
+    "safety",
+    "framework",
+    "paper"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-20T16:28:41.641362+08:00",
+  "analyzed_at": "2026-08-20T16:30:47.955714+08:00",
+  "status": "reviewed"
+}

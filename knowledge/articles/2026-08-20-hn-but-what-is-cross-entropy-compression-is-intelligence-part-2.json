@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260820-004",
+  "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+  "source": "hackernews",
+  "source_url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+  "author": "N/A",
+  "summary": "该视频通过信息论视角解释交叉熵，阐述压缩与智能的关系，是系列教程的第二部分。",
+  "content": "## 项目概述\n\n该视频是“Compression is Intelligence”系列的第二部分，聚焦于交叉熵（cross-entropy）的概念。交叉熵是训练大型语言模型（LLM）时常用的损失函数，视频从信息论角度出发，解释其数学原理和直观意义，并探讨压缩与智能之间的内在联系。\n\n## 核心特性\n\n- **概念讲解**：以通俗易懂的方式解释交叉熵，适合初学者理解LLM训练基础。\n- **信息论视角**：将交叉熵与数据压缩联系起来，揭示智能的本质可能源于压缩。\n- **系列教程**：作为系列的一部分，提供连贯的学习路径。\n\n## 适用场景\n\n- 对LLM原理感兴趣的开发者或研究者。\n- 希望深入理解损失函数和模型训练机制的学习者。\n- 关注AI理论基础和智能本质的思考者。\n\n## 总结\n\n该视频是高质量的教育资源，通过交叉熵这一关键概念，帮助观众建立对LLM和信息论的联系，适合作为入门或巩固知识的材料。",
+  "highlights": [
+    "以直观方式解释交叉熵概念",
+    "连接压缩与智能的深层联系",
+    "适合对LLM原理感兴趣的初学者"
+  ],
+  "score_reason": "直接关联LLM核心概念（交叉熵），但为教学视频，非突破性研究，深度适中，高度相关但非顶尖。",
+  "tags": [
+    "llm",
+    "tutorial"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-20T16:28:41.641362+08:00",
+  "analyzed_at": "2026-08-20T16:30:51.931528+08:00",
+  "status": "reviewed"
+}

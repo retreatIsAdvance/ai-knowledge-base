@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260820-020",
+  "title": "browser-use/browser-use",
+  "source": "github-trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "summary": "browser-use 是一个开源项目，旨在让 AI 代理能够像人类一样操作浏览器，自动执行网页任务，如填写表单、点击按钮和提取信息。",
+  "content": "## 项目概述\n\n**browser-use** 是一个开源 Python 库，其核心理念是 **\"Make websites accessible for AI agents\"**。它通过将浏览器环境封装为 AI 代理可操作的接口，使 LLM 能够驱动真实浏览器完成复杂的网页任务，例如自动登录、填写表单、抓取数据、执行搜索等。该项目在 GitHub 上拥有超过 10 万 star，是当前 AI Agent 落地应用的热门基础设施。\n\n## 核心特性\n\n- **浏览器自动化**：基于 Playwright 等工具，支持 Chrome、Firefox 等主流浏览器，提供稳定的页面控制能力。\n- **AI 驱动决策**：将网页 DOM 结构转化为 LLM 可理解的文本/视觉上下文，让模型自主决定下一步操作（点击、输入、滚动等）。\n- **多模型兼容**：支持 OpenAI、Anthropic、Google Gemini 等主流 LLM API，也支持本地模型（如 Ollama）。\n- **简洁 API**：提供 `Agent` 和 `Browser` 类，几行代码即可启动一个自动化任务，例如：\n  ```python\n  from browser_use import Agent\n  agent = Agent(task=\"搜索今天的天气\", browser=browser)\n  await agent.run()\n  ```\n- **任务可观测性**：支持记录操作轨迹、截图和日志，便于调试和回放。\n\n## 适用场景\n\n- **RPA 替代**：传统网页自动化脚本需要硬编码选择器，browser-use 让 AI 动态理解页面，适应页面变化。\n- **数据采集**：自动抓取需要登录或动态加载的网页数据。\n- **AI 助手集成**：为聊天机器人或 Agent 提供网页操作能力，实现“帮我订机票”等真实世界任务。\n- **测试自动化**：生成自然语言描述的 UI 测试用例。\n\n## 技术架构\n\n项目主要包含三个层次：\n1. **浏览器控制层**：基于 Playwright 实现页面交互。\n2. **上下文构建层**：将 DOM、可访问性树和视觉截图转换为 LLM 输入。\n3. **决策执行层**：LLM 输出结构化操作指令，循环执行直到任务完成。\n\n## 总结\n\nbrowser-use 是 AI Agent 从“对话”走向“行动”的关键桥梁，降低了开发网页自动化 Agent 的门槛。对于关注 Agent 落地、工具使用和自动化领域的开发者，这是一个值得深入研究和贡献的项目。",
+  "highlights": [
+    "让 AI 代理直接控制浏览器，实现网页自动化操作",
+    "支持多种 AI 模型，提供简洁的 Python API",
+    "开源项目，社区活跃，热度高（109k stars）"
+  ],
+  "score_reason": "该项目直接赋能 AI Agent 与网页交互，是 Agent 工具使用（tool-use）和自动化领域的高热度开源实现，与 AI 技术高度相关。",
+  "tags": [
+    "agent",
+    "tool-use",
+    "open-source",
+    "framework",
+    "llm"
+  ],
+  "relevance_score": 0.9,
+  "collected_at": "2026-08-20T16:28:36.991433+08:00",
+  "analyzed_at": "2026-08-20T16:30:30.712980+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260820-008",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "hackernews",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "author": "N/A",
+  "summary": "文章用随机游走混合时间分析社交媒体信息流，指出平台如Twitter更像高中食堂而非城镇广场，用户易陷入同质化信息茧房。",
+  "content": "## 项目概述\n本文是一篇技术博客，作者通过随机游走（random walk）的混合时间（mixing time）概念，分析社交媒体平台（如Twitter）的信息流结构。作者认为Twitter并非“城镇广场”，而是类似“高中食堂”的多个同质化小团体，用户容易陷入信息茧房。\n\n## 核心特性\n- **随机游走模型**：将用户浏览行为建模为随机游走，计算混合时间以衡量信息流多样性。\n- **聚类分析**：揭示社交网络中的社区结构，解释“兔子洞”现象。\n- **算法批判**：讨论推荐算法如何加剧聚类，并提出可能的改进方向。\n\n## 适用场景\n- 社交媒体算法设计者参考\n- 网络科学研究者\n- 对信息茧房现象感兴趣的读者\n\n## 技术细节\n文章引用相关研究，用数学公式说明混合时间与网络结构的关系，但未提供代码实现。内容偏理论分析，适合作为技术讨论的起点。",
+  "highlights": [
+    "用随机游走混合时间量化信息流多样性",
+    "类比Twitter为高中食堂，揭示社交媒体的聚类现象",
+    "提出算法设计对信息茧房的影响及改进方向"
+  ],
+  "score_reason": "文章涉及社交网络分析，与AI技术间接相关，但未直接讨论LLM或Agent，属于弱相关技术内容。",
+  "tags": [
+    "opinion",
+    "framework"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-20T16:28:41.641362+08:00",
+  "analyzed_at": "2026-08-20T16:31:12.828735+08:00",
+  "status": "reviewed"
+}

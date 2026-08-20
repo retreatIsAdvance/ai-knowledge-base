@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260820-008",
+  "title": "firecrawl/firecrawl",
+  "source": "github-trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "summary": "Firecrawl 是一个开源 API 服务，提供网站搜索、抓取和交互功能，可将任何网站转化为干净的 LLM 可用数据，支持爬取、抓取、搜索和提取结构化数据。",
+  "content": "## 项目概述\n\nFirecrawl 是一个开源的 API 服务，旨在解决 LLM 应用获取网页数据的痛点。它提供统一的接口，将网页抓取、爬取、搜索和数据提取整合为一个简单的 API，输出为干净的 Markdown 或 JSON 格式，方便直接用于 LLM 的上下文构建。\n\n## 核心特性\n\n- **抓取（Scrape）**：将单个 URL 转换为干净的 Markdown 或结构化数据，自动处理 JavaScript 渲染和反爬机制。\n- **爬取（Crawl）**：递归爬取整个网站，自动发现所有子页面，并返回所有页面的干净数据。\n- **搜索（Search）**：基于搜索引擎结果进行抓取，返回与查询相关的网页内容。\n- **提取（Extract）**：使用 LLM 从网页中提取特定字段，输出为 JSON 格式，支持自定义 schema。\n- **高级功能**：支持代理轮换、自定义请求头、Cookies、会话管理、批量处理、Webhook 回调等。\n- **多语言 SDK**：提供 Python、Node.js、Go、Rust 等官方 SDK，并支持 REST API。\n\n## 适用场景\n\n- **RAG 数据管道**：作为文档加载器，将网页内容转换为向量数据库可用的文本。\n- **Agent 工具**：为 AI Agent 提供网页访问和内容提取能力。\n- **数据采集**：批量抓取网站内容用于训练或分析。\n- **内容监控**：定时抓取网页变化并触发通知。\n\n## 部署方式\n\n- **云服务**：直接使用 Firecrawl Cloud，提供免费额度。\n- **自托管**：通过 Docker 或源码部署，支持本地运行，数据完全自主可控。\n\n## 生态集成\n\n与 LangChain、LlamaIndex、Dify、Flowise 等主流 AI 框架深度集成，可作为文档加载器或工具直接调用。",
+  "highlights": [
+    "将整个网站抓取为干净的 Markdown 或结构化数据，专为 LLM 优化",
+    "提供统一的 API 接口，支持抓取、爬取、搜索和提取四种核心操作",
+    "支持 JavaScript 渲染、代理轮换、反爬绕过等高级功能",
+    "支持与 LangChain、LlamaIndex 等主流框架集成",
+    "提供云服务（Firecrawl Cloud）和自托管（Self-host）两种部署方式"
+  ],
+  "score_reason": "该项目是 AI 数据管道中的关键工具，为 LLM 提供高质量网页数据，与 RAG、Agent 等场景高度相关，但本身不是模型或算法创新，故评 8 分。",
+  "tags": [
+    "rag",
+    "llm",
+    "framework",
+    "open-source",
+    "tool-use"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-20T16:28:36.991433+08:00",
+  "analyzed_at": "2026-08-20T16:29:26.197936+08:00",
+  "status": "reviewed"
+}
