@@ -1,0 +1,22 @@
+{
+  "id": "hackernews-20260822-008",
+  "title": "Categorization with NLP",
+  "source": "hackernews",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+  "author": "N/A",
+  "summary": "一篇关于使用NLP进行文本分类的技术文章，探讨了分类任务的方法、挑战与实践。",
+  "content": "## 项目概述\n本文是作者在软件博客上发布的一篇技术文章，标题为“Categorization with NLP”，主要探讨如何利用自然语言处理技术对文本进行分类。文章可能基于作者的实际经验，介绍了分类任务的基本概念、常用方法以及在实际应用中可能遇到的问题。\n\n## 核心特性\n- **分类方法**：可能涵盖基于规则、传统机器学习（如朴素贝叶斯、SVM）以及深度学习（如Transformer）等不同层次的分类技术。\n- **实践导向**：文章强调实际应用，可能包含代码示例或工具推荐。\n- **挑战讨论**：可能涉及数据标注、类别不平衡、多标签分类等常见难点。\n\n## 适用场景\n- 开发者希望了解NLP分类的基础知识。\n- 需要为具体业务（如邮件分类、新闻分类）寻找技术方案。\n- 对NLP感兴趣但尚未深入LLM的读者。\n\n## 总结\n文章内容与NLP分类直接相关，但未明确涉及LLM或Agent，因此相关性中等。对于希望入门NLP分类的读者，这是一篇值得参考的实践性文章。",
+  "highlights": [
+    "聚焦NLP分类任务，涵盖传统方法与现代技术",
+    "讨论分类中的实际挑战与解决方案",
+    "提供实践指导，适合开发者参考"
+  ],
+  "score_reason": "文章涉及NLP分类，属于AI技术内容，但未深入LLM或Agent，关联度中等。",
+  "tags": [
+    "tutorial"
+  ],
+  "relevance_score": 0.6,
+  "collected_at": "2026-08-22T16:20:13.083386+08:00",
+  "analyzed_at": "2026-08-22T16:22:50.070813+08:00",
+  "status": "reviewed"
+}

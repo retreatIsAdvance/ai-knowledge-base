@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260822-019",
+  "title": "harry0703/MoneyPrinterTurbo",
+  "source": "github-trending",
+  "source_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "author": "harry0703",
+  "summary": "MoneyPrinterTurbo 是一个开源项目，利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频，极大简化视频制作流程。",
+  "content": "## 项目概述\n\nMoneyPrinterTurbo 是一个基于 AI 大模型的开源项目，旨在通过自动化工作流，根据用户提供的主题或关键词，一键生成高清短视频。项目结合了文本生成、语音合成、视频剪辑等技术，实现了从文案到成片的全自动流程。\n\n## 核心特性\n\n- **一键生成**：用户只需输入主题或关键词，即可自动生成完整视频。\n- **高清输出**：支持生成高清视频，满足多种场景需求。\n- **AI 驱动**：集成多种 AI 大模型，用于文案生成、配音和字幕。\n- **Web 界面**：提供友好的 Web 操作界面，也支持 API 调用。\n- **开源免费**：完全开源，可自由部署和二次开发。\n\n## 适用场景\n\n- 自媒体创作者快速生成短视频内容\n- 营销人员制作产品宣传视频\n- 教育工作者制作教学视频\n- 开发者集成视频生成功能到自己的应用\n\n## 技术架构\n\n项目采用前后端分离架构，后端使用 Python 实现核心逻辑，前端提供简洁的交互界面。通过调用 AI 大模型 API 完成文案生成，利用 TTS 技术合成语音，再通过视频编辑库合成最终视频。\n\n## 总结\n\nMoneyPrinterTurbo 展示了 AI 大模型在内容创作领域的巨大潜力，通过自动化工作流大幅降低了视频制作门槛，适合对 AI 应用感兴趣的开发者和创作者。",
+  "highlights": [
+    "一键生成高清短视频，支持主题或关键词输入",
+    "集成 AI 大模型，自动生成文案、配音和字幕",
+    "提供 Web 界面和 API，易于部署和使用"
+  ],
+  "score_reason": "该项目利用 AI 大模型实现视频自动生成，属于 AI 应用层创新，与 LLM 和自动化工作流高度相关，但非核心模型或框架，故评分为 7。",
+  "tags": [
+    "llm",
+    "framework",
+    "open-source",
+    "multimodal",
+    "deployment"
+  ],
+  "relevance_score": 0.7,
+  "collected_at": "2026-08-22T16:20:09.464625+08:00",
+  "analyzed_at": "2026-08-22T16:22:05.886411+08:00",
+  "status": "reviewed"
+}

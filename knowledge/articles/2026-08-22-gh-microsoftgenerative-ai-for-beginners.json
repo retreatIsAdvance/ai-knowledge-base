@@ -1,0 +1,28 @@
+{
+  "id": "github-trending-20260822-018",
+  "title": "microsoft/generative-ai-for-beginners",
+  "source": "github-trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "author": "microsoft",
+  "summary": "微软出品的生成式AI入门课程，包含21个课时，涵盖从基础概念到实际构建生成式AI应用的全流程，适合初学者系统学习。",
+  "content": "## 项目概述\n\n[microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) 是微软官方发布的一套面向初学者的生成式人工智能课程。项目以 **21 Lessons** 的形式组织，旨在帮助学习者从零开始，掌握构建生成式AI应用所需的核心知识和技能。该仓库目前拥有超过 118k 的 star，是 GitHub 上最受欢迎的 AI 学习资源之一。\n\n## 核心特性\n\n- **系统化课程结构**：课程分为多个模块，从生成式AI和LLM的基础概念讲起，逐步深入到 Prompt Engineering、RAG、Fine-tuning、Agent 等高级主题，最后指导学习者构建完整的应用。\n- **理论与实践结合**：每个课程都配有详细的文字说明、代码示例（Python）和 Jupyter Notebook，鼓励学习者动手实践，而非仅仅阅读理论。\n- **覆盖主流技术栈**：课程内容涉及 OpenAI、Azure OpenAI、Hugging Face 等主流平台和工具，并介绍了 LangChain、Semantic Kernel 等框架。\n- **多语言支持**：项目提供了包括中文在内的多种语言翻译，降低了非英语学习者的门槛。\n- **免费开源**：所有内容完全免费，并托管在 GitHub 上，方便学习者获取和贡献。\n\n## 适用场景\n\n- **AI初学者**：希望系统了解生成式AI、LLM是什么，以及如何开始构建第一个AI应用的人群。\n- **开发者转型**：具备编程基础，希望快速进入AI应用开发领域的软件工程师。\n- **教育工作者**：需要一套完整、权威的生成式AI教学大纲的教师或培训师。\n- **产品经理/技术决策者**：希望理解生成式AI技术边界和可能性，以便更好地规划产品。\n\n## 内容概览（部分课程）\n\n1. 生成式AI和LLM介绍\n2. 探索和比较不同的LLM\n3. 使用Prompt Engineering\n4. 构建Prompt工程应用\n5. 创建高级Prompt技术\n6. 构建文本生成应用\n7. 构建聊天应用\n8. 构建图像生成应用\n9. 构建语音应用\n10. 构建低代码AI应用\n11. 使用RAG\n12. 设计向量数据库\n13. 使用LangChain\n14. 使用Semantic Kernel\n15. 使用Fine-tuning\n16. 构建Agent\n...\n\n## 总结\n\n这是一个极其优秀的入门级教程，它将复杂的生成式AI技术拆解为易于理解的课程，并通过大量代码示例降低了学习曲线。无论你是完全的新手还是有一定经验的开发者，都能从中获益。强烈推荐作为学习生成式AI的第一站。",
+  "highlights": [
+    "21个精心设计的课程，循序渐进",
+    "由微软官方出品，质量有保障",
+    "包含大量实战示例和代码，强调动手实践",
+    "覆盖RAG、Prompt工程、Fine-tuning等核心主题",
+    "免费开源，社区活跃，持续更新"
+  ],
+  "score_reason": "高度相关的AI技术教程，系统覆盖生成式AI核心概念与实战，虽非前沿突破，但作为学习资源价值极高，适合初学者入门。",
+  "tags": [
+    "llm",
+    "rag",
+    "prompt-engineering",
+    "fine-tuning",
+    "tutorial"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-22T16:20:09.464625+08:00",
+  "analyzed_at": "2026-08-22T16:22:01.042210+08:00",
+  "status": "reviewed"
+}

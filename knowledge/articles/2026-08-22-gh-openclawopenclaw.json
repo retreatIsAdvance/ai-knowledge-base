@@ -1,0 +1,26 @@
+{
+  "id": "github-trending-20260822-001",
+  "title": "openclaw/openclaw",
+  "source": "github-trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "author": "openclaw",
+  "summary": "openclaw 是一个开源的个人 AI 助手项目，强调跨平台兼容性，可在任何操作系统和平台上运行，旨在提供高度可定制和自主的 AI 助理体验。",
+  "content": "## 项目概述\n\nopenclaw 是一个开源的个人 AI 助手项目，其核心卖点是 **Any OS. Any Platform.**，即旨在打破平台限制，让 AI 助手能够在各种操作系统（如 Windows、macOS、Linux）和硬件平台（如 PC、手机、嵌入式设备）上无缝运行。项目热度较高（387k），表明社区关注度不错。\n\n## 核心特性\n\n- **跨平台兼容性**：项目名称中的 \"Any OS. Any Platform.\" 暗示其架构设计上注重可移植性，可能基于跨平台运行时或容器化技术。\n- **个人 AI 助手**：定位为个人助理，而非企业级解决方案，强调用户自主控制数据和功能。\n- **开源可扩展**：作为开源项目，开发者可以自由修改、扩展其功能，或集成到自己的应用中。\n\n## 适用场景\n\n- **个人自动化**：在多个设备上统一管理日程、消息、任务等。\n- **开发者实验**：作为构建自定义 AI 代理的基座，测试跨平台 agent 行为。\n- **隐私敏感场景**：自托管 AI 助手，避免依赖云服务。\n\n## 技术分析\n\n由于描述信息有限，无法确定其底层技术栈。但根据项目定位，可能涉及：\n- 跨平台 UI 框架（如 Electron、Tauri、Flutter）\n- 本地 LLM 推理或 API 调用\n- 插件系统或工具调用（tool-use）机制\n\n## 总结\n\nopenclaw 是一个有潜力的开源 AI 助手项目，其跨平台理念符合当前多设备协同趋势。但需要进一步查看仓库代码和文档，才能评估其实际完成度和技术深度。对于关注 agent 和部署的开发者，值得关注。",
+  "highlights": [
+    "跨平台支持：宣称可在任何操作系统和任何平台上运行，覆盖桌面、移动端等",
+    "个人化定位：专注于打造用户自己的个人 AI 助手，强调自主性和定制化",
+    "开源生态：作为开源项目，允许社区参与开发和扩展功能"
+  ],
+  "score_reason": "该项目属于 AI 助手领域，与 agent 和 tool-use 高度相关，且开源性质使其具有较高的技术参考价值，但描述信息有限，未明确展示核心技术创新。",
+  "tags": [
+    "agent",
+    "open-source",
+    "framework",
+    "tool-use",
+    "deployment"
+  ],
+  "relevance_score": 0.8,
+  "collected_at": "2026-08-22T16:20:09.464625+08:00",
+  "analyzed_at": "2026-08-22T16:20:21.304748+08:00",
+  "status": "reviewed"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "hackernews-20260822-007",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "hackernews",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "author": "N/A",
+  "summary": "本文通过随机游走混合时间理论，分析社交媒体信息流中的聚类与兔子洞现象，指出平台算法导致用户陷入同质化内容循环。",
+  "content": "## 项目概述\n本文是一篇技术评论文章，探讨社交媒体信息流中用户陷入内容聚类（兔子洞）的现象，并借用随机游走混合时间（mixing time）的数学概念进行解释。作者认为，社交平台并非理想的“城镇广场”，而更像“高中食堂”，用户被算法引导至同质化的小圈子。\n\n## 核心特性\n- **理论框架**：用随机游走混合时间量化信息流中内容多样性的衰减速度。\n- **对比分析**：对比理想社交网络与真实平台（如Twitter）的结构差异。\n- **算法影响**：讨论推荐算法如何加速聚类，减少用户接触异质内容的机会。\n\n## 适用场景\n- 对社交媒体算法设计感兴趣的研究者或产品经理。\n- 关注信息茧房、内容推荐系统社会影响的读者。\n- 网络科学或复杂系统爱好者。\n\n## 总结\n文章提供了一个新颖的视角，将数学概念应用于社交媒体现象，但未涉及具体AI技术实现，与AI/LLM领域关联较弱。",
+  "highlights": [
+    "用随机游走混合时间解释信息流同质化",
+    "对比社交平台与真实社交网络的差异",
+    "提出算法设计对用户多样性的影响"
+  ],
+  "score_reason": "文章涉及网络科学和算法影响，与AI技术间接相关，但非直接AI/LLM内容，适合对社交算法感兴趣者。",
+  "tags": [
+    "opinion",
+    "framework"
+  ],
+  "relevance_score": 0.5,
+  "collected_at": "2026-08-22T16:20:13.083386+08:00",
+  "analyzed_at": "2026-08-22T16:22:45.921536+08:00",
+  "status": "reviewed"
+}
